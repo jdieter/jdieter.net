@@ -1,0 +1,84 @@
+baseURL = "https://www.jdieter.net/"
+languageCode = "en-us"
+title = "Jonathan Dieter"
+theme = "hugo-initio"
+publishDir = "docs"
+
+[params]
+	name = "Jonathan Dieter"
+	description = "System Administrator"
+	email = "jdieter@gmail.com"
+	phone = "+1 360 763 6230"
+	address = "8641 Spirit Lake Hwy, Toutle, WA 98649, USA"
+	year = 2018
+	background = ""
+	favicon = "images/gt_favicon.png"
+	DateForm = "January 2, 2006"
+
+	showSubheader = true
+	showServices = false
+	showRecentWorks = false
+	showDownload = false
+	showClients = false
+
+	footerEnableContact = true
+	footerEnableFollowme = true
+	footerEnableTextWidget = false
+	footerEnableFormWidget = false
+
+	custom_css = ["css/override.css"]
+
+[[menu.main]]
+	name = "blog"
+	url = "/posts/"
+	weight = 1
+
+[[menu.main]]
+    name = "about"
+    url = "/about"
+    weight = 2
+
+#[[menu.main]]
+#	name = "projects"
+#	url = "/projects/"
+#	weight = 2
+
+[params.sharethis]
+	property = "123456789012345678901234"
+	custom = true
+
+[[params.social]]
+	title = "twitter"
+	url = "https://twitter.com/jdieter"
+	icon = "fa-twitter-square"
+	footer = false
+	sharethis = true
+	network = "twitter"
+[[params.social]]
+	title = "google+"
+	url = "https://plus.google.com/+jdieter"
+	icon = "fa-google-plus-square"
+	footer = false
+	sharethis = true
+	network = "googleplus"
+[[params.social]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/jonathandieter"
+	icon = "fa-linkedin-square"
+	footer = true
+	sharethis = true
+	network = "linkedin"
+[[params.social]]
+	title = "github"
+	url = "https://github.com/jdieter"
+	icon = "fa-github"
+	footer = true
+	sharethis = false
+	network = ""
+[[params.social]]
+	title = "email"
+	url = "mailto:jdieter@gmail.com"
+	icon = "fa-envelope"
+	footer = false
+	sharethis = true
+	network = "email"

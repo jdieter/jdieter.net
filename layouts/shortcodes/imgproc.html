@@ -1,0 +1,36 @@
+{{ $original := .Page.Resources.GetMatch (printf "%s*" (.Get 0)) }}
+{{ $command := .Get 1 }}
+{{ $options := .Get 2 }}
+{{ .Scratch.Set "align" "right" }}
+{{ if gt (len .Params) 3 }}
+{{ .Scratch.Set "align" (.Get 3) }}
+{{ end }}
+{{ if eq $command "Fit"}}
+{{ .Scratch.Set "image" ($original.Fit $options) }}
+{{ else if eq $command "Resize"}}
+{{ .Scratch.Set "image" ($original.Resize $options) }}
+{{ else if eq $command "Fill"}}
+{{ .Scratch.Set "image" ($original.Fill $options) }}
+{{ else }}
+{{ errorf "Invalid image processing command: Must be one of Fit, Fill or Resize."}}
+{{ end }}
+{{ .Scratch.Set "txtalign" "float: right;" }}
+{{ if eq (.Scratch.Get "align") "left" }}
+{{ .Scratch.Set "txtalign" "float: left;" }}
+{{ else if eq (.Scratch.Get "align") "none" }}
+{{ .Scratch.Set "txtalign" "display: block; margin-left: auto; margin-right: auto" }}
+{{ end }}
+{{ $txtalign := .Scratch.Get "txtalign" }}
+{{ $image := .Scratch.Get "image" }}
+<figure style="width: {{ add $image.Width 3 }}px; padding: 10px; {{ $txtalign | safeCSS }}">
+    <a href="{{ $original.RelPermalink }}">
+	    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+    </a>
+    {{ with .Inner }}
+	<figcaption>
+        <small><center>
+	    {{ . }}
+        </center></small>
+	</figcaption>
+    {{ end }}
+</figure> 
