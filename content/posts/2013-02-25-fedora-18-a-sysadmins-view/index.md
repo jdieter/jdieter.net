@@ -3,7 +3,7 @@ title: Fedora 18 – A Sysadmin’s view
 author: jdieter
 type: post
 date: 2013-02-25T20:17:33+00:00
-url: /?p=551
+url: /posts/2013/02/25/fedora-18-a-sysadmins-view
 categories:
   - Computers
 tags:
@@ -18,7 +18,7 @@ tags:
   - systemd
 
 ---
-<figure id="attachment_556" style="max-width: 200px" class="wp-caption alignright">[<img src="http://cedarandthistle.files.wordpress.com/2013/02/road-into-clouds.jpg?w=200" alt="Road leading down into clouds" width="200" height="150" class="size-medium wp-image-556" srcset="/images/2013/02/road-into-clouds.jpg 1024w, /images/2013/02/road-into-clouds-300x225.jpg 300w, /images/2013/02/road-into-clouds-768x576.jpg 768w" sizes="(max-width: 200px) 100vw, 200px" />][1]<figcaption class="wp-caption-text">The road less traveled</figcaption></figure> 
+{{< imgproc "road-into-clouds" Resize "300x" >}}The road less traveled{{< /imgproc >}}
 
 At our school we have around 100 desktops, a vast majority of which run Fedora, and somewhere around 900 users. We switched from Windows to Fedora shortly after Fedora 8 was released and we&#8217;ve hit 8, 10, 13, 16, and 17 (deploying a [local koji instance][2] has made it easier to upgrade).
 
@@ -46,7 +46,6 @@ I know some people will say, &#8220;If you want stability, just use RHEL.&#8221;
 
 All in all, I&#8217;ve been really happy with Fedora as our school&#8217;s primary OS, and each new release&#8217;s features only make me happier. Now I need to go fix [a regression][11] in [yum-presto][12] that popped up because of some changes we made because we wanted to do something different.
 
- [1]: http://cedarandthistle.files.wordpress.com/2013/02/road-into-clouds.jpg
  [2]: http://koji.lesbg.com/koji
  [3]: http://koji.lesbg.com/koji/buildinfo?buildID=193
  [4]: http://koji.lesbg.com/koji/buildinfo?buildID=189
