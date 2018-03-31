@@ -11,7 +11,7 @@
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}{{ .Site.Params.favicon }}">
 
 	<!-- Bootstrap -->
-	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	<link href="/css/bootstrap.no-icons.min.css" rel="stylesheet">
 	<!-- Icons -->
 	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<!-- Fonts -->
@@ -21,14 +21,7 @@
     {{ range .Site.Params.custom_css -}}
         <link rel="stylesheet" href="{{ . | absURL }}">
     {{- end }}
-	<!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <![endif]-->
-
-    {{ if .Site.Params.customsharethis }}
-        <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property={{ .Site.Params.sharethis.property }}&product=custom-share-buttons"></script>
-    {{ else }}
-        <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property={{ .Site.Params.sharethis.property }}&product=inline-share-buttons"></script>
-    {{ end }}
-
+	<!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <![endif]--> 
 </head>
 <body class="home">
 
