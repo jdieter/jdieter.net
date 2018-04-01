@@ -3,7 +3,7 @@ title: Standardized gconf settings for Fedora 13
 author: jdieter
 type: post
 date: 2010-05-14T21:55:11+00:00
-url: /?p=176
+url: /posts/2010/05/14/standardized-gconf-settings-for-fedora-13
 categories:
   - Computers
 tags:
@@ -13,7 +13,9 @@ tags:
   - lesbg
 
 ---
-[<img src="http://cedarandthistle.files.wordpress.com/2010/05/goddard-normalish.jpg?w=300" alt="Desktop background for our computer systems" title="Desktop background" width="300" height="240" class="alignright size-medium wp-image-178" srcset="/images/2010/05/goddard-normalish.jpg 1280w, /images/2010/05/goddard-normalish-300x240.jpg 300w, /images/2010/05/goddard-normalish-768x614.jpg 768w, /images/2010/05/goddard-normalish-1024x819.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />][1]Over the past couple of weeks I&#8217;ve been putting together a Fedora 13 image to replace the Fedora 11 image we&#8217;re currently using in the school. One of the things I&#8217;ve been working on since we deployed Fedora 10 a couple of years ago is storing school-wide configuration in RPMs that can be easily updated with a new release.
+{{< imgproc "goddard-normalish" Resize "300x" />}}
+
+Over the past couple of weeks I&#8217;ve been putting together a Fedora 13 image to replace the Fedora 11 image we&#8217;re currently using in the school. One of the things I&#8217;ve been working on since we deployed Fedora 10 a couple of years ago is storing school-wide configuration in RPMs that can be easily updated with a new release.
 
 One of these RPMs contains [default gconf settings][2] ([SRPM][3]) for things like the school proxy server, default icons to show up on the panel when a user logs in, keyboard layouts (our keyboards are dual English/Arabic), fonts, and now, with Fedora 13, default favorites for gnome-shell.
 
@@ -29,7 +31,6 @@ One thing I haven&#8217;t mentioned yet is the [required background image][12] (
 
 **_Update 7/30/2010:_ As mentioned in my more recent blog post [Better Building][16], all the packages we use in our school are available from <http://koji.lesbg.com>.**
 
- [1]: http://cedarandthistle.files.wordpress.com/2010/05/goddard-normalish.jpg
  [2]: http://www.lesbg.com/jdieter/lesbg-gconf-defaults-1.5-1.fc13.noarch.rpm
  [3]: http://www.lesbg.com/jdieter/lesbg-gconf-defaults-1.5-1.fc13.src.rpm
  [4]: http://www.lesbg.com/jdieter/lesbg-gconf-mandatory-1.1-1.fc13.noarch.rpm
@@ -44,4 +45,4 @@ One thing I haven&#8217;t mentioned yet is the [required background image][12] (
  [13]: http://www.lesbg.com/jdieter/lesbg-background-13.0-1.fc13.src.rpm
  [14]: http://fedorapeople.org/groups/designteam/Resources/Fedora%20Release%20Themes/F13/Final/goddard_1280x1024.xcf
  [15]: http://creativecommons.org/licenses/by-sa/3.0/
- [16]: http://cedarandthistle.wordpress.com/2010/07/22/better-building/
+ [16]: /posts/2010/07/22/better-building

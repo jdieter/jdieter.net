@@ -3,7 +3,7 @@ title: Some blobs are more equal than others
 author: jdieter
 type: post
 date: 2010-06-08T18:57:37+00:00
-url: /?p=184
+url: /posts/2010/06/08/some-blobs-are-more-equal-than-others
 categories:
   - Computers
 tags:

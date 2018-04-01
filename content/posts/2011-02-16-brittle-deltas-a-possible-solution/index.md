@@ -3,7 +3,7 @@ title: Brittle deltas – a possible solution?
 author: jdieter
 type: post
 date: 2011-02-16T16:58:50+00:00
-url: /?p=312
+url: /posts/2011/02/16/brittle-deltas-a-possible-solution
 categories:
   - Computers
 tags:
@@ -14,7 +14,7 @@ tags:
   - zlib
 
 ---
-<figure id="attachment_315" style="max-width: 200px" class="wp-caption alignleft">[<img src="http://cedarandthistle.files.wordpress.com/2011/02/broken_eggs.jpg?w=200" alt="Picture of broken eggs" title="Broken Eggs" width="200" height="117" class="size-medium wp-image-315" srcset="/images/2011/02/broken_eggs.jpg 640w, /images/2011/02/broken_eggs-300x176.jpg 300w" sizes="(max-width: 200px) 100vw, 200px" />][1]<figcaption class="wp-caption-text"> </figcaption></figure> 
+{{< imgproc "broken_eggs" Resize "300x" left />}}
 
 Deltarpm is brittle. When it works correctly, it&#8217;s brilliant. But, like a tightrope walker crossing the Niagara falls while balancing an egg on his head, all it takes is one slip and&#8230;_\*splat\*_.
 
@@ -44,8 +44,7 @@ Another good solution would be for someone who is interested in deltas and compr
 
 _Broken eggs credit: [Broken Eggs][6] by [kyle tsui][7]. Used under [CC BY-NC-ND][8]_
 
- [1]: http://cedarandthistle.files.wordpress.com/2011/02/broken_eggs.jpg
- [2]: /2009/12/29/deltarpm-problems-part-ii/
+ [2]: /posts/2009/12/29/deltarpm-problems-part-ii/
  [3]: https://bugzilla.redhat.com/show_bug.cgi?id=524720
  [4]: https://bugzilla.redhat.com/show_bug.cgi?id=548523
  [5]: https://bugzilla.redhat.com/show_bug.cgi?id=677578

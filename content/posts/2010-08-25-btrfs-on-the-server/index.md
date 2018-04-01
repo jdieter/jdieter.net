@@ -3,7 +3,7 @@ title: btrfs on the server
 author: jdieter
 type: post
 date: 2010-08-24T22:18:37+00:00
-url: /?p=233
+url: /posts/2010/08/25/btrfs-on-the-server
 categories:
   - Computers
 tags:
@@ -12,9 +12,9 @@ tags:
   - lesbg
 
 ---
-As mentioned back [here][1] and [here][2], our current server setup looks something like this:<figure id="attachment_237" style="max-width: 400px" class="wp-caption aligncenter">
+As mentioned back [here][1] and [here][2], our current server setup looks something like this:
 
-[<img class="size-full wp-image-237 " title="2010-servers-old" src="http://cedarandthistle.files.wordpress.com/2010/08/2010-servers-old1.png?w=400" alt="storage-server01+storage-server02->drbd->lvm->ext3->nfs->clients" width="400" height="275" srcset="/images/2010/08/2010-servers-old1.png 1049w, /images/2010/08/2010-servers-old1-300x206.png 300w, /images/2010/08/2010-servers-old1-768x527.png 768w, /images/2010/08/2010-servers-old1-1024x703.png 1024w" sizes="(max-width: 400px) 100vw, 400px" />][3]<figcaption class="wp-caption-text">Current server configuration</figcaption></figure> 
+{{< imgproc "2010-servers-old1" Resize "500x" none >}}Current server configuration{{< /imgproc >}}
 
 One thing not noted in the diagram is that fileserver, our dns server, ldap server, web server, and a few others all run as virtual machines on storage-server01 and storage-server02.
 
@@ -26,9 +26,9 @@ So, with a bit of time over the summer after I&#8217;ve set up the school&#8217;
 
 The advantage? Now our virtual machines have full use of the (now misnamed) storage-servers01-2, both of which are still running CentOS 5.5. Our three new datastore servers, running Fedora 13, now share the load that was being put on one storage-server.
 
-But this doesn&#8217;t solve the backup problem. A few years back, I experimented with LVM snapshots, but they were just way too slow. Ever since then, though, I&#8217;ve been very interested in the idea of snapshots and btrfs has them for free (at least in terms of extra IO, and I&#8217;m not too worried about space). Btrfs also handles multiple devices just fine, which means goodbye LVM. With btrfs, our new setup looks something like this:<figure id="attachment_238" style="max-width: 400px" class="wp-caption aligncenter">
+But this doesn&#8217;t solve the backup problem. A few years back, I experimented with LVM snapshots, but they were just way too slow. Ever since then, though, I&#8217;ve been very interested in the idea of snapshots and btrfs has them for free (at least in terms of extra IO, and I&#8217;m not too worried about space). Btrfs also handles multiple devices just fine, which means goodbye LVM. With btrfs, our new setup looks something like this:
 
-[<img class="size-full wp-image-238" title="2010-servers-new" src="http://cedarandthistle.files.wordpress.com/2010/08/2010-servers-new1.png?w=400" alt="New configuration" width="400" height="266" srcset="/images/2010/08/2010-servers-new1.png 1049w, /images/2010/08/2010-servers-new1-300x200.png 300w, /images/2010/08/2010-servers-new1-768x511.png 768w, /images/2010/08/2010-servers-new1-1024x681.png 1024w" sizes="(max-width: 400px) 100vw, 400px" />][4]<figcaption class="wp-caption-text">New server configuration</figcaption></figure> 
+{{< imgproc "2010-servers-new1" Resize "500x" none >}}New server configuration{{< /imgproc >}}
 
 I have hit a couple of problems, though. By default, btrfs will RAID1 metadata if you have more than one device in a btrfs filesystem. I&#8217;m not sure whether my problem was related to this, but when I tried to manually balance the user filesystem which was spread across a 2TB and 1TB disk, I got -ENOSPC, a kernel panic, and a filesystem that was essentially read-only. This when the data on the drive was under 800GB (though most of the files are small hidden files in our users&#8217; home directories). After checking out the [btrfs wiki][5], I upgraded the kernel to the latest 2.6.34 available from [koji][6] (at that point in time), and then copied the data over to a newly created filesystem with RAID0 metadata and data (after all, my drives are already RAID1 using DRBD). A subsequent manual balance had no problems at all.
 
@@ -46,10 +46,8 @@ I&#8217;d like to keep this configuration, but that depends on whether the serve
 
 **Update: 08/26/2010** After adding a few boot options, I finally got the logs of the freeze from the server. It looks like it&#8217;s a combination of relatively low RAM and either a lousy network card design or a poor driver. Switching the motherboard has mitigated the problem, and I&#8217;m hoping to get some more up-to-date servers with loads more RAM.
 
- [1]: http://cedarandthistle.wordpress.com/2009/10/25/i-hate-nfs/
- [2]: http://cedarandthistle.wordpress.com/2009/10/27/i-hate-virtual-machines-was-i-hate-nfs/
- [3]: http://cedarandthistle.files.wordpress.com/2010/08/2010-servers-old1.png
- [4]: http://cedarandthistle.files.wordpress.com/2010/08/2010-servers-new1.png
+ [1]: /posts/2009/10/25/i-hate-nfs/
+ [2]: /posts/2009/10/27/i-hate-virtual-machines-was-i-hate-nfs/
  [5]: https://btrfs.wiki.kernel.org/index.php/Main_Page
  [6]: http://koji.fedoraproject.org/koji/buildinfo?buildID=190689
  [7]: http://koji.fedoraproject.org/koji/buildinfo?buildID=190701

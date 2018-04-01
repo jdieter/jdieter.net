@@ -3,11 +3,7 @@ title: Thank you, HP
 author: jdieter
 type: post
 date: 2012-07-28T12:39:39+00:00
-url: /?p=468
-tagazine-media:
-  - 'a:7:{s:7:"primary";s:64:"http://cedarandthistle.files.wordpress.com/2012/07/dv6t-6100.png";s:6:"images";a:1:{s:64:"http://cedarandthistle.files.wordpress.com/2012/07/dv6t-6100.png";a:6:{s:8:"file_url";s:64:"http://cedarandthistle.files.wordpress.com/2012/07/dv6t-6100.png";s:5:"width";i:391;s:6:"height";i:273;s:4:"type";s:5:"image";s:4:"area";i:106743;s:9:"file_path";b:0;}}s:6:"videos";a:0:{}s:11:"image_count";i:1;s:6:"author";s:6:"664943";s:7:"blog_id";s:7:"9493963";s:9:"mod_stamp";s:19:"2012-07-28 12:39:39";}'
-twitter_cards_summary_img_size:
-  - 'a:6:{i:0;i:391;i:1;i:273;i:2;i:3;i:3;s:24:"width="391" height="273"";s:4:"bits";i:8;s:4:"mime";s:9:"image/png";}'
+url: /posts/2012/07/28/thank-you-hp
 categories:
   - Computers
 tags:
@@ -19,7 +15,7 @@ tags:
   - warranty
 
 ---
-[<img src="http://cedarandthistle.files.wordpress.com/2012/07/dv6t-6100.png?w=300" alt="HP dv6t-6100 laptop" title="dv6t-6100" width="300" height="209" class="alignleft size-medium wp-image-469" srcset="/images/2012/07/dv6t-6100.png 391w, /images/2012/07/dv6t-6100-300x209.png 300w" sizes="(max-width: 300px) 100vw, 300px" />][1]
+{{< imgproc "dv6t-6100" Resize "300x" />}}
   
 Last September, while I was on sabbatical in the States, I bought an HP laptop (along with my HP tablet and HP phone). I ordered it online and specced it to have a full HD display and a Radeon video card in addition to the built-in Intel video, and was very happy with it.
 
@@ -36,5 +32,3 @@ I contacted HP in Lebanon and they directed me to one of the HP authorized repai
 On Tuesday (two working days later!), I got a call from CIS telling me that it was ready. I went back in and got my laptop back, again with no hassle at all. They did tell me that I was in luck that they had the part because it was a US model, but they would have ordered the part if they hadn&#8217;t had it in stock.
 
 So, while I&#8217;m not impressed that the system fan died so quickly, I&#8217;m _very_ impressed that HP automatically gave me a worldwide warranty and I&#8217;m _astounded_ that CIS did the work quickly without trying to find some way to charge me. Thank you both for your professionalism!
-
- [1]: http://cedarandthistle.files.wordpress.com/2012/07/dv6t-6100.png

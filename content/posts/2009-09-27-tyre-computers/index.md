@@ -3,7 +3,7 @@ title: Tyre Computers
 author: jdieter
 type: post
 date: 2009-09-27T18:03:54+00:00
-url: /?p=12
+url: /posts/2009/09/27/tyre-computers
 categories:
   - Computers
 tags:

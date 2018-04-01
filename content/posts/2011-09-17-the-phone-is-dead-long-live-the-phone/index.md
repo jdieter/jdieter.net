@@ -3,9 +3,7 @@ title: The phone is dead, long live the phone
 author: jdieter
 type: post
 date: 2011-09-17T06:54:01+00:00
-url: /?p=383
-tagazine-media:
-  - 'a:7:{s:7:"primary";s:59:"http://cedarandthistle.files.wordpress.com/2011/09/veer.png";s:6:"images";a:2:{s:59:"http://cedarandthistle.files.wordpress.com/2011/09/n900.jpg";a:6:{s:8:"file_url";s:59:"http://cedarandthistle.files.wordpress.com/2011/09/n900.jpg";s:5:"width";s:3:"500";s:6:"height";s:3:"389";s:4:"type";s:5:"image";s:4:"area";s:6:"194500";s:9:"file_path";s:0:"";}s:59:"http://cedarandthistle.files.wordpress.com/2011/09/veer.png";a:6:{s:8:"file_url";s:59:"http://cedarandthistle.files.wordpress.com/2011/09/veer.png";s:5:"width";s:3:"660";s:6:"height";s:3:"880";s:4:"type";s:5:"image";s:4:"area";s:6:"580800";s:9:"file_path";s:0:"";}}s:6:"videos";a:0:{}s:11:"image_count";s:1:"2";s:6:"author";s:6:"664943";s:7:"blog_id";s:7:"9493963";s:9:"mod_stamp";s:19:"2011-09-17 06:54:01";}'
+url: /posts/2011/09/17/the-phone-is-dead-long-live-the-phone
 categories:
   - Computers
   - Personal
@@ -19,7 +17,7 @@ tags:
   - veer
 
 ---
-[<img src="http://cedarandthistle.files.wordpress.com/2011/09/n900.jpg?w=200" alt="Nokia N900" title="N900" width="200" height="155" class="alignleft size-medium wp-image-384" srcset="/images/2011/09/n900.jpg 500w, /images/2011/09/n900-300x233.jpg 300w" sizes="(max-width: 200px) 100vw, 200px" />][1]
+{{< imgproc "n900" Resize "200x" left />}}
 
 **The phone is dead**
   
@@ -29,7 +27,7 @@ So fast-forward to a few weeks ago, with me sitting at my home in southwest Wash
 
 Some research on the web, and a `dmesg` or two later revealed that the phone&#8217;s modem was constantly resetting, and, given the reset rate, was probably going bad. As I bought the phone in the US, it only had a one year warranty&#8230; and I was screwed. Bummer. Less than two years after buying it, my $550 phone had become an expensive unimpressive tablet. Thanks, Nokia. And now I had to replace it. 
 
-[<img src="http://cedarandthistle.files.wordpress.com/2011/09/veer.png?w=224" alt="" title="Veer" width="224" height="300" class="alignright size-medium wp-image-388" srcset="/images/2011/09/veer.png 660w, /images/2011/09/veer-225x300.png 225w" sizes="(max-width: 224px) 100vw, 224px" />][4]
+{{< imgproc "veer" Resize "224x" />}}
 
 **Long live the phone**
   
@@ -57,10 +55,8 @@ I would love to meet any Fedora people in the area (I&#8217;m about an hour nort
 
 For those in Lebanon, we will be back at the end of this year, and I&#8217;m already looking forward to seeing you again.
 
- [1]: http://cedarandthistle.files.wordpress.com/2011/09/n900.jpg
  [2]: http://europe.nokia.com/find-products/devices/nokia-n900
- [3]: /2011/05/20/sabbatical/
- [4]: http://cedarandthistle.files.wordpress.com/2011/09/veer.png
+ [3]: /posts/2011/05/20/sabbatical/
  [5]: http://www.hp.com/united-states/webos/us/en/tablet/touchpad.html
  [6]: http://www.hp.com/united-states/webos/us/en/smartphone/veer.html
  [7]: http://www.hp.com/united-states/webos/us/en/accessories-veer.html#touchstone

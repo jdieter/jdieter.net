@@ -3,7 +3,7 @@ title: Slipping over the edge
 author: jdieter
 type: post
 date: 2011-03-29T18:48:22+00:00
-url: /?p=327
+url: /posts/2011/03/29/slipping-over-the-edge
 categories:
   - Computers
 tags:
@@ -13,7 +13,7 @@ tags:
   - luks
 
 ---
-<figure id="attachment_329" style="max-width: 300px" class="wp-caption alignright">[<img class="size-medium wp-image-329" title="Cliff" src="http://cedarandthistle.files.wordpress.com/2011/03/cliff1.jpg?w=300" alt="Man on edge of cliff" width="300" height="199" srcset="/images/2011/03/cliff1.jpg 640w, /images/2011/03/cliff1-300x200.jpg 300w" sizes="(max-width: 300px) 100vw, 300px" />][1]<figcaption class="wp-caption-text"> </figcaption></figure> 
+{{< imgproc "cliff1" Resize "300x" />}}
 
 On a Sunday a few weeks ago, I finally decided to take the plunge and install the Fedora 15 Alpha on my primary workstation. I&#8217;ve been using GNOME Shell pretty much exclusively since Fedora 13, and I was looking forward to an even cleaner setup as it got closer to its first official release. The installation went smoothly, and, soon enough, I had the new interface up and running, and, I have to say, it&#8217;s looking great!
 
@@ -37,7 +37,6 @@ So, now I&#8217;m running Fedora 15 Alpha, with a newly created encrypted btrfs 
 
 _Steep cliff credit: [Steep cliff][4] by [Rob Lee][5]. Used under [CC BY-ND][6]_
 
- [1]: http://cedarandthistle.files.wordpress.com/2011/03/cliff1.jpg
  [2]: https://btrfs.wiki.kernel.org/index.php/Btrfs_source_repositories#btrfs-progs_Git_Repository
  [3]: http://git.kernel.org/?p=linux/kernel/git/mason/btrfs-progs-unstable.git;a=blob;f=btrfs-select-super.c;h=f12f36ce29f5060ebcfc9ae5268f70ea85ee7e5b;hb=refs/heads/next
  [4]: http://www.flickr.com/photos/roblee/7093383/

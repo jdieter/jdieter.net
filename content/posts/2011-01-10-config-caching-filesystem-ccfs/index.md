@@ -3,7 +3,7 @@ title: Config Caching Filesystem (ccfs)
 author: jdieter
 type: post
 date: 2011-01-10T19:19:18+00:00
-url: /?p=303
+url: /posts/2011/01/10/config-caching-filesystem-ccfs
 categories:
   - Computers
 tags:
@@ -15,7 +15,7 @@ tags:
   - nfs
 
 ---
-<figure id="attachment_304" style="max-width: 197px" class="wp-caption alignright">[<img src="http://cedarandthistle.files.wordpress.com/2011/01/jetpack.jpg?w=197" alt="Man with Jetpack" title="Jetpack" width="197" height="300" class="size-medium wp-image-304" srcset="/images/2011/01/jetpack.jpg 432w, /images/2011/01/jetpack-197x300.jpg 197w" sizes="(max-width: 197px) 100vw, 197px" />][1]<figcaption class="wp-caption-text"> </figcaption></figure> 
+{{< imgproc "jetpack" Resize "200x" />}}
 
 One of the problems we&#8217;ve had to deal with on our [servers][2] is high load on the fileserver that holds the user directories. I haven&#8217;t worked out if it&#8217;s because we&#8217;re using standard workstation hardware for our servers, or if it&#8217;s a btrfs problem.
 
@@ -37,8 +37,7 @@ Ccfs is available [here][3] for those interested, but if it breaks, you get to k
 
 _Jetpack credit: [Fly with U.S. poster][4] by [Tom Whalen][5]. Used under [CC BY-NC-ND][6]_
 
- [1]: http://cedarandthistle.files.wordpress.com/2011/01/jetpack.jpg
- [2]: /2010/08/25/btrfs-on-the-server/
+ [2]: /posts/2010/08/25/btrfs-on-the-server/
  [3]: http://koji.lesbg.com/koji/packageinfo?packageID=46
  [4]: http://www.behance.net/Gallery/fly-with-U_S_-poster/331768
  [5]: http://www.behance.net/strongstuff

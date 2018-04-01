@@ -3,7 +3,7 @@ title: Deltarpm problems (Part I)
 author: jdieter
 type: post
 date: 2009-11-16T19:16:08+00:00
-url: /?p=54
+url: /posts/2009/11/16/deltarpm-problems-part-i
 categories:
   - Computers
 tags:
@@ -13,7 +13,9 @@ tags:
   - presto
 
 ---
-<img src="http://cedarandthistle.files.wordpress.com/2009/11/broken_bicycle.jpg?w=200" alt="Picture of broken bicycle" title="Broken Bicycle" width="200" height="135" class="alignright size-medium wp-image-56" srcset="/images/2009/11/broken_bicycle.jpg 500w, /images/2009/11/broken_bicycle-300x202.jpg 300w" sizes="(max-width: 200px) 100vw, 200px" />In my [last post][1], I talked a bit about how deltarpm&#8217;s delta algorithm actually works, especially in relation to binary files.
+{{< imgproc "broken_bicycle" Resize "300x" />}}
+
+In my [last post][1], I talked a bit about how deltarpm&#8217;s delta algorithm actually works, especially in relation to binary files.
 
 Today, I want to look at one of the real-world problems that has a large effect on the size of some of our deltas.
 
@@ -49,6 +51,6 @@ Which is exactly the problem that deltarpm is supposed to solve.
 
 **Broken bicycle credit: [unwanted & undesired &#8230; just let it rot][2] by [notsogoodphotography on Flickr][3]. Used under a Creative Commons Attribution 2.0 license.**
 
- [1]: http://cedarandthistle.wordpress.com/2009/11/06/on-binary-delta-algorithms/
+ [1]: /posts/2009/11/06/on-binary-delta-algorithms
  [2]: http://www.flickr.com/photos/notsogoodphotography/291373072/
  [3]: http://www.flickr.com/photos/notsogoodphotography/

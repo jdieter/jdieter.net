@@ -3,7 +3,7 @@ title: Electricity, electricity
 author: jdieter
 type: post
 date: 2010-07-11T16:26:36+00:00
-url: /?p=207
+url: /posts/2010/07/11/electricity-electricity
 categories:
   - Computers
 tags:
@@ -11,7 +11,9 @@ tags:
   - lesbg
 
 ---
-[<img src="http://cedarandthistle.files.wordpress.com/2010/07/spark.jpg?w=150" alt="Electricity sparking" title="spark" width="150" height="112" class="alignright size-thumbnail wp-image-208" srcset="/images/2010/07/spark.jpg 800w, /images/2010/07/spark-300x225.jpg 300w, /images/2010/07/spark-768x576.jpg 768w" sizes="(max-width: 150px) 100vw, 150px" />][1]I am not an electrician. I do not wish to be an electrician. It is not one of my goals in life. Unfortunately, sometimes we have to do the things we don&#8217;t want to do.
+{{< imgproc "spark" Resize "300x" />}}
+
+I am not an electrician. I do not wish to be an electrician. It is not one of my goals in life. Unfortunately, sometimes we have to do the things we don&#8217;t want to do.
 
 On and off over the last couple of weeks, I&#8217;ve been working in our sister school up in the mountains, setting up a network. Their server was so old, it still had a ISA network card. I think they stopped using it sometime last century. Their desktops were a bit better, Celerons with 256MB of RAM.
 
@@ -45,7 +47,6 @@ Everything back up and running again, I turn to the principal and say, &#8220;If
 
 _Spark credit: [Spark][2] by [Phyzome][3]. Used under [CC BY-SA][4]_
 
- [1]: http://cedarandthistle.files.wordpress.com/2010/07/spark.jpg
  [2]: http://commons.wikimedia.org/wiki/File:Electrical_spark_from_a_shorted_camera_capacitor_P.2005.04.27.jpg
  [3]: http://commons.wikimedia.org/wiki/User:Phyzome
  [4]: http://creativecommons.org/licenses/by-sa/3.0/

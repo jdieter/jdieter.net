@@ -3,7 +3,7 @@ title: PXE and gPXE
 author: jdieter
 type: post
 date: 2009-10-09T09:35:32+00:00
-url: /?p=16
+url: /posts/2009/10/09/pxe-and-gpxe
 categories:
   - Computers
 tags:
@@ -12,7 +12,7 @@ tags:
   - pxe
 
 ---
-<figure id="attachment_17" style="max-width: 300px" class="wp-caption alignright"><img class="size-medium wp-image-17" title="Boot menu" src="http://cedarandthistle.files.wordpress.com/2009/10/boot-menu.jpg?w=300" alt="Boot menu" width="300" height="225" srcset="/images/2009/10/boot-menu.jpg 640w, /images/2009/10/boot-menu-300x225.jpg 300w" sizes="(max-width: 300px) 100vw, 300px" /><figcaption class="wp-caption-text">Boot menu</figcaption></figure> 
+{{< imgproc "boot-menu" Resize "300x" >}}Boot menu{{< /imgproc >}}
 
 So we&#8217;ve been using PXE booting on our network for the last couple of years and it has made life much easier.  We use pxelinux and vesamenu.c32 to have a pretty boot menu show up (specific to the system&#8217;s ip address).  Any school computers only see &#8220;Boot from hard drive&#8221; and &#8220;Administrative tools&#8221; (and choose the first option after five seconds).  An unknown computer (or a new computer) will get the menu on the right.  Administrative tools is password-locked so students/teachers can&#8217;t reinstall the operating system.
 

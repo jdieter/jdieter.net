@@ -3,7 +3,7 @@ title: A brave new world (of traffic shaping)
 author: jdieter
 type: post
 date: 2012-02-04T20:01:42+00:00
-url: /?p=418
+url: /posts/2012/02/04/a-brave-new-world-of-traffic-shaping
 categories:
   - Computers
 tags:
@@ -13,7 +13,7 @@ tags:
   - traffic shaping
 
 ---
-<figure id="attachment_420" style="max-width: 300px" class="wp-caption alignright">[<img class="size-medium wp-image-420 " title="Traffic through a bottleneck" src="http://cedarandthistle.files.wordpress.com/2012/02/traffic.jpg?w=300" alt="" width="300" height="225" srcset="/images/2012/02/traffic.jpg 800w, /images/2012/02/traffic-300x225.jpg 300w, /images/2012/02/traffic-768x576.jpg 768w" sizes="(max-width: 300px) 100vw, 300px" />][1]<figcaption class="wp-caption-text">Traffic through a bottleneck</figcaption></figure> 
+{{< imgproc "traffic" Resize "300x" >}}Traffic through a bottleneck{{< /imgproc >}}
 
 When administering a network of hundreds of computers, phones and tablets that all share a 3 Mbit/s link, one of the more important requirements is some form of traffic shaping. In fact, when you&#8217;re watching your emails download at a cool rate of five words a minute because someone is uploading the complete works of Shakespeare (the Blu-ray edition) onto YouTube, the choice becomes that of traffic shaping or homicide. While homicide is the easy option, unfortunately it has become illegal in most countries, so we have to go with the hard option if we want to avoid jail time.
 
@@ -35,6 +35,5 @@ Duplicate the same percentages for the students, and then again for our guests (
 
 If there&#8217;s interest, I&#8217;ll publish a more technical post including a partial rule list and explain how I got this mess to work with squid (which was necessary for being able to sort the different web destinations into different queues).
 
- [1]: http://cedarandthistle.files.wordpress.com/2012/02/traffic.jpg
  [2]: http://lartc.org/wondershaper/
  [3]: http://www.pfsense.org/

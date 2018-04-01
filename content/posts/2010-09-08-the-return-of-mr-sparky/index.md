@@ -3,7 +3,7 @@ title: The return of Mr. Sparky
 author: jdieter
 type: post
 date: 2010-09-08T20:00:44+00:00
-url: /?p=249
+url: /posts/2010/09/08/the-return-of-mr-sparky
 categories:
   - Computers
 tags:
@@ -11,7 +11,9 @@ tags:
   - lesbg
 
 ---
-<figure id="attachment_250" style="max-width: 150px" class="wp-caption alignright">[<img src="http://cedarandthistle.files.wordpress.com/2010/09/power-strip.jpg?w=150" alt="A partially fried power strip" title="Power strip" width="150" height="112" class="size-thumbnail wp-image-250" srcset="/images/2010/09/power-strip.jpg 1024w, /images/2010/09/power-strip-300x225.jpg 300w, /images/2010/09/power-strip-768x576.jpg 768w" sizes="(max-width: 150px) 100vw, 150px" />][1]<figcaption class="wp-caption-text">Power strip</figcaption></figure>As I mentioned in [a previous post][2], I am most definitely _not_ an electrician. Take a close look at the picture on the right. This is a normal power strip. Sorry, this _was_ a normal power strip. If you look closely, you&#8217;ll notice what looks like a black line running along it, with occasional ruptures and what look like silver beads coming out of it. There&#8217;s a story behind that line&#8230;
+{{< imgproc "power-strip" Resize "300x" >}}Power strip{{< /imgproc >}}
+
+As I mentioned in [a previous post][2], I am most definitely _not_ an electrician. Take a close look at the picture on the right. This is a normal power strip. Sorry, this _was_ a normal power strip. If you look closely, you&#8217;ll notice what looks like a black line running along it, with occasional ruptures and what look like silver beads coming out of it. There&#8217;s a story behind that line&#8230;
 
 So I&#8217;m finally finishing up the computer room in the mountains, and the last problem to deal with is the computer room UPS&#8217;s. They&#8217;ve been there for years and need to be replaced. The crazy thing is that it&#8217;s cheaper to buy several small UPS&#8217;s (one for every two computers) than a couple of large UPS&#8217;s. So we get a ten small UPS&#8217;s and put them on top of every other computer in the room. I then grab the plugs from the three sections of the computer room.
 
@@ -27,12 +29,10 @@ By this point smoke is pouring out the whole length of the power strip&#8217;s c
 
 So, I go and grab two more power strips. One thick one for the UPS&#8217;s and one thinner one for the monitors. I plug them into the wall, and&#8230;we have power! And no sparks. And no fizzles.
 
+{{< imgproc "cr-corner" Resize "250x" >}}The computer room{{< /imgproc >}}
+
 So, the school&#8217;s computer room is now finished. Twenty-two computers, eleven Core 2 Duo&#8217;s with 15&#8243; widescreen LCDs and eleven mishmash Celerons with CRTs that look like they were stolen from the ark. But all of them are running Fedora 13 with gnome-shell, and all in all, the room looks good. And now I&#8217;m back to my normal job which _doesn&#8217;t_ include messing around with electricity (at least, beyond the point of plugging my laptop in).
 
-I am not an electrician. I most definitely do not wish to be an electrician.<figure id="attachment_251" style="max-width: 400px" class="wp-caption aligncenter">
+I am not an electrician. I most definitely do not wish to be an electrician.
 
-[<img src="http://cedarandthistle.files.wordpress.com/2010/09/cr-corner.jpg?w=400" alt="A corner of the computer room with two new computers and two old computers" title="Computer room" width="400" height="300" class="size-full wp-image-251" srcset="/images/2010/09/cr-corner.jpg 1024w, /images/2010/09/cr-corner-300x225.jpg 300w, /images/2010/09/cr-corner-768x576.jpg 768w" sizes="(max-width: 400px) 100vw, 400px" />][3]<figcaption class="wp-caption-text">Corner of the computer room</figcaption></figure>
-
- [1]: http://cedarandthistle.files.wordpress.com/2010/09/power-strip.jpg
- [2]: /2010/07/11/electricity-electricity/
- [3]: http://cedarandthistle.files.wordpress.com/2010/09/cr-corner.jpg
+ [2]: /posts/2010/07/11/electricity-electricity/

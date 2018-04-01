@@ -3,7 +3,7 @@ title: GlusterFS Madness
 author: jdieter
 type: post
 date: 2012-03-31T11:49:12+00:00
-url: /?p=432
+url: /posts/2012/03/31/glusterfs-madness
 categories:
   - Computers
 tags:
@@ -15,7 +15,7 @@ tags:
   - ssd
 
 ---
-<figure id="attachment_433" style="max-width: 150px" class="wp-caption alignright">[<img src="/images/2012/03/nuclear_explosion.jpg?w=150" alt="" title="nuclear_explosion" width="150" height="114" class="size-thumbnail wp-image-433" srcset="/images/2012/03/nuclear_explosion.jpg 640w, /images/2012/03/nuclear_explosion-300x229.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" />][1]<figcaption class="wp-caption-text"> </figcaption></figure> 
+{{< imgproc "nuclear_explosion" Resize "300x" />}}
 
 **Background**
   
@@ -50,12 +50,11 @@ After an emergency meeting with the principal (who used to be the school&#8217;s
 
 The irony of this whole experience is that by switching the server filesystems from btrfs to ext4 with SSD journals, the load on our user data server has dropped to below 1.0. If I&#8217;d just made that switch, I could have avoided two days of downtime and a few sleepless nights.
 
-_Nuclear explosion credit &#8211; [Licorne][6] by [Pierre J.][7]. Used under the [CC-BY-NC 2.0][8] license.</p>
+_Nuclear explosion credit &#8211; [Licorne][6] by [Pierre J.][7] Used under the [CC-BY-NC 2.0][8] license._
 
- [1]: /images/2012/03/nuclear_explosion.jpg
- [2]: /2010/08/25/btrfs-on-the-server
+ [2]: /posts/2010/08/25/btrfs-on-the-server
  [3]: http://www.drbd.org
- [4]: /2011/01/10/config-caching-filesystem-ccfs
+ [4]: /posts/2011/01/10/config-caching-filesystem-ccfs
  [5]: http://www.gluster.org/
  [6]: https://secure.flickr.com/photos/7969902@N07/510672745
  [7]: https://secure.flickr.com/photos/7969902@N07/

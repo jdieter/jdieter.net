@@ -3,7 +3,7 @@ title: Under the hood
 author: jdieter
 type: post
 date: 2012-09-12T19:47:07+00:00
-url: /?p=510
+url: /posts/2012/09/12/under-the-hood
 categories:
   - Computers
 tags:
@@ -16,7 +16,7 @@ tags:
   - zfs
 
 ---
-<figure id="attachment_512" style="max-width: 200px" class="wp-caption alignleft">[<img src="http://cedarandthistle.files.wordpress.com/2012/09/under_the_hood.jpg?w=200" alt="Car with hood open" title="Under the hood" width="200" height="200" class="size-medium wp-image-512" srcset="/images/2012/09/under_the_hood.jpg 1000w, /images/2012/09/under_the_hood-150x150.jpg 150w, /images/2012/09/under_the_hood-300x300.jpg 300w, /images/2012/09/under_the_hood-768x768.jpg 768w, /images/2012/09/under_the_hood-100x100.jpg 100w" sizes="(max-width: 200px) 100vw, 200px" />][1]<figcaption class="wp-caption-text"> </figcaption></figure> 
+{{< imgproc "under_the_hood" Resize "300x" />}}
 
 Two years ago, as mentioned in [btrfs on the server][2], we set up btrfs as our primary filesystem on our data servers. After we started running into high load as our network expanded (and a brief experiment with GlusterFS as mentioned in [GlusterFS Madness][3]), in March we switched over to ext4 with the journal on an SSD.
 
@@ -33,8 +33,8 @@ We also had nightly rsync backups to `backup01` which was running btrfs and whic
 We also had two virtual hosts, `virtserver01` and `virtserver02`. Our virtual machines&#8217; hard drives were synced between the two using _DRBD_. We could stop a virtual machine on one host and start it on the other, but live migration didn&#8217;t work and backups were a nightly rsync to backup01. 
 
 So, after the switchover, our network looked something like this (click for full size):
-  
-[<img src="http://cedarandthistle.files.wordpress.com/2012/09/201209-old-servers.png?w=500" alt="Server chart" width="500" height="229" class="alignleft size-full wp-image-518" srcset="/images/2012/09/201209-old-servers.png 1920w, /images/2012/09/201209-old-servers-300x138.png 300w, /images/2012/09/201209-old-servers-768x353.png 768w, /images/2012/09/201209-old-servers-1024x470.png 1024w" sizes="(max-width: 500px) 100vw, 500px" />][4]
+
+{{< imgproc "201209-old-servers" Resize "625x" none />}}
 
 I was pretty happy with our setup, but our load problem popped up again. While it was better than it was before the switch, it would still sometimes peak during breaks and immediately after school.
 
@@ -51,8 +51,8 @@ A nice feature of ZFS (which I believe btrfs also recently got) is the ability t
 One other nice feature of NAS4Free is the ability of ZFS to create a &#8220;volume&#8221; which is basically a disk device as part of the data pool, and then export it using iSCSI. I switched our virtual machines&#8217; hard drives from DRBD to iSCSI, which now allows us to live migrate from one virtual host to the other. We also get the bonus of automatic backups of the ZFS volumes as part of the snapshot diffs.
 
 Now our network looks something like this (click for full size):
-  
-[<img src="http://cedarandthistle.files.wordpress.com/2012/09/201209-new-servers.png?w=500" alt="Computer graph" title="" width="500" height="229" class="size-full wp-image-525" srcset="/images/2012/09/201209-new-servers.png 1920w, /images/2012/09/201209-new-servers-300x138.png 300w, /images/2012/09/201209-new-servers-768x353.png 768w, /images/2012/09/201209-new-servers-1024x470.png 1024w" sizes="(max-width: 500px) 100vw, 500px" />][6]
+
+{{< imgproc "201209-new-servers" Resize "625x" none />}}
 
 There is one major annoyance and one major regression in our system, though. First the annoyance. ZFS has no way of removing a drive. You can swap out a drive in a RAIDZ or mirror set, but once you&#8217;ve added a RAIDZ set, a mirror or even a single drive, you cannot remove them without destroying the pool. Apparently enterprise users never want to shrink their storage. More on this in my next post.
 
@@ -62,12 +62,9 @@ So now we have a system that gives us the speed we need, but not the redundancy 
 
 So where does that leave us? As we begin the 2012-2013 school year, file access and writing is faster than ever. We&#8217;d need simultaneous failure of four hard drives before we start losing data, and, once I deploy our third backup server for high-priority data, it will take even more to lose the data. We do have a higher risk of downtime in the event of a server failure, but we&#8217;re not at the point where that downtime would keep us from our primary job, teaching.
 
- [1]: http://cedarandthistle.files.wordpress.com/2012/09/under_the_hood.jpg
- [2]: /2010/08/25/btrfs-on-the-server
- [3]: /2012/03/31/glusterfs-madness/
- [4]: http://cedarandthistle.files.wordpress.com/2012/09/201209-old-servers.png
+ [2]: /posts/2010/08/25/btrfs-on-the-server
+ [3]: /posts/2012/03/31/glusterfs-madness/
  [5]: http://www.nas4free.org/
- [6]: http://cedarandthistle.files.wordpress.com/2012/09/201209-new-servers.png
  [7]: http://www.gluster.org/
  [8]: http://ceph.com/
  [9]: http://ceph.com/wiki/Rbd

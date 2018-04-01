@@ -3,7 +3,7 @@ title: 'Event Report: InstallQuest 2011'
 author: jdieter
 type: post
 date: 2011-06-11T19:56:46+00:00
-url: /?p=347
+url: /posts/2011/06/11/event-report-installquest-2011
 categories:
   - Computers
 tags:
@@ -13,7 +13,7 @@ tags:
   - linux
 
 ---
-[<img src="http://cedarandthistle.files.wordpress.com/2011/05/usb.png?w=188" alt="InstallQuest logo" title="InstallQuest logo" width="188" height="140" class="alignleft size-thumbnail wp-image-341" srcset="/images/2011/05/usb.png 1024w, /images/2011/05/usb-300x225.png 300w, /images/2011/05/usb-768x576.png 768w" sizes="(max-width: 188px) 100vw, 188px" />][1]
+{{< imgproc "usb" Resize "188x" left />}}
 
 We had a blast at the [InstallQuest][2] last Friday! I&#8217;d say that roughly 20 people showed up, and most of them were students from [LES Loueizeh][3] and [LES Tyre][4].
 
@@ -21,9 +21,9 @@ We started at 4:00PM with a short introduction to Linux in general, and then Fed
 
 **The Sessions**
   
-My wife, Naomi, gave a talk on creating documents using OpenOffice.org/LibreOffice, and then exporting them as PDFs so anyone with a computer can read them. She was only supposed to go for fifteen minutes, but there was so much interest that she ended up going over thirty minutes.<figure id="attachment_360" style="max-width: 150px" class="wp-caption alignright">
+My wife, Naomi, gave a talk on creating documents using OpenOffice.org/LibreOffice, and then exporting them as PDFs so anyone with a computer can read them. She was only supposed to go for fifteen minutes, but there was so much interest that she ended up going over thirty minutes.
 
-[<img src="http://cedarandthistle.files.wordpress.com/2011/06/lizard2.jpg?w=150" alt="Gray lizard with yellow eye" title="GIMP Session" width="150" height="99" class="size-thumbnail wp-image-360" srcset="/images/2011/06/lizard2.jpg 2240w, /images/2011/06/lizard2-300x199.jpg 300w, /images/2011/06/lizard2-768x510.jpg 768w, /images/2011/06/lizard2-1024x680.jpg 1024w" sizes="(max-width: 150px) 100vw, 150px" />][5]<figcaption class="wp-caption-text">Desaturated lizard</figcaption></figure> 
+{{< imgproc "lizard2" Resize "300x" >}}Desaturated lizard{{< /imgproc >}}
 
 Hisham Hamdan, the Assistant System Administrator here in Loueizeh, then did a session on package management and system updates. We broke for pizza (generously provided by the school), and returned to a session on photo editing using the GIMP by David. He showed how to desaturate a photograph except for one small element.
 
@@ -31,9 +31,9 @@ Finally, I finished off the sessions with a short demo on how to use photorec (p
 
 **The Installs**
   
-While the sessions were happening in the main computer room, where people could either use the school computers or their own, the installs were happening in the small computer room next door. We had cleared the computers from the room, leaving a few monitors, keyboards and mice just in case anyone brought desktops without the peripherals (which ended up being pointless; all of the installs were done on laptops). We left the network cables in the room and did PXE installs where possible.<figure id="attachment_362" style="max-width: 150px" class="wp-caption alignleft">
+While the sessions were happening in the main computer room, where people could either use the school computers or their own, the installs were happening in the small computer room next door. We had cleared the computers from the room, leaving a few monitors, keyboards and mice just in case anyone brought desktops without the peripherals (which ended up being pointless; all of the installs were done on laptops). We left the network cables in the room and did PXE installs where possible.
 
-[<img src="http://cedarandthistle.files.wordpress.com/2011/06/installs.jpg?w=150" alt="Guests watching Linux getting installed on their computers" title="Installs" width="150" height="112" class="size-thumbnail wp-image-362" srcset="/images/2011/06/installs.jpg 800w, /images/2011/06/installs-300x225.jpg 300w, /images/2011/06/installs-768x576.jpg 768w" sizes="(max-width: 150px) 100vw, 150px" />][6]<figcaption class="wp-caption-text">Installs</figcaption></figure> 
+{{< imgproc "installs" Resize "300x" left >}}Installs{{< /imgproc >}}
 
 Both Tyre and Loueizeh use Fedora with GNOME Shell as our default desktop, so I wasn&#8217;t too surprised that a majority of the guests chose to install Fedora. What did surprise me was the number that chose KDE. Paul-Marc did an excellent job of demonstrating just how functional (and pretty) KDE has become. For someone who hasn&#8217;t used KDE since my Mandrake days, and who hasn&#8217;t looked at KDE since 4.0 came out, it was quite the eye-opener! KDE has become very impressive, and, while I prefer the simplicity of the Shell, I can see why many are so passionate about it.
 
@@ -53,12 +53,9 @@ A **huge** thank you to those involved in making the InstallQuest a success: His
 
 _InstallQuest logo &#8211; Released under a [CC-BY][7] license. Modified from [USB Flash Drive][8] by [Ambuj Saxena][9]_
 
- [1]: http://cedarandthistle.files.wordpress.com/2011/05/usb.png
  [2]: http://www.installquest.net
  [3]: http://www.lesbg.com
- [4]: www.lestyre.org
- [5]: http://cedarandthistle.files.wordpress.com/2011/06/lizard2.jpg
- [6]: http://cedarandthistle.files.wordpress.com/2011/06/installs.jpg
+ [4]: http://www.lestyre.org
  [7]: http://creativecommons.org/licenses/by/3.0/
  [8]: http://www.flickr.com/photos/ambuj/345356294
  [9]: http://www.flickr.com/photos/ambuj/

@@ -3,12 +3,12 @@ title: LESSON breaks free
 author: jdieter
 type: post
 date: 2010-11-15T11:19:15+00:00
-url: /?p=272
+url: /posts/2010/11/15/lesson-breaks-free
 categories:
   - Computers
 
 ---
-<figure id="attachment_273" style="max-width: 225px" class="wp-caption alignright">[<img class="size-medium wp-image-273" title="Which way? Both!" src="http://cedarandthistle.files.wordpress.com/2010/11/confused-sign.jpg?w=225" alt="Sign pointing left and right" width="225" height="300" srcset="/images/2010/11/confused-sign.jpg 768w, /images/2010/11/confused-sign-225x300.jpg 225w" sizes="(max-width: 225px) 100vw, 225px" />][1]<figcaption class="wp-caption-text">Which way? Both!</figcaption></figure> 
+{{< imgproc "confused-sign" Resize "250x" >}}Which way? Both!{{< /imgproc >}}
 
 Seven years ago, I got pretty annoyed with keeping my students&#8217; computer grades in a spreadsheet, so I wrote a small web application tied to a MySQL database. Over the last few years, this program, called the Lebanon Evangelical School Scoring Online Network, or LESSON (yes, I know the name is ugly, but I like the acronym), has grown to the point that it&#8217;s being used by two of our sister schools and is used by parents to see how their kids are doing in realtime (or something close to it).
 
@@ -26,7 +26,6 @@ And, not a minute too soon. Within a few hours of LESSON going live on our US se
 
 _Signs credit: [Slightly confusing signs][5] by [Dano][6]. Used under [CC BY][7]_
 
- [1]: http://cedarandthistle.files.wordpress.com/2010/11/confused-sign.jpg
  [2]: http://codebutler.github.com/firesheep/
  [3]: http://www.howtoforge.com/mysql_master_master_replication
  [4]: http://www.howtoforge.com/mysql_master_master_replication#comment-12927

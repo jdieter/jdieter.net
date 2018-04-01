@@ -3,7 +3,7 @@ title: Deltarpm problems (Part II)
 author: jdieter
 type: post
 date: 2009-12-29T18:30:53+00:00
-url: /?p=69
+url: /posts/2009/12/29/deltarpm-problems-part-ii
 categories:
   - Computers
 tags:
@@ -13,7 +13,9 @@ tags:
   - xz
 
 ---
-[<img src="http://cedarandthistle.files.wordpress.com/2009/12/crumpled-paper.jpg?w=200" alt="Crumpled piece of paper" title="crumpled-paper" width="200" height="150" class="alignright size-medium wp-image-73" srcset="/images/2009/12/crumpled-paper.jpg 2048w, /images/2009/12/crumpled-paper-300x225.jpg 300w, /images/2009/12/crumpled-paper-768x576.jpg 768w, /images/2009/12/crumpled-paper-1024x768.jpg 1024w" sizes="(max-width: 200px) 100vw, 200px" />][1]About six weeks ago, I [looked at][2] one of the problems we currently face with deltarpm, that of colored executables.
+{{< imgproc "crumpled-paper" Resize "300x" />}}
+
+About six weeks ago, I [looked at][2] one of the problems we currently face with deltarpm, that of colored executables.
 
 Today, I want to look at one of the other major problems that we&#8217;ve currently papered over without really fixing. That is compression.
 
@@ -31,9 +33,9 @@ Most compression formats don&#8217;t guarantee repeatability. They do not promis
 
 To understand this, remember that any compression format has a standard (which must always be followed) and an algorithm (which may change slightly). Look at the two following math formulas:
 
-_(1 + 5) / 3 + (3 + 9) / 4
+_(1 + 5) / 3 + (3 + 9) / 4_
   
-(3 + 9) / 4 + (1 + 5) / 3_
+_(3 + 9) / 4 + (1 + 5) / 3_
 
 Though they are different, they still parse to exactly the same result. Now imagine that the formulas are two different compressed files, and the result is the uncompressed file. As far as the compression format is concerned, both compressed files are valid.
 
@@ -59,6 +61,5 @@ We also have lousy deltas if there are any compressed files in the rpm. In many 
 
 What we need is some way to recompress data in such a way that guarantees that it&#8217;s identical to the original compressed data&#8230;
 
- [1]: http://cedarandthistle.files.wordpress.com/2009/12/crumpled-paper.jpg
- [2]: http://cedarandthistle.wordpress.com/2009/11/16/deltarpm-problems-part-i/
+ [2]: /posts/2009/11/16/deltarpm-problems-part-i/
  [3]: http://osdir.com/ml/fedora-devel-list/2009-09/msg00438.html

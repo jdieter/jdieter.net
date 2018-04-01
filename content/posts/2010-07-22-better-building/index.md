@@ -3,7 +3,7 @@ title: Better Building
 author: jdieter
 type: post
 date: 2010-07-22T12:08:43+00:00
-url: /?p=215
+url: /posts/2010/07/22/better-building
 categories:
   - Computers
 tags:
@@ -15,7 +15,9 @@ tags:
   - tyre
 
 ---
-[<img src="http://cedarandthistle.files.wordpress.com/2010/07/gears.jpg?w=150" alt="Gears" title="Gears" width="150" height="112" class="alignright size-thumbnail wp-image-216" srcset="/images/2010/07/gears.jpg 500w, /images/2010/07/gears-300x225.jpg 300w" sizes="(max-width: 150px) 100vw, 150px" />][1]As I mentioned in my last post, I&#8217;m setting up the computer system in our sister school in Ain Zhalta, up in the mountains, and last summer I set up the computer system in our sister school down in Tyre.
+{{< imgproc "gears" Resize "300x" />}}
+
+As I mentioned in my last post, I&#8217;m setting up the computer system in our sister school in Ain Zhalta, up in the mountains, and last summer I set up the computer system in our sister school down in Tyre.
 
 This includes both servers and workstations, and, being the lazy sysadmin that I am, I prefer not to reinvent the wheel for each place. My method last summer was to build rpms for most of the school-specific configuration settings, which allows me to make small changes and have them pulled in automatically.
 
@@ -37,9 +39,8 @@ Anyhow, aside from some small glitches that seem to reflect more on the slow har
 
 _Gears credit: [Gears gears cogs bits n pieces][13] by [Elsie esq][14]. Used under [CC BY][15]_
 
- [1]: http://cedarandthistle.files.wordpress.com/2010/07/gears.jpg
  [2]: https://fedorahosted.org/koji/wiki
- [3]: http://cedarandthistle.wordpress.com/2010/03/05/from-fedora-8-to-fedora-12-baby-steps
+ [3]: /posts/2010/03/05/from-fedora-8-to-fedora-12-baby-steps
  [4]: http://fedoraproject.org/wiki/Koji/ServerHowTo
  [5]: http://koji.lesbg.com/koji/taginfo?tagID=1
  [6]: http://koji.lesbg.com/koji/taginfo?tagID=6

@@ -3,9 +3,7 @@ title: Robot Tag
 author: jdieter
 type: post
 date: 2010-04-23T20:06:19+00:00
-url: /?p=155
-twitter_cards_summary_img_size:
-  - 'a:7:{i:0;i:1024;i:1;i:768;i:2;i:2;i:3;s:25:"width="1024" height="768"";s:4:"bits";i:8;s:8:"channels";i:3;s:4:"mime";s:10:"image/jpeg";}'
+url: /posts/2010/04/23/robot-tag
 categories:
   - Computers
 tags:
@@ -19,17 +17,17 @@ tags:
   - StopTask
 
 ---
-[<img src="http://cedarandthistle.files.wordpress.com/2010/04/150years.jpg?w=350" alt="Picture of students singing" title="Lebanese Night" width="350" height="263" class="aligncenter size-full wp-image-163" srcset="/images/2010/04/150years.jpg 1024w, /images/2010/04/150years-300x225.jpg 300w, /images/2010/04/150years-768x576.jpg 768w" sizes="(max-width: 350px) 100vw, 350px" />][1]
+{{< imgproc "150years" Resize "500x" none />}}
   
 The Lebanon Evangelical School for Boys and Girls is celebrating its 150th anniversary, and, today, as part of the festivities, we had an exhibition of our students&#8217; work, followed by a &#8220;Lebanese Night&#8221; (which still seems to be going strong, judging by the music blasting through my living room windows).
 
 Our robot club had robots playing &#8220;Robot Tag&#8221; on the stage. The idea of &#8220;Robot Tag&#8221; is that you have two robots inside of an arena that chase each other, while being careful not to cross the white lines that mark the border of the arena. A robot &#8220;tags&#8221; the other robot when it uses the ultrasonic sensor to detect that it&#8217;s within 20cm of it (though, given the small size of the robots, it normally gets closer than that before the ultrasonic sensor says that it&#8217;s within range).
 
-[<img src="http://cedarandthistle.files.wordpress.com/2010/04/robotag1.jpg?w=350" alt="Robots in Robot Tag Arena" title="Robot Tag Arena" width="350" height="263" class="aligncenter size-full wp-image-164" srcset="/images/2010/04/robotag1.jpg 1024w, /images/2010/04/robotag1-300x225.jpg 300w, /images/2010/04/robotag1-768x576.jpg 768w" sizes="(max-width: 350px) 100vw, 350px" />][2]
+{{< imgproc "robotag1" Resize "500x" none />}}
 
 It was quite a hit with both students and parents, and I was very pleased with how well the robots did, especially given the problems I ran into getting everything set up. But that&#8217;s a LONG story&#8230;
 
-[<img src="http://cedarandthistle.files.wordpress.com/2010/04/robotag2.jpg?w=263" alt="Robots chasing each other" title="Robot Tag" width="263" height="350" class="aligncenter size-full wp-image-165" srcset="/images/2010/04/robotag2.jpg 768w, /images/2010/04/robotag2-225x300.jpg 225w" sizes="(max-width: 263px) 100vw, 263px" />][3]
+{{< imgproc "robotag2" Resize "500x" none />}}
 
 **The LONG story**
   
@@ -67,9 +65,6 @@ So, after weeks of working on something that should have only taken a few days, 
 
 The code for my library is available [here][7]. You must create `user.h` which will contain the four user tasks. See `user.h.example` for help. To compile, all you should need to do is write `nbc -S=usb -d -safecall tag.nxc`. You will need two NXT robots connected via bluetooth to make it work.
 
- [1]: http://cedarandthistle.files.wordpress.com/2010/04/150years.jpg
- [2]: http://cedarandthistle.files.wordpress.com/2010/04/robotag1.jpg
- [3]: http://cedarandthistle.files.wordpress.com/2010/04/robotag2.jpg
  [4]: http://www1.lego.com/education/search/default.asp?l2id=0_1&page=7_1&productid=9797
  [5]: http://home.comcast.net/~dplau/nxt_python/
  [6]: http://bricxcc.sourceforge.net/nbc/

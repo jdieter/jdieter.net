@@ -3,7 +3,7 @@ title: The Humble Indie Bundle
 author: jdieter
 type: post
 date: 2010-05-09T18:01:17+00:00
-url: /?p=173
+url: /posts/2010/05/09/the-humble-indie-bundle
 categories:
   - Computers
 tags:

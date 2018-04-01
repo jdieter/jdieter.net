@@ -3,7 +3,7 @@ title: Setting up a netboot server in Fedora/CentOS
 author: jdieter
 type: post
 date: 2010-02-01T20:18:14+00:00
-url: /?p=94
+url: /posts/2010/02/01/setting-up-a-netboot-server-in-fedoracentos
 categories:
   - Computers
 tags:
@@ -38,22 +38,25 @@ There are three things we need to set up:
 The first step is to set up a TFTP server to carry our gPXE images.
 
   1. Run
-  
-    `yum install tftp-server`
+     ```
+     yum install tftp-server
+     ```
   2. Edit /etc/xinetd.d/tftp and change the line that says
-  
-    `disable = yes`
-  
-    to
-  
-    `disable = no`
+     ```
+     disable = yes
+     ```
+     to
+     ```
+     disable = no
+     ```
   3. If this is the initial installation of xinetd, you may need to run `chkconfig --levels 2345 xinetd on`
-  
-    `service xinetd start`
-  
-    at this point. Otherwise, it might be a good idea to run
-  
-    `service xinetd reload`
+     ```
+     service xinetd start
+     ```
+     at this point. Otherwise, it might be a good idea to run
+     ```
+     service xinetd reload
+     ```
 
 Now, for the next step, we need to download our gPXE images. gPXE is an extended version of PXE that allows you to load images over http and https in addition to the usual tftp. As most (all?) network cards don&#8217;t come with gPXE drivers, we will be using PXE to download and bootstrap our gPXE drivers.
 
@@ -77,123 +80,123 @@ So let&#8217;s grab and setup these drivers:
 I&#8217;m assuming you&#8217;re running the ISC dhcp server (dhcp package on both Fedora and CentOS). If not, you&#8217;ll have to work out these next steps yourself.
 
 You need to edit /etc/dhcpd.conf and add the following lines:
-  
-`next-server     <i>ip address</i>;`
+```
+next-server     ip address;
 
-`if exists user-class and option user-class = "gPXE" {<br />
-&nbsp;&nbsp;&nbsp;&nbsp;filename "http://<i>webserver</i>/netboot/pxelinux.0";<br />
-} else {<br />
-&nbsp;&nbsp;&nbsp;&nbsp;filename "/gpxe.pxe";<br />
-}`
+if exists user-class and option user-class = "gPXE" {
+    filename "http://webserver/netboot/pxelinux.0";
+} else {
+    filename "/gpxe.pxe";
+}
+```
 
 Where _ip address_ is the ip address of your TFTP server and _webserver_ is the name/ip address of your web server.
 
 If you have some computers that won&#8217;t pxeboot using gPXE&#8217;s native drivers (you&#8217;ll be able to tell because the computers will show the gPXE loading screen, but won&#8217;t be able to get an IP address using DHCP while in gPXE), change the last five lines above to:
 
-`if exists user-class and option user-class = "gPXE" {<br />
-&nbsp;&nbsp;&nbsp;&nbsp;filename "http://<i>webserver</i>/netboot<br />
-} else {<br />
-&nbsp;&nbsp;&nbsp;&nbsp;if binary-to-ascii(16, 8, ":",<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;substring(hardware, 1, 6)) = "<i>mac address 1</i>"<br />
-&nbsp;&nbsp;&nbsp;&nbsp;or binary-to-ascii(16, 8, ":",<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;substring(hardware, 1, 6)) = "<i>mac address 2</i>" {<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;filename "/undi.pxe";<br />
-&nbsp;&nbsp;&nbsp;&nbsp;} else {<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;filename "/gpxe.pxe";<br />
-&nbsp;&nbsp;&nbsp;&nbsp;}<br />
-}`
+```
+if exists user-class and option user-class = "gPXE" {
+    filename "http://webserver/netboot
+} else {
+    if binary-to-ascii(16, 8, ":",
+       substring(hardware, 1, 6)) = "mac address 1"
+    or binary-to-ascii(16, 8, ":",
+       substring(hardware, 1, 6)) = "mac address 2" {
+        filename "/undi.pxe";
+    } else {
+        filename "/gpxe.pxe";
+    }
+}
+```
 
 Where &#8220;mac address 1&#8221; and &#8220;mac address 2&#8221; are the MAC addresses of the computers that don&#8217;t work with gPXE&#8217;s native drivers. Please note the MAC address are **without** leading zeros (i.e. 00:19:d1:3a:0e:4b becomes 0:19:d1:3a:e:4b).
 
 At this point, if you boot any computer on your network off the NIC, you should see something like this:
-  
-[<img src="http://cedarandthistle.files.wordpress.com/2010/02/gpxe.png?w=449" alt="Picture of a screen with gPXE starting" title="gPXE screenshot" width="449" height="240" class="alignnone size-full wp-image-115" srcset="/images/2010/02/gpxe.png 721w, /images/2010/02/gpxe-300x160.png 300w" sizes="(max-width: 449px) 100vw, 449px" />][3]
+
+{{< imgproc "gpxe" Resize "500x" none />}}
 
 The next step is to setup PXELINUX, a part of the [Syslinux Project][4]. PXELINUX is a small bootloader designed for booting off a network.
 
   1. On your web server, create a directory called &#8220;netboot&#8221; in your web root (normally /var/www/html on Fedora/CentOS).
-  2. Run
-  
-    `yum install syslinux`
-  
-    or, as an alternative, build a newer version of syslinux. I recommend at least 3.75 (the version in Fedora 12), though I&#8217;m using 3.82 at the school.
-  3. Copy (at minimum) chain.c32, menu.c32, vesamenu.c32 and pxelinux.0 to &#8220;netboot&#8221; in your web root. (These files will be located in /usr/share/syslinux if you installed the package using yum.) At this point, you&#8217;ll probably want to check for [other modules][5] that might have some potential. We use ifcpu64.c32 to decide between 32-bit and 64-bit Fedora on the computers.
-  4. Run
-  
-    `yum install memtest86+`
-  
-    `cp /boot/elf-memtest86+-4.00 \<br />
-&nbsp;&nbsp;<i>your_web_root</i>/netboot/memtest`
-  
-    (Note that &#8220;your\_web\_root&#8221; will most likely be /var/www/html)
-  5. Download [this picture][6] and save it to your\_web\_root/netboot
-  6. Change directory to your\_web\_root/netboot
-  7. Run
-  
-    `mkdir pxelinux.cfg`
-  
-    `cd pxelinux.cfg`
-  8. Create a file called &#8220;default&#8221; that contains the following:
-  
-    `default vesamenu.c32<br />
-timeout 40<br />
-prompt 0<br />
-noescape 1`</p> 
-    `menu title Boot Options<br />
-menu background menu.png<br />
-menu master passwd<br />
-&nbsp;&nbsp;$4$tek7ROr8$xzFCb2QVEWsc2msx3QsErbRuo0Y$`
-    
-    `label local<br />
-&nbsp;&nbsp;&nbsp;&nbsp;menu label ^Boot from hard drive<br />
-&nbsp;&nbsp;&nbsp;&nbsp;kernel chain.c32<br />
-&nbsp;&nbsp;&nbsp;&nbsp;append hd0`
-    
-    `label admin<br />
-&nbsp;&nbsp;&nbsp;&nbsp;menu label ^Administrative tools<br />
-&nbsp;&nbsp;&nbsp;&nbsp;kernel vesamenu.c32<br />
-&nbsp;&nbsp;&nbsp;&nbsp;append pxelinux.cfg/admin<br />
-&nbsp;&nbsp;&nbsp;&nbsp;menu passwd<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$4$tek7ROr8$xzFCb2QVEWsc2msx3QsErbRuo0Y$`
-    
-    Please note that both hashed passwords (starting with $4$) should be on the previous lines. There&#8217;s just not enough space for it to show correctly.</li> 
-    
-      * Create a file called &#8220;admin&#8221; that contains the following:
-  
-        `default vesamenu.c32<br />
-timeout 40<br />
-prompt 0<br />
-noescape 1`</p> 
-        `menu title Administrative Tools<br />
-menu background menu.png<br />
-menu master passwd<br />
-&nbsp;&nbsp;$4$tek7ROr8$xzFCb2QVEWsc2msx3QsErbRuo0Y$`
-        
-        `label memtest<br />
-&nbsp;&nbsp;&nbsp;&nbsp;menu label ^Memory tester<br />
-&nbsp;&nbsp;&nbsp;&nbsp;kernel memtest`
-        
-        Once again the hashed password (starting with $4$) should be on the previous line. There&#8217;s just not enough space for it to show correctly.</li> </ol> 
-        
-        If you boot any computer on your network off the NIC, you should see something like this:
-        
-        [<img src="http://cedarandthistle.files.wordpress.com/2010/02/boot-menu.png?w=450" alt="Picture of netboot menu" title="Boot Menu" width="450" height="337" class="alignnone size-full wp-image-128" srcset="/images/2010/02/boot-menu.png 640w, /images/2010/02/boot-menu-300x225.png 300w" sizes="(max-width: 450px) 100vw, 450px" />][7]
-        
-        [<img src="http://cedarandthistle.files.wordpress.com/2010/02/boot-menu-password.png?w=449" alt="Picture of netboot menu asking for a password" title="Boot Menu Password" width="449" height="337" class="alignnone size-full wp-image-129" srcset="/images/2010/02/boot-menu-password.png 639w, /images/2010/02/boot-menu-password-300x225.png 300w" sizes="(max-width: 449px) 100vw, 449px" />][8]
-        
-        [<img src="http://cedarandthistle.files.wordpress.com/2010/02/admin-tools.png?w=449" alt="Picture of Administrative tools menu" title="Administrative Tools" width="449" height="338" class="alignnone size-full wp-image-130" srcset="/images/2010/02/admin-tools.png 639w, /images/2010/02/admin-tools-300x225.png 300w" sizes="(max-width: 449px) 100vw, 449px" />][9]
-        
-        So now you have a double layered menu system with a password required to get to the second layer. For reference&#8217; sake, the current password is &#8220;purple&#8221;, and you can generate your own password by running sha1pass (included in the syslinux package).
-        
-        If you wanted to add other administrative tools, you would add them to the file &#8220;admin&#8221; in netboot. For more information on how to add items to the menu, see [this page][10].
 
- [1]: /2009/10/09/pxe-and-gpxe/
+  2. Run
+     ```
+     yum install syslinux
+     ```
+
+     or, as an alternative, build a newer version of syslinux. I recommend at least 3.75 (the version in Fedora 12), though I&#8217;m using 3.82 at the school.
+
+  3. Copy (at minimum) chain.c32, menu.c32, vesamenu.c32 and pxelinux.0 to &#8220;netboot&#8221; in your web root. (These files will be located in /usr/share/syslinux if you installed the package using yum.) At this point, you&#8217;ll probably want to check for [other modules][5] that might have some potential. We use ifcpu64.c32 to decide between 32-bit and 64-bit Fedora on the computers.
+
+  4. Run:
+     ```
+     yum install memtest86+
+     cp /boot/elf-memtest86+-4.00 \
+     your_web_root/netboot/memtest
+     ```
+
+     (Note that &#8220;your\_web\_root&#8221; will most likely be /var/www/html)
+
+  5. Download [this picture][6] and save it to your\_web\_root/netboot
+
+  6. Change directory to your\_web\_root/netboot
+
+  7. Run
+     ```
+     mkdir pxelinux.cfg
+     cd pxelinux.cfg
+     ```
+
+  8. Create a file called &#8220;default&#8221; that contains the following:
+     ```
+     default vesamenu.c32
+     timeout 40
+     prompt 0
+     noescape 1
+     menu title Boot Options
+     menu background menu.png
+     menu master passwd $4$tek7ROr8$xzFCb2QVEWsc2msx3QsErbRuo0Y$
+    
+     label local
+     menu label ^Boot from hard drive
+     kernel chain.c32
+     append hd0
+    
+     label admin
+     menu label ^Administrative tools
+     kernel vesamenu.c32
+     append pxelinux.cfg/admin
+     menu passwd $4$tek7ROr8$xzFCb2QVEWsc2msx3QsErbRuo0Y$
+     ```
+    
+  9. Create a file called &#8220;admin&#8221; that contains the following:
+     ```
+     default vesamenu.c32
+     timeout 40
+     prompt 0
+     noescape 1
+     menu title Administrative Tools
+     menu background menu.png
+     menu master passwd $4$tek7ROr8$xzFCb2QVEWsc2msx3QsErbRuo0Y$
+        
+     label memtest
+     menu label ^Memory tester
+     kernel memtest
+     ```
+        
+If you boot any computer on your network off the NIC, you should see something like this:
+       
+{{< imgproc "boot-menu.png" Resize "500x" none >}}Main boot menu{{< /imgproc >}}
+{{< imgproc "boot-menu-password" Resize "500x" none >}}Enter your password for Admin tools{{< /imgproc >}}
+{{< imgproc "admin-tools" Resize "500x" none >}}Admin tools{{< /imgproc >}}
+        
+So now you have a double layered menu system with a password required to get to the second layer. For reference&#8217; sake, the current password is &#8220;purple&#8221;, and you can generate your own password by running sha1pass (included in the syslinux package).
+        
+If you wanted to add other administrative tools, you would add them to the file &#8220;admin&#8221; in netboot. For more information on how to add items to the menu, see [this page][10].
+
+ [1]: /posts/2009/10/09/pxe-and-gpxe/
  [2]: http://rom-o-matic.net
- [3]: http://cedarandthistle.files.wordpress.com/2010/02/gpxe.png
  [4]: http://syslinux.zytor.com
  [5]: http://syslinux.zytor.com/wiki/index.php/Category:Comboot
- [6]: http://cedarandthistle.files.wordpress.com/2010/02/menu.png
- [7]: http://cedarandthistle.files.wordpress.com/2010/02/boot-menu.png
- [8]: http://cedarandthistle.files.wordpress.com/2010/02/boot-menu-password.png
- [9]: http://cedarandthistle.files.wordpress.com/2010/02/admin-tools.png
+ [6]: menu.png
  [10]: http://syslinux.zytor.com/wiki/index.php/Comboot/menu.c32

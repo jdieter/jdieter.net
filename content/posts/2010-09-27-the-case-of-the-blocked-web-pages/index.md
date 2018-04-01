@@ -3,7 +3,7 @@ title: The case of the blocked web pages
 author: jdieter
 type: post
 date: 2010-09-27T19:26:26+00:00
-url: /?p=262
+url: /posts/2010/09/27/the-case-of-the-blocked-web-pages
 categories:
   - Computers
 tags:
@@ -19,7 +19,9 @@ tags:
   - windows
 
 ---
-<figure id="attachment_263" style="max-width: 200px" class="wp-caption alignright">[<img src="http://cedarandthistle.files.wordpress.com/2010/09/les_tyre.jpg?w=200" alt="Entrance to Lebanese Evangelical School - Tyre" title="LES Tyre" width="200" height="150" class="size-medium wp-image-263" srcset="/images/2010/09/les_tyre.jpg 1024w, /images/2010/09/les_tyre-300x225.jpg 300w, /images/2010/09/les_tyre-768x576.jpg 768w" sizes="(max-width: 200px) 100vw, 200px" />][1]<figcaption class="wp-caption-text">LES Tyre</figcaption></figure>One of my fears when I set up the network in Tyre [last year][2] was that I would be called out for emergency repair trips. It&#8217;s an hour and quarter each way on a good day, double that if you hit the traffic wrong. And, for those who don&#8217;t know Lebanese traffic, hitting it wrong often involves an unhealthy rise in blood pressure.
+{{< imgproc "les_tyre" Resize "300x" >}}LES Tyre{{< /imgproc >}}
+
+One of my fears when I set up the network in Tyre [last year][2] was that I would be called out for emergency repair trips. It&#8217;s an hour and quarter each way on a good day, double that if you hit the traffic wrong. And, for those who don&#8217;t know Lebanese traffic, hitting it wrong often involves an unhealthy rise in blood pressure.
 
 Anyhow, I had mentally prepared for, at worst, one callout a month. Twelve months later, not one single callout. No emergencies. No &#8220;we need you here _now_&#8221; phone calls. The few times there were problems, I&#8217;d talk Dave (their resident computer expert) through them over the phone or get him to set up a reverse ssh tunnel so I could fix them from here.
 
@@ -67,5 +69,4 @@ If anyone ever works out what the explanation is, I&#8217;d sure love to hear it
 
 Anyhow, if I come up against this again, I&#8217;ll at least have some things to try. Thanks again.
 
- [1]: http://cedarandthistle.files.wordpress.com/2010/09/les_tyre.jpg
- [2]: /2009/09/27/tyre-computers/
+ [2]: /posts/2009/09/27/tyre-computers/

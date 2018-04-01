@@ -3,9 +3,7 @@ title: Sabbatical
 author: jdieter
 type: post
 date: 2011-05-20T18:03:57+00:00
-url: /?p=337
-tagazine-media:
-  - 'a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:6:"664943";s:7:"blog_id";s:7:"9493963";s:9:"mod_stamp";s:19:"2011-05-20 18:03:57";}'
+url: /posts/2011/05/20/sabbatical
 categories:
   - Personal
 

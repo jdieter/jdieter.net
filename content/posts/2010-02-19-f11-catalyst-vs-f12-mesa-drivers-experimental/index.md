@@ -3,7 +3,7 @@ title: F11 Catalyst vs. F12 mesa-drivers-experimental
 author: jdieter
 type: post
 date: 2010-02-19T06:50:52+00:00
-url: /?p=133
+url: /posts/2010/02/19/f11-catalyst-vs-f12-mesa-drivers-experimental
 categories:
   - Computers
 tags:
@@ -45,4 +45,4 @@ Using the open experimental drivers brings me back to the reason I bought ATI in
 _Update_: The story [continues here][2].
 
  [1]: http://bugzilla.rpmfusion.org/show_bug.cgi?id=900
- [2]: /2010/12/30/catalyst-vs-mesa-round-2
+ [2]: /posts/2010/12/30/catalyst-vs-mesa-round-2

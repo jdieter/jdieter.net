@@ -3,7 +3,7 @@ title: Teachers’ laptops
 author: jdieter
 type: post
 date: 2009-09-16T12:52:03+00:00
-url: /?p=6
+url: /posts/2009/09/16/teachers-laptops
 categories:
   - Computers
 tags:
