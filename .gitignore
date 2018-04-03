@@ -1,3 +1,5 @@
+static/google*.html
+static/posts/google*.html
 docs
 resources
 *.swp
