@@ -1,6 +1,7 @@
 ---
 title: A brave new world (of traffic shaping)
 author: jdieter
+description: Why traffic shaping is important, especially when you have a slow internet link
 type: post
 date: 2012-02-04T20:01:42+00:00
 url: /posts/2012/02/04/a-brave-new-world-of-traffic-shaping

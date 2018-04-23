@@ -1,6 +1,7 @@
 ---
 title: Setting up a multiseat system
 author: jdieter
+description: The hardware and software required to setup multiseat systems in Fedora
 type: post
 date: 2013-12-02T12:31:40+00:00
 url: /posts/2013/12/02/setting-up-a-multiseat-system

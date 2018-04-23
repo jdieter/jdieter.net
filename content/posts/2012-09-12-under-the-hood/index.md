@@ -1,6 +1,7 @@
 ---
 title: Under the hood
 author: jdieter
+description: Switching from DRBD+ext4 to ZFS
 type: post
 date: 2012-09-12T19:47:07+00:00
 url: /posts/2012/09/12/under-the-hood

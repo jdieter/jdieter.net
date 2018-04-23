@@ -1,6 +1,7 @@
 ---
 title: Bare-metal Kubernetes
 author: jdieter
+description: Experimenting with Kubernetes and the problems I ran into
 type: post
 date: 2017-04-30T17:36:48+00:00
 url: /posts/2017/04/30/bare-metal-kubernetes/

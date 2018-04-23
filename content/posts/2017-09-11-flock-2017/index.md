@@ -1,6 +1,7 @@
 ---
 title: Flock 2017
 author: jdieter
+description: The highlights of Flock 2017&colon; Atomic Host, Modularity and some thoughts on deltas for repodata
 type: post
 date: 2017-09-11T20:25:56+00:00
 url: /posts/2017/09/11/flock-2017

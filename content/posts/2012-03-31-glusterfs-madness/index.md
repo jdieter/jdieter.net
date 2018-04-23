@@ -1,6 +1,7 @@
 ---
 title: GlusterFS Madness
 author: jdieter
+description: Lessons learned from an attempt to switch from DRBD+btrfs to GlusterFS
 type: post
 date: 2012-03-31T11:49:12+00:00
 url: /posts/2012/03/31/glusterfs-madness

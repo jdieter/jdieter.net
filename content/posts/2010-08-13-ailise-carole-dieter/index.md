@@ -1,6 +1,7 @@
 ---
 title: Ailíse Carole Dieter
 author: jdieter
+description: At 10:25PM on August 12, 2010, Ailíse Carole Dieter was born
 type: post
 date: 2010-08-13T18:42:46+00:00
 url: /posts/2010/08/13/ailise-carole-dieter

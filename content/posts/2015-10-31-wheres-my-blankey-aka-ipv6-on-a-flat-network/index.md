@@ -1,6 +1,7 @@
 ---
 title: Where’s my blankey? (aka IPv6 on a flat network)
 author: jdieter
+description: Our attempt to setup IPv6 on a flat network has led to some interesting issues
 type: post
 date: 2015-10-31T21:33:23+00:00
 url: /posts/2015/10/31/wheres-my-blankey-aka-ipv6-on-a-flat-network

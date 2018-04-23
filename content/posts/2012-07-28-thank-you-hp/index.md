@@ -1,6 +1,7 @@
 ---
 title: Thank you, HP
 author: jdieter
+description: HP honors a US warranty in Lebanon
 type: post
 date: 2012-07-28T12:39:39+00:00
 url: /posts/2012/07/28/thank-you-hp

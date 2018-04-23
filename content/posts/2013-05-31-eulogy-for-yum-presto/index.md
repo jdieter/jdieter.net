@@ -1,6 +1,7 @@
 ---
 title: Eulogy for yum-presto
 author: jdieter
+description: Yum-presto has been retired and its functionality has been merged directly into yum
 type: post
 date: 2013-05-31T20:59:21+00:00
 url: /posts/2013/05/31/eulogy-for-yum-presto

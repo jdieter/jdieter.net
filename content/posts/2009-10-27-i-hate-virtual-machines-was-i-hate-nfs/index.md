@@ -1,6 +1,7 @@
 ---
 title: I hate virtual machines (was I hate NFS)
 author: jdieter
+description: I discover that our server load problems are more closely linked to virtualization rather than NFS
 type: post
 date: 2009-10-27T18:46:30+00:00
 url: /posts/2009/10/27/i-hate-virtual-machines-was-i-hate-nfs

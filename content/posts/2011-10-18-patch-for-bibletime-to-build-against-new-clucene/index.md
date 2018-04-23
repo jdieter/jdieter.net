@@ -1,6 +1,7 @@
 ---
 title: Patch for BibleTime to build against new CLucene
 author: jdieter
+description: I've patched BibleTime so it builds against the newer CLucene
 type: post
 date: 2011-10-18T17:10:16+00:00
 url: /posts/2011/10/18/patch-for-bibletime-to-build-against-new-clucene

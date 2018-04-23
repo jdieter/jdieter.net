@@ -1,6 +1,7 @@
 ---
 title: Account theft (and a small amount of justice)
 author: jdieter
+description: A conversation with a scammer
 type: post
 date: 2012-08-06T20:33:33+00:00
 url: /posts/2012/08/06/account-theft-and-a-small-amount-of-justice

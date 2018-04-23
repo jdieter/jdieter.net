@@ -1,6 +1,7 @@
 ---
 title: The return of Mr. Sparky
 author: jdieter
+description: I am still not an electrician.  Please don't ask me to wire anything.  This is why.
 type: post
 date: 2010-09-08T20:00:44+00:00
 url: /posts/2010/09/08/the-return-of-mr-sparky

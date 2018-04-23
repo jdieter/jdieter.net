@@ -1,6 +1,7 @@
 ---
 title: On Vacation
 author: jdieter
+description: I'm on vacation in beautiful sunny Washington State
 type: post
 date: 2014-06-30T21:43:18+00:00
 url: /posts/2014/07/01/on-vacation

@@ -1,6 +1,7 @@
 ---
 title: Brittle deltas – a possible solution?
 author: jdieter
+description: Why deltarpms are far more brittle than other compression formats and a potential solution
 type: post
 date: 2011-02-16T16:58:50+00:00
 url: /posts/2011/02/16/brittle-deltas-a-possible-solution

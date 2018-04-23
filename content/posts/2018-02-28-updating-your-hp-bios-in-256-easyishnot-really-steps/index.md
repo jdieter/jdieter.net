@@ -1,6 +1,7 @@
 ---
 title: Updating your HP BIOS in 256 easy(ish)(not really) steps
 author: jdieter
+description: Updating your HP laptop's BIOS is ridiculously complicated in Linux
 type: post
 url: /posts/2018/02/28/updating-your-hp-bios-in-256-easyishnot-really-steps
 date: 2018-02-28T19:22:38+00:00

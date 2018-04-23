@@ -1,6 +1,7 @@
 ---
-title: From Fedora 8 to Fedora 12…baby steps
+title: From Fedora 8 to Fedora 12… baby steps
 author: jdieter
+description: I updated from Fedora 8 to Fedora 12 on a system that only provided me with SSH access
 type: post
 date: 2010-03-05T18:35:40+00:00
 url: /posts/2010/03/05/from-fedora-8-to-fedora-12-baby-steps

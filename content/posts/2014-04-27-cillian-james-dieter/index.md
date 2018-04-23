@@ -1,6 +1,7 @@
 ---
 title: Cillian James Dieter
 author: jdieter
+description: At 7:45AM on April 14, 2014, Cillian James Dieter was born
 type: post
 date: 2014-04-27T17:10:58+00:00
 url: /posts/2014/04/27/cillian-james-dieter

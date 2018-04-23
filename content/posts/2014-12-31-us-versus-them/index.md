@@ -1,6 +1,7 @@
 ---
 title: Us Versus Them
 author: jdieter
+description: Dealing with the us versus them attitude towards Red Hat employees in the Fedora development mailing list
 type: post
 date: 2014-12-31T21:29:12+00:00
 url: /posts/2014/12/31/us-versus-them

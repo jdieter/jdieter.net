@@ -1,6 +1,7 @@
 ---
 title: Solving the mystery of the disappearing bluetooth device
 author: jdieter
+description: When the bluetooth module is put into low-power mode, bad things happen
 type: post
 date: 2015-08-23T22:00:20+00:00
 url: /posts/2015/08/24/solving-the-mystery-of-the-disappearing-bluetooth-device

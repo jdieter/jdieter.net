@@ -1,6 +1,7 @@
 ---
 title: Fedora Lebanon
 author: jdieter
+description: A mailing list and chat room for Fedora Lebanon
 type: post
 date: 2010-06-18T20:33:08+00:00
 url: /posts/2010/06/18/fedora-lebanon

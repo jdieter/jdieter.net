@@ -1,6 +1,7 @@
 ---
 title: Managing the unmanageable
 author: jdieter
+description: Why we're switching from unmanaged switches to managed switches
 type: post
 date: 2015-04-29T18:37:07+00:00
 url: /posts/2015/04/29/managing-the-unmanageable

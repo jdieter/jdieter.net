@@ -1,6 +1,7 @@
 ---
 title: A more efficient Presto
 author: jdieter
+description: I've pushed yum-presto-0.7.0 to Rawhide, which fixes most of the small complaints that have built up
 type: post
 date: 2011-07-11T11:13:32+00:00
 url: /posts/2011/07/11/a-more-efficient-presto

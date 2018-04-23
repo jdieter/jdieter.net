@@ -1,6 +1,7 @@
 ---
 title: Using FreeIPA as a backend for DHCP
 author: jdieter
+description: How to setup ISC DHCP to use FreeIPA as its backend
 type: post
 date: 2014-10-22T18:52:47+00:00
 url: /posts/2014/10/22/using-freeipa-as-a-backend-for-dhcp

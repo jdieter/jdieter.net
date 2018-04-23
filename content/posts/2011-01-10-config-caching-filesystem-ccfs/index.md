@@ -1,6 +1,7 @@
 ---
 title: Config Caching Filesystem (ccfs)
 author: jdieter
+description: Creating a fuse filesystem to cache user configuration files
 type: post
 date: 2011-01-10T19:19:18+00:00
 url: /posts/2011/01/10/config-caching-filesystem-ccfs

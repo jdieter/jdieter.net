@@ -1,6 +1,7 @@
 ---
 title: Multiseat and anaconda bugs
 author: jdieter
+description: Multiple bugs when dealing with multiseat systems in Fedora 21
 type: post
 date: 2015-01-31T21:43:31+00:00
 url: /posts/2015/01/31/multiseat-and-anaconda-bugs

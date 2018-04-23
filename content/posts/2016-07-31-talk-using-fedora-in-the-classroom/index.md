@@ -1,6 +1,7 @@
 ---
 title: Talk – Using Fedora in the classroom
 author: jdieter
+description: I'm going to give a talk about using Fedora in the classroom at the Flock conference next week
 type: post
 date: 2016-07-31T13:23:28+00:00
 url: /posts/2016/07/31/talk-using-fedora-in-the-classroom

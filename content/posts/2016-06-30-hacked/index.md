@@ -1,6 +1,7 @@
 ---
 title: Hacked!
 author: jdieter
+description: This year our students managed to get the server's internet speed and break into a teacher's account in LESSON
 type: post
 date: 2016-06-30T19:00:34+00:00
 url: /posts/2016/06/30/hacked

@@ -1,6 +1,7 @@
 ---
 title: Locks in the classroom – 2014
 author: jdieter
+description: The top 3D locks created in Blender by LES students in 2014
 type: post
 date: 2014-03-31T11:25:46+00:00
 url: /posts/2014/03/31/locks-in-the-classroom-2014

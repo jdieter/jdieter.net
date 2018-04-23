@@ -1,6 +1,7 @@
 ---
 title: F11 Catalyst vs. F12 mesa-drivers-experimental
 author: jdieter
+description: A comparison of AMD's proprietary Catalyst drivers and the Free mesa drivers on my ATI video card
 type: post
 date: 2010-02-19T06:50:52+00:00
 url: /posts/2010/02/19/f11-catalyst-vs-f12-mesa-drivers-experimental

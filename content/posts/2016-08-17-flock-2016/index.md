@@ -1,6 +1,7 @@
 ---
 title: Flock 2016
 author: jdieter
+description: Interesting take-aways from Flock 2016
 type: post
 date: 2016-08-17T10:05:49+00:00
 url: /posts/2016/08/17/flock-2016

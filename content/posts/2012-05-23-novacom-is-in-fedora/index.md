@@ -1,6 +1,7 @@
 ---
 title: Novacom is in Fedora
 author: jdieter
+description: Novacom has made it into the Fedora repositories
 type: post
 date: 2012-05-23T11:50:24+00:00
 url: /posts/2012/05/23/novacom-is-in-fedora

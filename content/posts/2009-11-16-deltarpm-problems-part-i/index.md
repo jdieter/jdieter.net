@@ -1,6 +1,7 @@
 ---
 title: Deltarpm problems (Part I)
 author: jdieter
+description: How the use of file "colors" fixes multi-arch installable RPMS, while reducing the delta savings on binaries in /usr/bin
 type: post
 date: 2009-11-16T19:16:08+00:00
 url: /posts/2009/11/16/deltarpm-problems-part-i

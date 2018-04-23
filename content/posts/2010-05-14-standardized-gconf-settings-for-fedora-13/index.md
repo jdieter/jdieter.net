@@ -1,6 +1,7 @@
 ---
 title: Standardized gconf settings for Fedora 13
 author: jdieter
+description: How to setup default and mandatory gconf settings for Fedora 13
 type: post
 date: 2010-05-14T21:55:11+00:00
 url: /posts/2010/05/14/standardized-gconf-settings-for-fedora-13

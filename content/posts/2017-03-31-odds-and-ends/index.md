@@ -1,6 +1,7 @@
 ---
 title: Odds and ends
 author: jdieter
+description: A collection of short notes about FOSDEM, OpenWRT, LizardFS and history
 type: post
 date: 2017-03-31T18:25:15+00:00
 url: /posts/2017/03/31/odds-and-ends

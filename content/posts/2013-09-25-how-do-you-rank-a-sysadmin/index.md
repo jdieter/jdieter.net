@@ -1,6 +1,7 @@
 ---
 title: How do you rank a sysadmin?
 author: jdieter
+description: TrueAbility's Linux Showdown review
 type: post
 date: 2013-09-25T18:49:38+00:00
 url: /posts/2013/09/25/how-do-you-rank-a-sysadmin

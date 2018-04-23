@@ -1,6 +1,7 @@
 ---
 title: The case of the blocked web pages
 author: jdieter
+description: Tracking down why our proxy server is blocking web pages
 type: post
 date: 2010-09-27T19:26:26+00:00
 url: /posts/2010/09/27/the-case-of-the-blocked-web-pages

@@ -1,6 +1,7 @@
 ---
 title: Deltarpm problems (Part II)
 author: jdieter
+description: Further discussion of deltarpm's limitations when it comes to changing compression algorithms and pre-compressed files
 type: post
 date: 2009-12-29T18:30:53+00:00
 url: /posts/2009/12/29/deltarpm-problems-part-ii

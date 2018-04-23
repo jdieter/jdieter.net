@@ -1,6 +1,7 @@
 ---
 title: On vacation
 author: jdieter
+description: I'm on vacation in beautiful sunny Ireland
 type: post
 date: 2015-06-30T17:04:03+00:00
 url: /posts/2015/06/30/on-vacation-2

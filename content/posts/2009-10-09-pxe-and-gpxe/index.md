@@ -1,6 +1,7 @@
 ---
 title: PXE and gPXE
 author: jdieter
+description: A short walkthrough on setting up gPXE chainloading
 type: post
 date: 2009-10-09T09:35:32+00:00
 url: /posts/2009/10/09/pxe-and-gpxe

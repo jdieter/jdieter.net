@@ -1,6 +1,7 @@
 ---
 title: Virtualizing Windows (and simplifying my life)
 author: jdieter
+description: We switched our accountants over from Windows to Windows VMs on Linux and made their lives much easier
 type: post
 date: 2015-12-31T20:36:16+00:00
 url: /posts/2015/12/31/virtualizing-windows-and-simplifying-my-life

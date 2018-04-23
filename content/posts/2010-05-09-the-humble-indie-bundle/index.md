@@ -1,6 +1,7 @@
 ---
 title: The Humble Indie Bundle
 author: jdieter
+description: A bunch of independent video game developers have put together a fundraiser for the EFF and Childsplay
 type: post
 date: 2010-05-09T18:01:17+00:00
 url: /posts/2010/05/09/the-humble-indie-bundle

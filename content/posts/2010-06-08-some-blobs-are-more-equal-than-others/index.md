@@ -1,6 +1,7 @@
 ---
 title: Some blobs are more equal than others
 author: jdieter
+description: Proprietary firmware in the Linux kernel
 type: post
 date: 2010-06-08T18:57:37+00:00
 url: /posts/2010/06/08/some-blobs-are-more-equal-than-others

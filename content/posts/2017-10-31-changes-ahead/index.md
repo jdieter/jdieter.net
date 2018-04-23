@@ -1,6 +1,7 @@
 ---
 title: Changes ahead
 author: jdieter
+description: This school year will be our family's last in Lebanon
 type: post
 date: 2017-10-31T13:52:39+00:00
 url: /posts/2017/10/31/changes-ahead/

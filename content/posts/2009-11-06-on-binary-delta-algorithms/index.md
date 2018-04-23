@@ -1,6 +1,7 @@
 ---
 title: On binary delta algorithms
 author: jdieter
+description: A detailed description of the Courgette algorithm and how it compares to the bsdiff algorithm
 type: post
 date: 2009-11-06T18:49:44+00:00
 url: /posts/2009/11/06/on-binary-delta-algorithms

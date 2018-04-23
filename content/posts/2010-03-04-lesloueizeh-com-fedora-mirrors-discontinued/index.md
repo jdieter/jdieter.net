@@ -1,6 +1,7 @@
 ---
 title: lesloueizeh.com Fedora mirrors discontinued
 author: jdieter
+description: The Fedora yum-presto test repositories hosted on lesloueizeh.com have been discontinued
 type: post
 date: 2010-03-04T19:02:06+00:00
 url: /posts/2010/03/04/lesloueizeh-com-fedora-mirrors-discontinued

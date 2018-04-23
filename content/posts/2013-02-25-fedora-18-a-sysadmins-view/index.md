@@ -1,6 +1,7 @@
 ---
 title: Fedora 18 – A Sysadmin’s view
 author: jdieter
+description: An overview of Fedora 18 from a system administrator's point of view
 type: post
 date: 2013-02-25T20:17:33+00:00
 url: /posts/2013/02/25/fedora-18-a-sysadmins-view

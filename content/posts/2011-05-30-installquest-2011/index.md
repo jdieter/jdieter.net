@@ -1,6 +1,7 @@
 ---
 title: InstallQuest 2011
 author: jdieter
+description: The idea of the InstallQuest is to mix installing Linux on participant's computers with short lessons on how to use their new desktops
 type: post
 date: 2011-05-30T15:56:59+00:00
 url: /posts/2011/05/30/installquest-2011

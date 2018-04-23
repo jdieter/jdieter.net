@@ -1,6 +1,7 @@
 ---
 title: Multiseat systems and the NVIDIA binary driver
 author: jdieter
+description: How libglvnd allows us to setup multiseat systems with a mixture of open and proprietary drivers
 type: post
 date: 2016-11-30T19:37:15+00:00
 url: /posts/2016/11/30/multiseat-systems-and-the-nvidia-binary-driver

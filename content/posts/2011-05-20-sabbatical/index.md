@@ -1,6 +1,7 @@
 ---
 title: Sabbatical
 author: jdieter
+description: My family and I will be going on a six-month sabbatical from Lebanon
 type: post
 date: 2011-05-20T18:03:57+00:00
 url: /posts/2011/05/20/sabbatical

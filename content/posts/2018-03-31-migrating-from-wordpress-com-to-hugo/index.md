@@ -1,6 +1,7 @@
 ---
 title: Migrating from wordpress.com to Hugo
 author: jdieter
+description: A brief walkthrough of the process of switching from Wordpress to Hugo
 type: post
 url: /posts/2018/03/31/migrating-from-wordpress-com-to-hugo
 date: 2018-03-31

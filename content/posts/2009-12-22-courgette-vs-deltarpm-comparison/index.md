@@ -2,6 +2,7 @@
 title: Courgette vs. deltarpm comparison
 author: jdieter
 type: post
+description: A quick comparison of deltarpm's savings as compared to Google's courgette algorithm
 date: 2009-12-22T14:59:34+00:00
 url: /posts/2009/12/22/courgette-vs-deltarpm-comparison
 categories:

@@ -1,6 +1,7 @@
 ---
 title: Finishing the LESSON
 author: jdieter
+description: How the second-system effect has stuck LESSON in a rut
 type: post
 date: 2016-04-30T19:00:31+00:00
 url: /posts/2016/04/30/finishing-the-lesson

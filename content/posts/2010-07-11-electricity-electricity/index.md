@@ -1,6 +1,7 @@
 ---
 title: Electricity, electricity
 author: jdieter
+description: I am not an electrician. I do not wish to be an electrician.  This is why.
 type: post
 date: 2010-07-11T16:26:36+00:00
 url: /posts/2010/07/11/electricity-electricity

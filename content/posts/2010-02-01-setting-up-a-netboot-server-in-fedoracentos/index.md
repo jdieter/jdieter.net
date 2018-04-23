@@ -1,6 +1,7 @@
 ---
 title: Setting up a netboot server in Fedora/CentOS
 author: jdieter
+description: A walkthrough on how to setup a netboot server for Fedora or CentOS
 type: post
 date: 2010-02-01T20:18:14+00:00
 url: /posts/2010/02/01/setting-up-a-netboot-server-in-fedoracentos

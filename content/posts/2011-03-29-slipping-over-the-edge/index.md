@@ -1,6 +1,7 @@
 ---
 title: Slipping over the edge
 author: jdieter
+description: A close call with a filesystem that was completely unreadable - and not backed up
 type: post
 date: 2011-03-29T18:48:22+00:00
 url: /posts/2011/03/29/slipping-over-the-edge

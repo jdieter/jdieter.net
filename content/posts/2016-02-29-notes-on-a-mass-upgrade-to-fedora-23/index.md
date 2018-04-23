@@ -1,6 +1,7 @@
 ---
 title: Notes on a mass upgrade to Fedora 23
 author: jdieter
+description: The beauty of using ansible to configure site-wide settings for our Fedora workstations
 type: post
 date: 2016-02-29T19:28:24+00:00
 url: /posts/2016/02/29/notes-on-a-mass-upgrade-to-fedora-23

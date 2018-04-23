@@ -1,6 +1,7 @@
 ---
 title: Deltarpms (mostly) fixed in Fedora
 author: jdieter
+description: A quick update on some bugs in deltarpm generation in Fedora
 type: post
 date: 2010-06-25T18:50:47+00:00
 url: /posts/2010/06/25/deltarpms-mostly-fixed-in-fedora

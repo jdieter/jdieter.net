@@ -1,6 +1,7 @@
 ---
 title: Summer work
 author: jdieter
+description: Some plans for my summer vacation in Washington State
 type: post
 date: 2017-07-31T08:48:08+00:00
 url: /posts/2017/07/31/summer-work

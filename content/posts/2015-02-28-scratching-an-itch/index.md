@@ -1,6 +1,7 @@
 ---
 title: Scratching an itch
 author: jdieter
+description: We've started to use Scratch to teach programming to our grade ten students
 type: post
 date: 2015-02-28T20:41:30+00:00
 url: /posts/2015/02/28/scratching-an-itch

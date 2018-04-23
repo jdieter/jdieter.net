@@ -1,6 +1,7 @@
 ---
 title: Locks in the classroom – 2017
 author: jdieter
+description: The top 3D locks created in Blender by LES students in 2017
 type: post
 date: 2017-05-31T18:19:02+00:00
 url: /posts/2017/05/31/locks-in-the-classroom-2017

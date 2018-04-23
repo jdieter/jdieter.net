@@ -1,6 +1,7 @@
 ---
 title: Goodbye GDM (for the moment)
 author: jdieter
+description: Switching from GDM to lxdm on our Fedora desktops
 type: post
 date: 2012-02-08T14:39:05+00:00
 url: /posts/2012/02/08/goodbye-gdm-for-the-moment

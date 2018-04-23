@@ -1,6 +1,7 @@
 ---
 title: Catalyst vs. Mesa (round 2)
 author: jdieter
+description: More problems with AMD's binary Catalyst drivers and the open source Mesa drivers
 type: post
 date: 2010-12-30T16:10:31+00:00
 url: /posts/2010/12/30/catalyst-vs-mesa-round-2

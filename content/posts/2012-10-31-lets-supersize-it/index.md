@@ -1,6 +1,7 @@
 ---
 title: Let’s supersize it!
 author: jdieter
+description: XBMC on a 39" TV
 type: post
 date: 2012-10-31T20:45:50+00:00
 url: /posts/2012/10/31/lets-supersize-it

@@ -1,6 +1,7 @@
 ---
 title: Robot Tag
 author: jdieter
+description: Our robot club had robots playing "Robot Tag" on the stage during our school's 150th anniversary celebrations
 type: post
 date: 2010-04-23T20:06:19+00:00
 url: /posts/2010/04/23/robot-tag

@@ -1,6 +1,7 @@
 ---
 title: Better Building
 author: jdieter
+description: Using koji to store site-wide desktop configuration
 type: post
 date: 2010-07-22T12:08:43+00:00
 url: /posts/2010/07/22/better-building

@@ -1,6 +1,7 @@
 ---
 title: Autobackup to Linux from the Samsung NX300M
 author: jdieter
+description: How to automatically backup your photos from a Samsmung NX300M to a Linux server
 type: post
 date: 2014-11-01T20:16:58+00:00
 url: /posts/2014/11/01/autobackup-to-linux-from-the-samsung-nx300m

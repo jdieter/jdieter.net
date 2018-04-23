@@ -1,6 +1,7 @@
 ---
 title: Eoin Kelly Dieter
 author: jdieter
+description: At 12:30PM on June 5, 2012, Eoin Kelly Dieter was born
 type: post
 date: 2012-06-07T18:47:28+00:00
 url: /posts/2012/06/07/eoin-kelly-dieter

@@ -1,6 +1,7 @@
 ---
 title: Back to the (i386) bottle
 author: jdieter
+description: Problems with x86_64 mean going back to i386
 type: post
 date: 2010-12-10T16:49:10+00:00
 url: /posts/2010/12/10/back-to-the-i386-bottle

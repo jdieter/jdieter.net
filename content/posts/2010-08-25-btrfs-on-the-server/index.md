@@ -1,6 +1,7 @@
 ---
 title: btrfs on the server
 author: jdieter
+description: Using btrfs to store daily snapshots of our server data
 type: post
 date: 2010-08-24T22:18:37+00:00
 url: /posts/2010/08/25/btrfs-on-the-server

@@ -1,6 +1,7 @@
 ---
 title: Will you sell your integrity for $10?
 author: jdieter
+description: The ordeal of buying a new digital camera from a site with a less than stellar reputation
 type: post
 date: 2011-12-29T04:33:14+00:00
 url: /posts/2011/12/29/will-you-sell-your-integrity-for-10

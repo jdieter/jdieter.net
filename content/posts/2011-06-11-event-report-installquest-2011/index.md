@@ -1,6 +1,7 @@
 ---
 title: 'Event Report: InstallQuest 2011'
 author: jdieter
+description: We had a blast at the InstallQuest last Friday!  Roughly 20 people showed up, most of them students from LES Loueizeh and LES Tyre
 type: post
 date: 2011-06-11T19:56:46+00:00
 url: /posts/2011/06/11/event-report-installquest-2011

@@ -1,6 +1,7 @@
 ---
 title: Multiseat in Fedora 19
 author: jdieter
+description: Walking through the process of setting up multiseat systems in Fedora 19
 type: post
 date: 2013-11-30T20:22:34+00:00
 url: /posts/2013/11/30/multiseat-in-fedora-19

@@ -1,6 +1,7 @@
 ---
 title: The Nokia N900
 author: jdieter
+description: I review my brand new Nokia N900
 type: post
 date: 2010-01-22T19:54:14+00:00
 url: /posts/2010/01/22/the-nokia-n900

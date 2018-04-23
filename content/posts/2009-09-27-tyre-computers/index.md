@@ -1,6 +1,7 @@
 ---
 title: Tyre Computers
 author: jdieter
+description: Installing LESSON in a new school
 type: post
 date: 2009-09-27T18:03:54+00:00
 url: /posts/2009/09/27/tyre-computers

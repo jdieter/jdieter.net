@@ -1,6 +1,7 @@
 ---
 title: I hate NFS
 author: jdieter
+description: I describe the problems we ran into when setting up our NFS servers
 type: post
 date: 2009-10-25T18:16:35+00:00
 url: /posts/2009/10/25/i-hate-nfs

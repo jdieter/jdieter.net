@@ -1,6 +1,7 @@
 ---
 title: The phone is dead, long live the phone
 author: jdieter
+description: Switching from the Nokia N900 to the HP Veer
 type: post
 date: 2011-09-17T06:54:01+00:00
 url: /posts/2011/09/17/the-phone-is-dead-long-live-the-phone

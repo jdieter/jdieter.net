@@ -1,6 +1,7 @@
 ---
 title: Novacom for Fedora
 author: jdieter
+description: Novacom is a utility that allows you to connect to a WebOS device via it's USB cable and is now packaged in Fedora
 type: post
 date: 2012-04-02T16:01:04+00:00
 url: /posts/2012/04/02/novacom-for-fedora

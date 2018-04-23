@@ -1,6 +1,7 @@
 ---
 title: Freeswitch vs. Asterisk?
 author: jdieter
+description: What are the advantages and disadvantages of using Freeswitch versus Asterisk?
 type: post
 date: 2015-11-30T20:08:02+00:00
 url: /posts/2015/11/30/freeswitch-vs-asterisk

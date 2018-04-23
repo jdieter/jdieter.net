@@ -1,6 +1,7 @@
 ---
 title: Canon copier/printer on Fedora
 author: jdieter
+description: How to print straight to a Canon copier in Fedora
 type: post
 date: 2014-05-31T20:59:33+00:00
 url: /posts/2014/05/31/canon-copierprinter-on-fedora

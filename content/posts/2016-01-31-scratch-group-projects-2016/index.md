@@ -1,6 +1,7 @@
 ---
 title: Scratch group projects – 2016
 author: jdieter
+description: 2016's Scratch games, created by this year's grade ten students
 type: post
 date: 2016-01-31T20:47:28+00:00
 url: /posts/2016/01/31/scratch-group-projects-2016

@@ -1,6 +1,7 @@
 ---
 title: Multiseat systems and the NVIDIA binary driver (update)
 author: jdieter
+description: An update on how to make using different graphics drivers on the same computer just work
 type: post
 date: 2016-12-31T20:20:00+00:00
 url: /posts/2016/12/31/multiseat-systems-and-the-nvidia-binary-driver-update

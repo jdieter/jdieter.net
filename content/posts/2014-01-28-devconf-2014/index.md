@@ -1,6 +1,7 @@
 ---
 title: DevConf 2014
 author: jdieter
+description: Looking forward to attending DevConf 2014 in Brno
 type: post
 date: 2014-01-28T17:51:04+00:00
 url: /posts/2014/01/28/devconf-2014

@@ -1,6 +1,7 @@
 ---
 title: Benchmarking small file performance on distributed filesystems
 author: jdieter
+description: I ran some benchmarks on small file performance using GlusterFS, CephFS and LizardFS.  Here are the results
 type: post
 date: 2017-08-14T07:41:05+00:00
 url: /posts/2017/08/14/benchmarking-small-file-performance-on-distributed-filesystems

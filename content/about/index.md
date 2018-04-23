@@ -1,11 +1,12 @@
 ---
 title: About Me
+description: I am the senior system administrator for the Lebanon Evangelical School, the lead computer teacher and a Fedora packager
 date: 2018-03-31
 showthedate: false
 ---
 {{< imgproc "SAM_8909" Resize "300x" />}}
 
-I am the senior system administrator at the [Lebanon Evangelical School][1], where I've accomplished the following: 
+I am the senior system administrator for the [Lebanon Evangelical School][1], where I've accomplished the following:
 
  * Set up a [distributed filesystem][2] to store all school information including 2000+ home directories.  The filesystem was configured with three-way replication and daily snapshots
  * Implemented a three-way cluster of [FreeIPA][10] to store accounts of around 2000 students and staff, along with DNS configuration and DHCP IP mappings

@@ -1,6 +1,7 @@
 ---
 title: Scratch group projects – 2018
 author: jdieter
+description: 2018's Scratch games, created by this year's grade ten students
 type: post
 date: 2018-01-30T18:36:41+00:00
 url: /posts/2018/01/30/scratch-group-projects-2018

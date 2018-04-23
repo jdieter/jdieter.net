@@ -1,6 +1,7 @@
 ---
 title: From NFS to LizardFS
 author: jdieter
+description: We're switching from NFS on ZFS to LizardFS for better performance
 type: post
 date: 2016-09-30T20:59:26+00:00
 url: /posts/2016/09/30/from-nfs-to-lizardfs

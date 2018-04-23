@@ -1,6 +1,7 @@
 ---
 title: LESSON breaks free
 author: jdieter
+description: Setting up two-way replication with our web-based marking system
 type: post
 date: 2010-11-15T11:19:15+00:00
 url: /posts/2010/11/15/lesson-breaks-free
