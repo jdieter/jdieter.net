@@ -6,7 +6,7 @@ publishDir = "docs"
 
 [params]
     name = "Jonathan Dieter"
-    description = "A system administrator with a passon for open source and a love of teaching"
+    description = "A system administrator with a passion for open source and a love of teaching"
     email = "jdieter@gmail.com"
     phone = "+1 360 763 6230"
     address = "8641 Spirit Lake Hwy, Toutle, WA 98649, USA"
