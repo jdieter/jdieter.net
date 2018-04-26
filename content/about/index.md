@@ -2,6 +2,7 @@
 title: About Me
 description: I am the senior system administrator for the Lebanon Evangelical School, the lead computer teacher and a Fedora packager
 date: 2018-03-31
+type: about
 showthedate: false
 ---
 {{< imgproc "SAM_8909" Resize "300x" />}}

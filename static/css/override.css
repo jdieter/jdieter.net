@@ -12,3 +12,21 @@
   padding: 30px 0 35px 0;
 }
 
+.listentry {
+  font-weight: 300;
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+
+.listdate {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  font-size: 0.75rem;
+  font-style: italic;
+  font-weight: normal;
+  color: #a5a5a5;
+}
+
+.listdescr {
+  margin: 0 0 15px 0;
+}

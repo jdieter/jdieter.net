@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Jonathan Dieter"
 theme = "hugo-initio"
 publishDir = "docs"
+paginate = 2
 
 [params]
     name = "Jonathan Dieter"
@@ -29,14 +30,19 @@ publishDir = "docs"
     custom_css = ["css/override.css"]
 
 [[menu.main]]
-    name = "blog"
-    url = "/posts/"
+    name = "home"
+    url = "/"
     weight = 1
+
+[[menu.main]]
+    name = "posts"
+    url = "/posts"
+    weight = 2
 
 [[menu.main]]
     name = "about"
     url = "/about"
-    weight = 2
+    weight = 3
 
 #[[menu.main]]
 #    name = "projects"
