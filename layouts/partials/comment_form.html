@@ -1,20 +1,27 @@
 <section class="comment_form">
     <a id="comment-form"></a>
-    <h3>Comment:</h3>
 
     <form class="post-new-comment" method="POST" action="https://www.jdieter.net/staticman/v2/entry/jdieter/jdieter.net/master/comments">
         <input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">
+        <input type="hidden" name="options[redirectError]" value="{{ .Permalink }}#comment-error">
         <input type="hidden" name="options[entryId]" value="{{ .UniqueID }}">
         <input name="fields[name]" type="text" class="post-comment-field" placeholder="Your name">
         <input name="fields[email]" type="email" class="post-comment-field" placeholder="Your email address">
         <textarea name="fields[message]" class="post-comment-field" placeholder="Your message. Feel free to use Markdown." rows="10"></textarea>
         <input type="submit" class="post-comment-field btn" value="Submit">
+        <p>&nbsp;</p>
     </form>
+
+
+    <div id="comment-submitted" class="dialog">
+        <h3>Thank you</h3>
+        <p>Your comment has been submitted and will be published once it has been approved.</p>
+        <p><a href="#" class="btn">OK</a></p>
+    </div>
+
+    <div id="comment-error" class="dialog">
+        <h3>There was a problem</h3>
+        <p>Your post has not been submitted.  Please return to the page and try again.</p>
+        <p><a href="#" class="btn">OK</a></p>
+    </div>
 </section>
-
-<div id="comment-submitted" class="dialog">
-<h3>Thank you</h3>
-  <p>Your comment has been submitted and will be published once it has been approved.</p>
-  <p><a href="https://github.com/eduardoboucas/hugo-plus-staticman/pulls">Click here</a> to see the pull request you generated.</p>
-
-<p><a href="#" class="btn">OK</a></p>
