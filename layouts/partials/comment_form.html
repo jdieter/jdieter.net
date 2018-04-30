@@ -4,7 +4,7 @@
 
     <form class="post-new-comment" method="POST" action="https://www.jdieter.net/staticman/v2/entry/jdieter/jdieter.net/master/comments">
         <input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">
-        <input type="hidden" name="options[entryId]" value="{{ .File.BaseFileName }}">
+        <input type="hidden" name="options[entryId]" value="{{ .UniqueID }}">
         <input name="fields[name]" type="text" class="post-comment-field" placeholder="Your name">
         <input name="fields[email]" type="email" class="post-comment-field" placeholder="Your email address">
         <textarea name="fields[message]" class="post-comment-field" placeholder="Your message. Feel free to use Markdown." rows="10"></textarea>
