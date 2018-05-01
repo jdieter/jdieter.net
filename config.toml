@@ -30,6 +30,22 @@ paginate = 2
     custom_css = ["css/override.css"]
     staticman_api = "https://www.jdieter.net/staticman/v2/connect/jdieter/jdieter.net"
 
+[mediaTypes]
+    [mediaTypes."application/atom"]
+        suffix = "xml"
+
+    [outputFormats.Atom]
+        mediaType = "application/atom"
+        baseName = "index"
+        isPlainText = false
+
+[outputs]
+    home = [ "HTML", "Atom" ]
+    section = [ "HTML", "Atom" ]
+    pages = [ "HTML" ]
+    taxonomyTerm = [ "HTML" ]
+    taxonomy = [ "HTML", "Atom" ]
+
 [[menu.main]]
     name = "home"
     url = "/"
