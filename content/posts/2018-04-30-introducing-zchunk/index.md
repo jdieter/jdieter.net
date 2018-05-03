@@ -35,9 +35,11 @@ zchunk-0.4.0 is available [for download][5], and, if you're running Fedora or RH
 
 Development is currently on [GitHub][7].
 
+**Updated 05/03/2018 to point to new repository location**
+
  [2]: http://zsync.moria.org.uk
  [3]: https://github.com/systemd/casync
- [4]: https://github.com/jdieter/zchunk/blob/master/zchunk_format.txt
- [5]: https://github.com/jdieter/zchunk/archive/0.4.0.tar.gz
+ [4]: https://github.com/zchunk/zchunk/blob/master/zchunk_format.txt
+ [5]: https://github.com/zchunk/zchunk/archive/0.4.0.tar.gz
  [6]: https://copr.fedorainfracloud.org/coprs/jdieter/zchunk/
- [7]: https://github.com/jdieter/zchunk
+ [7]: https://github.com/zchunk/zchunk
