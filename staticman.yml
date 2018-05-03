@@ -11,6 +11,9 @@ comments:
 
   akismet:
       enabled: true
+      content: "{fields.message}"
+      author: "{fields.name}"
+      authorEmail: "{fields.email}"
 
   # (*) REQUIRED
   #
