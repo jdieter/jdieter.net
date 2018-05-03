@@ -9,7 +9,8 @@ comments:
   # not here is part of the request, an error will be thrown.
   allowedFields: ["name", "email", "url", "message"]
 
-  akismet.enabled: true
+  akismet:
+      enabled: true
 
   # (*) REQUIRED
   #
