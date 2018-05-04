@@ -1,0 +1,15 @@
+_id: 2b9498d0-ec2a-45f7-86d5-8f9f85663f8c
+name: Andre Robatino
+date: '2011-02-16T20:11:55Z'
+message: >-
+  The problem is magnified with deltaisos, since each contains a large number of
+  deltarpms, every one of which must rebuild properly. And one can make useful
+  disos between ISOs which are far apart - for example, in Fedora, a diso from
+  (N-1) Final to N Final is typically around half the size of the full ISO. But
+  this makes it much more likely that a compression change will happen over this
+  period - Final releases happen twice a year, so if a compression change
+  happens once every 2 years, about 1/4 of these disos are potentially unusable,
+  which means they are probably too unreliable at this point to catch on. Which
+  is a shame, since someone who now downloads the full DVD every release could
+  potentially cut this download in half.
+email: b615ed111c47f5ccae72f35c30a60996

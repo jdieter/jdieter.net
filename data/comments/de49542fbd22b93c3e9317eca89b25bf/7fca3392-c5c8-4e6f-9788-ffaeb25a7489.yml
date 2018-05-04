@@ -1,0 +1,9 @@
+_id: 7fca3392-c5c8-4e6f-9788-ffaeb25a7489
+name: Kevin Kofler
+date: '2014-06-01T05:05:06Z'
+message: >-
+  Since this printer supports PCL: Have you tried just using the "Generic PCL"
+  configurations (using Gutenprint) or passing the printer off as one of the
+  PCL-based HP models (using HPLIP)? You shouldn't need any custom driver for a
+  PCL printer.
+email: a5021d9fe31c6f06063c89f96bcfc83f

@@ -1,0 +1,5 @@
+_id: fe4f894c-b9d4-45d8-a0ee-546d7a6dca6b
+name: Jonathan Dieter
+date: '2017-08-21T06:34:53Z'
+message: "Sorry for the delay.\r\nThe output of \"gluster volume info gv0\" is:\r\n<pre>\r\nVolume Name: gv0\r\nType: Replicate\r\nVolume ID: 35d96376-c816-42a3-a52c-4663bcc2fe00\r\nStatus: Started\r\nSnapshot Count: 0\r\nNumber of Bricks: 1 x 3 = 3\r\nTransport-type: tcp\r\nBricks:\r\nBrick1: virthost01:/var/lib/gluster\r\nBrick2: virthost02:/var/lib/gluster\r\nBrick3: virthost03:/var/lib/gluster\r\nOptions Reconfigured:\r\ntransport.address-family: inet\r\nperformance.readdir-ahead: on\r\nnfs.disable: on\r\n</pre>\r\n\r\nEDIT: Sorry, just saw that you asked for a bit more than just my gluster configuration.  For all the tests except NFS, I had three servers storing three replicas and ten clients running simultaneously on each server for the 30-client tests.  The servers were connected to each other using a 1GB Mikrotik switch.  If you need any other details, please ask."
+email: 2989973109b7f97b1c00ffe643925b4b

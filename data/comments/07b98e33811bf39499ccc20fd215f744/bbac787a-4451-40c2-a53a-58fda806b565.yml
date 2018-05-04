@@ -1,0 +1,13 @@
+_id: bbac787a-4451-40c2-a53a-58fda806b565
+name: Stephen Smoogen
+date: '2009-10-26T23:30:18Z'
+message: >-
+  You are going to see some load issues with the virtual nature you have set up.
+  There is an IO latency of talking to the disks that the nature of the network
+  disk services are not going to be very acceptable of and have performance.
+  What can happen is that another virtual machine talking to the disks will tie
+  up the channel to talk to the spindles and the other virtual machines begin to
+  cascade if they are trying to talk to the disks too. The usual ways of dealing
+  with this are giving the network disk servers (be it CIFS, NFS, or netware)
+  dedicated iocontrollers and disks.
+email: 6b8f9e77364ff35bc853c0e98e5909af

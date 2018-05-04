@@ -1,0 +1,5 @@
+_id: e3bdd344-4180-4024-92b0-7f589ffcae2f
+name: Jonathan Dieter
+date: '2010-06-09T08:36:08Z'
+message: "Just to clarify Fedora's policies: firmware can be packaged in Fedora if it is freely redistributable, even if it can't be modified.  That's why Intel wifi works out of the box in Fedora, even though its firmware is proprietary.  It is perfectly legal to distribute Intel's firmware without Intel's explicit permission because it's freely redistributable.\r\n\r\nRMS is saying that that Fedora *shouldn't* include Intel's firmware because it's not truly Free software.  But, if Intel burned the firmware into their wifi cards, that wouldn't be a problem for him.  This is the part that I find so inconsistent."
+email: 2989973109b7f97b1c00ffe643925b4b

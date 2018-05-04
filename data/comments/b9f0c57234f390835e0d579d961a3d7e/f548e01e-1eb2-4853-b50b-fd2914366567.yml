@@ -1,0 +1,5 @@
+_id: f548e01e-1eb2-4853-b50b-fd2914366567
+name: nim
+date: '2010-06-09T17:24:52Z'
+message: "When firmware is burned in a ROM it severely limits the creativity of the firmware authors (because if there are mistakes there is no way to fix the hardware short of a recall). Non updatable firmware is usually very simple and limited to the strict minimum needed by the hardware.\r\n\r\nWhen firmware is updatable, vendors include all sorts of borderline \"features\", because they feel that even if they don't work out they can always release an update (an example is the PS3 firmware update that changed the terms of service). That makes it *very* dangerous not to have the firmware source."
+email: 95e7e471434272de7cd0703ca369b88d

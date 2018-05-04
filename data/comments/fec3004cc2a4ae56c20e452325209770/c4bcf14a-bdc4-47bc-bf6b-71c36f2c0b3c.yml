@@ -1,0 +1,7 @@
+_id: c4bcf14a-bdc4-47bc-bf6b-71c36f2c0b3c
+name: bogado
+date: '2009-11-19T13:03:30Z'
+message: >-
+  just out of curiositym cpio streams are compressed or do rpm compress them
+  after (like a tar | gz)?
+email: d623906de58d8530c4efbc8f19102e86

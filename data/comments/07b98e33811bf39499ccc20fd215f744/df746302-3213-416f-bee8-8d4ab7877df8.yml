@@ -1,0 +1,8 @@
+_id: df746302-3213-416f-bee8-8d4ab7877df8
+name: Jonathan Dieter
+date: '2009-10-26T10:39:41Z'
+message: >-
+  We are definitely *not* using qcow2, though we are using kvm.  We have the
+  drbd drives being passed straight through to the virtual machine, which should
+  mean a small speed decrease, not the 2-3x that we're seeing.
+email: 2989973109b7f97b1c00ffe643925b4b

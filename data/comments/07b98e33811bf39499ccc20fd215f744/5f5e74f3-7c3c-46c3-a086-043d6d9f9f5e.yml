@@ -1,0 +1,5 @@
+_id: 5f5e74f3-7c3c-46c3-a086-043d6d9f9f5e
+name: Jonathan Dieter
+date: '2009-10-26T15:31:56Z'
+message: "We are exporting async and have data=writeback on the filesystem.  I'm not sure why the load is never 0, though I suspect that it's because we have people on the network at all times (there are several people who live in or near the school, including myself).\r\n\r\nI use DRBD because it seemed to be the easiest fast RAID-1-over-network setup I could find (I tried glusterfs and it failed miserably in speed).  LVM is used to essentially RAID-0 two 1TB hard drives.\r\n\r\nThe main reason I would like to run all this in a VM is it makes maintenance at a low level far easier than on a real machine.  For example, I'm already creating a new fileserver running Fedora, just to see if the newer kernel/packages will fix anything.  If it doesn't, I can just revert to the old fileserver.\r\n\r\nHaving said all that, I'm very quickly running out of ideas, and will probably revert to running NFS on the main server (or splitting fileserver into a pair of real machines that are clustered)."
+email: 2989973109b7f97b1c00ffe643925b4b

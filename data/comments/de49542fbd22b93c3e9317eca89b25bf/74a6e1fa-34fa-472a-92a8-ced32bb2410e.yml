@@ -1,0 +1,5 @@
+_id: 74a6e1fa-34fa-472a-92a8-ced32bb2410e
+name: Jonathan Dieter
+date: '2014-06-01T09:36:12Z'
+message: "Thanks, Kevin, for the suggestions.  I did try the Generic PCL, and with a small amount of tweaking, it worked great for printing simple documents.  The problem is that it doesn't support the stapling and double sided features that our teachers need.  As for the Gutenprint drivers, I didn't try any of them as none are for the imageRUNNER copy machines, and the next closest don't necessarily support the stapling feature (though they would probably give us the double sided feature).\r\n\r\nAs I mentioned in the post, the only thing that Canon's proprietary program does in the PCL/PXL driver is add the options for stapling and double sided printing to the PCL job before it's sent to the printer.  It probably wouldn't be too hard to reverse-engineer it and write an open-source replacement."
+email: d1ee577536192652af07287662102f48

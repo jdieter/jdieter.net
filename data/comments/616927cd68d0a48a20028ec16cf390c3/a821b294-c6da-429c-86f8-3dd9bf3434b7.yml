@@ -1,0 +1,9 @@
+_id: a821b294-c6da-429c-86f8-3dd9bf3434b7
+name: Jonathan Dieter
+date: '2010-09-28T09:32:51Z'
+message: >-
+  I did wonder that and installed the User-Agent Switcher on Firefox.  It didn't
+  fix anything.  And then I realized that Windows computers running *through*
+  the school's Linux proxy were also blocked, so it is probably a problem much
+  lower down the stack.
+email: d1ee577536192652af07287662102f48

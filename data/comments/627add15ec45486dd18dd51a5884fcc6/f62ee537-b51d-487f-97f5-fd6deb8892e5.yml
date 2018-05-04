@@ -1,0 +1,11 @@
+_id: f62ee537-b51d-487f-97f5-fd6deb8892e5
+name: Jonathan Dieter
+date: '2012-02-05T20:43:03Z'
+message: >-
+  You're absolutely right, and I actually did heavily modify the wondershaper
+  script to class traffic according to its mark and then used iptables to direct
+  traffic.  The problem is that /etc/sysconfig/iptables ended up being an opaque
+  mess and I struggled to work out what classes went where and why.  PfSense's
+  web interface is easy to follow, and the ability to do aliases makes my rules
+  far more self-documenting.
+email: d1ee577536192652af07287662102f48

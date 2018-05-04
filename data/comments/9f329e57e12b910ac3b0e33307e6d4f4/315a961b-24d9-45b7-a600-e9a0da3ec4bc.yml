@@ -1,0 +1,7 @@
+_id: 315a961b-24d9-45b7-a600-e9a0da3ec4bc
+name: Cristian Ciupitu
+date: '2015-05-04T23:22:26Z'
+message: >-
+  Shouldn't the STP protocol detect and prevent these loops? If I remember
+  correctly even some cheap unmanaged switches had support for it.
+email: 7c866ac84e832e585c6bd3abe1149c47

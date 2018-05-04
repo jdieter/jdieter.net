@@ -1,0 +1,5 @@
+_id: 71d2d693-d14f-4731-94a8-b8f8a5216e06
+name: Graeme Hilton
+date: '2009-12-29T23:45:50Z'
+message: "\"... What we need is some way to recompress data in such a way that guarantees that it’s identical to the original compressed data… ...\"\r\n\r\nWhy do you need to recompress it if it hasn't changed?  You could retain the original compressed data and then use that instead of recompressing it."
+email: 1e6c1885d085f21ed5d4acb6d225549a

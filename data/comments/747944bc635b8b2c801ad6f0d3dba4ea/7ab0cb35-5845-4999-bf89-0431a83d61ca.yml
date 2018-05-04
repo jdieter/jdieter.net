@@ -1,0 +1,5 @@
+_id: 7ab0cb35-5845-4999-bf89-0431a83d61ca
+name: lyonel
+date: '2012-04-04T12:55:34Z'
+message: "You may want to add a systemd unit file for novacomd (/lib/systemd/system/novacomd.service):\r\n\r\n[Unit]\r\nDescription=Novacom daemon for WebOS devices\r\nAfter=syslog.target\r\n\r\n[Service]\r\nType=simple\r\nExecStart=/usr/bin/novacomd\r\n\r\n[Install]\r\nWantedBy=multi-user.target\r\n\r\nYou can then use:\r\n$ service novacomd enable\r\n$ service novacomd start\r\n$ service novacomd stop\r\n\r\netc."
+email: 544ccb2317d22b1dc5bd1b649a8af28c

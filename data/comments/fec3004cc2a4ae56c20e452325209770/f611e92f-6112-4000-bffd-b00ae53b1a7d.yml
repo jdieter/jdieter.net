@@ -1,0 +1,5 @@
+_id: f611e92f-6112-4000-bffd-b00ae53b1a7d
+name: Victor Bogado da Silva Lins
+date: '2009-11-18T18:52:45Z'
+message: "I always thought that delta rpms worked packaging the delta of each separated file in the package. If it were done like that this would be a non-problem, since the delta of x86 binaries that were not installed in x86 systems would not be necessary, since they weren't needed before.\r\n\r\nSo if the drpm package contains :\r\n\r\n/usr/lib/libfoo.so.delta\r\n/usr/bin/bar.delta (x86 colored)\r\n\r\nand the system contains :\r\n\r\n/usr/lib/libfoo.so\r\n/usr/bin/bar (x86_64 colored)\r\n\r\nthe package install would apply the libfoo.so.delta, but would skip the bar.delta since their colors do not match. This would be consistent, I believe, with the end result of installing the updated x86 package without deltas.\r\n\r\nI never thought very hard on those problems before, so I am probably missing some detail."
+email: d623906de58d8530c4efbc8f19102e86

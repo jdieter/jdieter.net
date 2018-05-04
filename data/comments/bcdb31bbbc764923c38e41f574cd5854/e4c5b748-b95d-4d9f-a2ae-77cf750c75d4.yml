@@ -1,0 +1,5 @@
+_id: e4c5b748-b95d-4d9f-a2ae-77cf750c75d4
+name: Angel Marin
+date: '2010-03-04T22:26:55Z'
+message: "I've changed the mirrorlist to fall back to official fedora mirrors, so anyone still pointing to our mirror list should get valid mirrors anyway.\r\n\r\nBTW, just a heads up to anyone that used the old presto mirrors: there seems to be a bunch of you that upgraded to f11 and f12 but are still pointing to our mirrorlist, even though I'll keep it redirecting to the correct one, you should revert your .repo files to the official config to avoid future problems."
+email: 1cb0f3c6a958746399c4770a5b79c6c0

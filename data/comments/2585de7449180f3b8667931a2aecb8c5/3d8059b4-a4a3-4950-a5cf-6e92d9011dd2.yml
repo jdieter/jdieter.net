@@ -1,0 +1,5 @@
+_id: 3d8059b4-a4a3-4950-a5cf-6e92d9011dd2
+name: bochecha
+date: '2012-05-24T05:30:02Z'
+message: "I had been trying to get novacom running to access my Pre 3, to no avail.\r\n\r\nThen I read your previous blog post, rebuilt the srpms from the review, installed the result, and everything worked.\r\n\r\nYesterday when updating my laptop, I saw the latest novacom coming from the repositories, replacing the ones I had rebuilt myself.\r\n\r\nSounds like a win to me. Thank you. :)"
+email: 93e8323df5bde5671ca3ae2cdc84af56

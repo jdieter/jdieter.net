@@ -1,0 +1,8 @@
+_id: 53c9995e-930a-474c-bb87-c375c51a8132
+name: Jonathan Dieter
+date: '2012-05-23T20:57:54Z'
+message: >-
+  F17 is frozen right now. &nbsp;Novacom will be available in the first set of
+  updates. &nbsp;Until then, you can run "yum --enablerepo=updates-testing
+  install novacom".
+email: d1ee577536192652af07287662102f48

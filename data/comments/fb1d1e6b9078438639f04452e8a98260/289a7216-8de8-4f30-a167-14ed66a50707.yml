@@ -1,0 +1,10 @@
+_id: 289a7216-8de8-4f30-a167-14ed66a50707
+name: Jonathan Dieter
+date: '2017-06-04T12:52:12Z'
+message: >-
+  The main changes are having the configuration hard-coded in the image and the
+  addition of some scripts to switch the wireless SSID to an emergency mode when
+  it can't ping our DHCP server.  This prevents users from trying to (and
+  failing) to connect when an AP's cabling has been cut or a UPS for an
+  intermediate switch hasn't survived our daily power cuts.
+email: 2989973109b7f97b1c00ffe643925b4b

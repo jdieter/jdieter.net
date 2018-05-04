@@ -1,0 +1,5 @@
+_id: 7638b596-ab53-427c-8f70-88a8c6154690
+name: Jonathan Dieter
+date: '2009-10-27T20:38:02Z'
+message: "Re: Stephen Smoogen\r\n\r\nThe thing is that no other virtual machines (or the real server) have access to the <code>/networld</code> hard drives.  However, they are SATA drives, so possibly the iocontrollers need to be dedicated as well?"
+email: 2989973109b7f97b1c00ffe643925b4b

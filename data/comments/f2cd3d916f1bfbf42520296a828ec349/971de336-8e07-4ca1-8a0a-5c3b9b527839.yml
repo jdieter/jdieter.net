@@ -1,0 +1,5 @@
+_id: 971de336-8e07-4ca1-8a0a-5c3b9b527839
+name: Jonathan Dieter
+date: '2016-03-01T08:23:12Z'
+message: "Currently, our highly developed update control system involves me pushing out updates manually after they've been tested, normally on a weekly or biweekly basis.  I have the infrastructure in place for something more structured and automatic, but haven't managed to get the final pieces in place yet.\r\n\r\nHaving said that, we've been running Fedora school-wide since the days of Fedora 8, and, at least from what we've seen, the number of \"just-shoot-me-now\" updates within a release has pretty much dropped to nil.  We used to have an average of one system-crashing update per release cycle, but now I can't remember the last one we had.  That doesn't mean I'm going to push out updates without testing, but I'm not nearly as worried about bad updates as I was five years ago."
+email: d1ee577536192652af07287662102f48

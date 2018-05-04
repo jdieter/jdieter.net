@@ -1,0 +1,7 @@
+_id: 43501f5b-dd1f-493c-8ee0-91c9e53251b9
+name: Nik
+date: '2010-09-28T06:27:26Z'
+message: >-
+  Might it be that the ISP's proxy is discriminating based-on the HTTP
+  User-Agent string that the browsers and/or the squid proxy are sending?
+email: a2967dcceb1ce2d21be49745eea71e65

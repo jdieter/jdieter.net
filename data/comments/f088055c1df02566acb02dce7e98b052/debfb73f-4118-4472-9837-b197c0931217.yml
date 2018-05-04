@@ -1,0 +1,5 @@
+_id: debfb73f-4118-4472-9837-b197c0931217
+name: Lars Solberg
+date: '2017-07-25T22:30:11Z'
+message: "I am thinking about using k8s on openstack instaed, so I can use LoadBalancer. But I found a way to do this using mikrotik as well. Kinda.. At least the \"HA\" part.\r\nSince NodePort are routed to the service no matter which node you are hitting, you can have a little scheduled script on the mikrotik to change the to-address based on which one is up. I think something like this should do the trick, at least for my part:\r\n\r\n:global changeK8SdefaultIP do={\r\n  /ip firewall nat\r\n  :foreach entry in=[find comment=\"k8s-autoip\"] do={\r\n    :local currentip [get $entry to-addresses]\r\n    :if ($currentip!=$1) do={\r\n      set $entry to-addresses=$1\r\n    }\r\n  }\r\n}\r\n\r\n:if ([/ping 10.0.2.1 count=1]=1) do={\r\n  $changeK8SdefaultIP 10.0.2.1\r\n} else={\r\n:if ([/ping 10.0.2.2 count=1]=1) do={\r\n  $changeK8SdefaultIP 10.0.2.2\r\n} else={\r\n:if ([/ping 10.0.2.3 count=1]=1) do={\r\n  $changeK8SdefaultIP 10.0.2.3\r\n}}};\r\n\r\n\r\nThen I can use the \"k8s-autoip\" comment on the dstnat rules I need this on."
+email: eb5dc7a98298c4a539f312436a22fd17

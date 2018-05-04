@@ -1,0 +1,10 @@
+_id: 4ef875f8-1ec6-492a-857b-84a2d541da26
+name: Jonathan Dieter
+date: '2017-07-25T20:35:25Z'
+message: >-
+  Yes, though I haven't done much with it or Kubernetes since then.  I was
+  running into trouble with the CRS models.  They had configuration options that
+  supposedly allowed them to be configured as a load balancer, but I never
+  managed to get them working.  We then swapped in an RB3011, and it did work
+  correctly.
+email: 2989973109b7f97b1c00ffe643925b4b

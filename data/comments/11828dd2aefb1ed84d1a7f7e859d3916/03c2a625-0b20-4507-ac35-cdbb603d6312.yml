@@ -1,0 +1,9 @@
+_id: 03c2a625-0b20-4507-ac35-cdbb603d6312
+name: Samuel Sieb
+date: '2014-10-23T21:56:04Z'
+message: >-
+  My reading of that page is that DHCP 4.x (current version in Fedora) supports
+  using an LDAP backend already.  FreeIPA needs the schema added and probably
+  some gui pages, but I don't see any mention of when that might be added.  Did
+  you find another page with that info?
+email: 106c1886d049ddedd104b358ca7d1fca

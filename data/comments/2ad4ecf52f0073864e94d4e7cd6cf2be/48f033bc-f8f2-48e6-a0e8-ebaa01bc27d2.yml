@@ -1,0 +1,5 @@
+_id: 48f033bc-f8f2-48e6-a0e8-ebaa01bc27d2
+name: ferringb
+date: '2009-11-07T15:50:31Z'
+message: "Technically it's more of an overlayed copy thinking about it, but yeah.\r\n\r\nCertainly confused the crap out of me when I first spotted it in the code though (goofy trick, but the overhead of it when compression is added is insanely low compared to your normal delta format commands)."
+email: d8f626a691a3233150b22d43e904b584

@@ -1,0 +1,5 @@
+_id: 3e626960-134b-4b65-a1bf-9b1fd9d14e76
+name: ferringb
+date: '2009-11-07T07:44:38Z'
+message: "You might want to be a bit clearer in your phrasing here- bsdiff (the tool percieval implemented) already does \"overlayed add\"s too.  Not a great name for it, but about the best I could come up for the encoded command when I was adding bsdiff format support to diffball.\r\n\r\nTook a couple of read throughs of this blog before I figured out you weren't calling bsdiff, the tool, naive, you were referring to the raw algorithm rather then the actual bsdiff tool."
+email: d8f626a691a3233150b22d43e904b584

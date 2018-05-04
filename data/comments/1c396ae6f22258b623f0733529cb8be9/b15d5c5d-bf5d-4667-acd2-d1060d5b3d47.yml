@@ -1,0 +1,5 @@
+_id: b15d5c5d-bf5d-4667-acd2-d1060d5b3d47
+name: Erinn Looney-Triggs
+date: '2012-02-08T19:47:39Z'
+message: "Just FYI, on the listing users front, the following works fine in RHEL 6.2: \r\nsudo -u gdm gconftool-2 -s /apps/gdm/simple-greeter/disable_user_list -t bool true\r\n\r\nYour mileage may vary with newer Fedora releases.\r\n\r\nCan't help much with the screen saver though. \r\n\r\n-Erinn"
+email: d768e9263e1cd35f2d7b4d7f96116301

@@ -1,0 +1,9 @@
+_id: 6d83a5ee-e84c-4a27-97e1-d6b093990fb7
+name: Samuel Sieb
+date: '2015-12-02T22:52:43Z'
+message: >-
+  I use Asterisk for the phone system at a private school.  It's primarily hard
+  phones right now, but I'm working on getting the teachers to use SIP on their
+  cell phones because the cell phone coverage is terrible there.  I noticed that
+  pjsip was available now, I'll have to look into converting to it.
+email: 106c1886d049ddedd104b358ca7d1fca

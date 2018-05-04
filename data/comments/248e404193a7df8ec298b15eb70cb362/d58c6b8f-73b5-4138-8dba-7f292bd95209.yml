@@ -1,0 +1,8 @@
+_id: d58c6b8f-73b5-4138-8dba-7f292bd95209
+name: Josh Boon
+date: '2017-08-14T16:35:51Z'
+message: >-
+  Hey! Thanks for putting this together, would you be able to provide the server
+  and network configuration used for the benchmarks? Also I don't know ceph in
+  detail but could you also provide the output for "gluster volume info all"
+email: 91f2d23f5ff11a81a1a20f66f5c82d97

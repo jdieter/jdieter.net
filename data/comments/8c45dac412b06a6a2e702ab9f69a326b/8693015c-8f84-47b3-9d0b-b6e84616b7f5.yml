@@ -1,0 +1,5 @@
+_id: 8693015c-8f84-47b3-9d0b-b6e84616b7f5
+name: jaredsmith
+date: '2015-12-01T16:56:35Z'
+message: "I also suggest you look at using chan_pjsip in modern versions of Asterisk, rather than chan_sip.  It's a much more robust SIP channel driver, and does allow you have multiple registrations for a single SIP device.\r\n\r\nGrab me on IRC (jsmith) if you need any help."
+email: 93ceea61b40a1d52c2e71f145acf5e61

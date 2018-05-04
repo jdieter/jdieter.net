@@ -1,0 +1,5 @@
+_id: 6fbd90a5-d6d9-42ec-b747-66cbdd7c6808
+name: Jonathan Dieter
+date: '2009-11-07T09:24:16Z'
+message: "My apologies.  On http://www.daemonology.net/bsdiff, it looks like bsdiff the tool never implemented the add block (or overlayed adds), but I really should have confirmed that.\r\n\r\nI will clarify this in the blog entry."
+email: 2989973109b7f97b1c00ffe643925b4b

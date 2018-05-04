@@ -1,0 +1,5 @@
+_id: f08b94c4-2a4e-4215-b3c3-09a3998256d7
+name: Terje
+date: '2009-10-27T23:28:41Z'
+message: "It's easy to see from benchmarks that IO load is not for virtual machines. E.g see this article:\r\n\r\n http://www.phoronix.com/scan.php?page=article&amp;item=linux_2631_kvm&amp;num=2"
+email: 476de1aad664d671a9b1cc5cd4384312

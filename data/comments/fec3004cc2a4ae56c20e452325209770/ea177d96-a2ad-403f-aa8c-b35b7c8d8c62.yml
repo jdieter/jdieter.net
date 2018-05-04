@@ -1,0 +1,5 @@
+_id: ea177d96-a2ad-403f-aa8c-b35b7c8d8c62
+name: Jonathan Dieter
+date: '2009-11-19T10:27:42Z'
+message: "What actually happens is that we do a delta of the rpm cpio archives.  This gives us high delta ratios even when file names have changed, but the information is the same.\r\n\r\nThe other problem is that we have to rebuild the new rpm so that it is bit-for-bit identical to the rpm that would have been downloaded.  If we don't, the package signatures don't work."
+email: 2989973109b7f97b1c00ffe643925b4b

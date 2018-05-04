@@ -1,0 +1,10 @@
+_id: 215aa4e8-7dbc-49ef-90c4-f081765bce1a
+name: Jonathan Dieter
+date: '2013-12-03T19:46:50Z'
+message: >-
+  I'm using the open drivers.  I'm not a fan of the closed drivers as they've
+  proven to be pretty buggy.  I think Fedora 19 has UVD support, so you should
+  be able to use hardware-enabled decoding using the open drivers.  I've also
+  been playing around with mesa-10.0 and it has very buggy OpenCL support with
+  the open drivers.
+email: d1ee577536192652af07287662102f48

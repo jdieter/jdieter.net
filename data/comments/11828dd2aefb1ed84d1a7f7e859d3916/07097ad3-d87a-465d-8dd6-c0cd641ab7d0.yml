@@ -1,0 +1,12 @@
+_id: 07097ad3-d87a-465d-8dd6-c0cd641ab7d0
+name: Jonathan Dieter
+date: '2014-10-24T07:10:39Z'
+message: >-
+  No, I skim-read and mistook ISC dhcpd 4.x for FreeIPA 4.x.  Apologies for the
+  confusion.
+
+
+  There is more detail on the current implementation status at
+  https://fedorahosted.org/freeipa/ticket/939, but it all seems to be on hold
+  for the moment.
+email: d1ee577536192652af07287662102f48

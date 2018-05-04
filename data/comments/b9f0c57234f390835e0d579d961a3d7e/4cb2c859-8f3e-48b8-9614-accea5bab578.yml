@@ -1,0 +1,5 @@
+_id: 4cb2c859-8f3e-48b8-9614-accea5bab578
+name: Mace Moneta
+date: '2010-06-08T21:45:17Z'
+message: "I can understand the distinction between ROM software and downloadable software.  ROM'd software becomes an active functional component of hardware, like a filter block or oscillator on the board.  It is immutable and thus beyond the line that separates hardware from software.\r\n\r\nDownloadable software, while straddling the line, is primarily on the other side - more software than hardware.  It is subject to modification, even potentially during execution.  As a result, its function and behavior are variable, undermining the the control and stability of the OS.\r\n\r\nIt may seem a somewhat arbitrary distinction, but if the goal is freedom (with all its connotations), binary blobs are a potential obstacle.  They may be benign or malevolent, or their intent may change dynamically; there's really no way to tell for sure.  It's the uncertainty that undermines their utility."
+email: 73451bee3848699baf91f92b1119bf4c

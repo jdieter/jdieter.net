@@ -1,0 +1,5 @@
+_id: f917b08d-3b94-4640-ade1-0ce8983b250e
+name: Jonathan Dieter
+date: '2009-12-30T00:13:37Z'
+message: "The server has the original compressed rpm.  We have an older rpm, and download the deltarpm to rebuild into a byte-for-byte copy of the original compressed rpm.\r\n\r\nSo we, on the client, don't <em>have</em> the original compressed data."
+email: 2989973109b7f97b1c00ffe643925b4b

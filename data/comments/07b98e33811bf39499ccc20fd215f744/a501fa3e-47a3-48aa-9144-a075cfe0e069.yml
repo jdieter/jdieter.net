@@ -1,0 +1,5 @@
+_id: a501fa3e-47a3-48aa-9144-a075cfe0e069
+name: Bernie
+date: '2009-10-26T14:11:31Z'
+message: "Are you exporting async? Why is your load not 0 in idle times? How many spindles?\r\n\r\nYou've got a lot of indirections there. Are they all necessary?\r\n\r\nI agree VMs are sub-optimal for low-latency I/O.\r\n\r\nWe have a beefy CentOS 5.3 server which can handle home directories for 200-300 concurrent mixed NFS/CIFS clients. We export sync, and use data=journal with large external journals (on a separate RAID-10 from the main RAID-60 volumes) and large commit intervals."
+email: 8596fde7f56924a41bb8d020e08edbce

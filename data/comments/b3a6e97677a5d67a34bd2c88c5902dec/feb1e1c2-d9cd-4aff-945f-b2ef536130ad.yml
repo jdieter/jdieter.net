@@ -1,0 +1,18 @@
+_id: feb1e1c2-d9cd-4aff-945f-b2ef536130ad
+name: Jonathan Dieter
+date: '2012-03-31T23:06:01Z'
+message: >-
+  First off, my apologies, but I haven't created a bug report.  We were at a
+  point where we needed the system up ASAP, and I didn't expect there'd be much
+  value for you in a bug report without having a live system to test fixes on.
+
+
+  We did have GlusterFS set up, originally with two pairs of 2TB drives and then
+  expanded it to four pairs of 2TB drives.  It was during the migrate-data stage
+  of the rebalance that one of the servers died and was then restarted, and
+  that's when we started losing data across both replicated drives.
+
+
+  I do still have the logs, so if you think it's worth it for me to open a bug
+  report, I'll happily do so.  I just won't be able to test any fixes.
+email: d1ee577536192652af07287662102f48

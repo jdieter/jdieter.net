@@ -1,0 +1,5 @@
+_id: f899526d-82b1-40d1-9c99-6d590dfe3e43
+name: Bhaskar
+date: '2013-03-04T20:29:53Z'
+message: "Hi, I am pretty new to linux. started using fedora 17 a few months back. I tried to upgrade it to Fedora 18 by yum upgrade... After all files were downloaded, the machine rebooted and it now just gets stuck with busy cursor. It never reaches the login screen, Just that fedora logo with a busy cursor. Can you help me out.\r\n\r\nRegards\r\n\r\nBhaskar"
+email: 3f5961ba8928fd38af256dc4f33c4869

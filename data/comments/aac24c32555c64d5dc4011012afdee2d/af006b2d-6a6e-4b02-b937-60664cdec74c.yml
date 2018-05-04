@@ -1,0 +1,10 @@
+_id: af006b2d-6a6e-4b02-b937-60664cdec74c
+name: Noah Beach
+date: '2013-12-03T16:19:20Z'
+message: >-
+  Curious if you are using the open source driver for those cards or the
+  proprietary. I am currently using F17 with a hacked version of systemd to
+  support the proprietary drivers (my project requires hardware enabled
+  decoding) and was curious if the latest version of systemd no longer require
+  modifying the source?
+email: 701d611206f3617ffb2d6abc319c6573

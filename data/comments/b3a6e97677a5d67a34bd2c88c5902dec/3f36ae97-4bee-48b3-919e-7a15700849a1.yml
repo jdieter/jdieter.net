@@ -1,0 +1,12 @@
+_id: 3f36ae97-4bee-48b3-919e-7a15700849a1
+name: Jeff Darcy (@Obdurodon)
+date: '2012-03-31T19:28:39Z'
+message: >-
+  It's hard to say what might have happened without a lot more information,
+  which I'll assume was in your bug report and is being examined by others, but
+  I am curious about one thing.  Usually when GlusterFS is used to replace DRBD
+  it's used with replication enabled, but you don't mention replication.  Both
+  your performance results and your rebalance failure also seem more consistent
+  with a non-replicated setup.  Am I correct in concluding that you were not
+  using GlusterFS replication?
+email: bd801fbe631896db54b9e62f28582e2b

@@ -1,0 +1,5 @@
+_id: 58456f13-7a61-4838-90d6-f7a179a19c78
+name: Jonathan Dieter
+date: '2012-09-13T18:10:56Z'
+message: "We have somewhere around 100 Fedora systems actively accessing the data at any one time.  We use NFS for our home directories, so the server gets hit pretty hard, especially if we have a whole class logging in at the same time.\r\n\r\nI have looked at ceph (I think I took my first look at it a couple of years ago before it was even in the Linux kernel).  Honestly, it's <strong>exactly</strong> what I want, but the POSIX filesystem isn't stable enough yet for me to risk our data on it. :("
+email: d1ee577536192652af07287662102f48

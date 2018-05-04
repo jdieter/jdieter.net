@@ -1,0 +1,5 @@
+_id: 148b179a-a323-4cff-8fd2-55688385cf08
+name: Adam Williamson
+date: '2010-12-11T00:40:09Z'
+message: "Broadly speaking, you don't. 64-bit code uses more RAM than 32-bit. The difference shouldn't be that big, though; are you sure you ran Firefox and Evo as long 32-bit as you did 64-bit? They tend to just keep creeping up over time.\r\n\r\nThe difference should be about a third (more RAM used by 64-bit), I'm told by those smarter than myself."
+email: c1fa0a85d174205b1341e1a30d419a7f

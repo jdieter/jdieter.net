@@ -1,0 +1,5 @@
+_id: c7bfe651-2da5-4109-aaa5-444bc44d1b22
+name: Jonathan Dieter
+date: '2012-02-08T19:54:15Z'
+message: "Yes, and that's what we had set in older Fedora releases.  The new GDM uses gsettings which is built on dconf, and the above command no longer works, unfortunately.  The equivalent gsettings command also has no effect.  :(\r\n\r\nThanks for the thought, though.  I do expect that this functionality will get built back into GDM soon enough."
+email: d1ee577536192652af07287662102f48

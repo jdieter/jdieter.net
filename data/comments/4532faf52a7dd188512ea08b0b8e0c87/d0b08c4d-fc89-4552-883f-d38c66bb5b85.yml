@@ -1,0 +1,16 @@
+_id: d0b08c4d-fc89-4552-883f-d38c66bb5b85
+name: Jonathan Dieter
+date: '2010-12-11T12:56:25Z'
+message: >-
+  There does seem to be a memory leak, but it's in mutter, or, more likely, the
+  video driver itself (intel).  The thing is, even after leaving it running
+  overnight, I still had just under 2GB free and after a killall -9 mutter, was
+  back at 2.2GB free.  Under x86_64, after leaving it running overnight, I would
+  have 600MB free and it would have already started swapping.  Killall -9 mutter
+  would bring it back to 1.2GB free.
+
+
+  I've heard the same 30% more RAM for x86_64, but I'm consistently seeing
+  something more like 100% more RAM for x86_64.  I have no idea why and, while
+  I'd like to run x86_64, it's just not worth *that* much RAM.
+email: d1ee577536192652af07287662102f48

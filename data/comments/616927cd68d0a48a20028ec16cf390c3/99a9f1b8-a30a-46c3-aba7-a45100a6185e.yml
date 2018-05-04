@@ -1,0 +1,5 @@
+_id: 99a9f1b8-a30a-46c3-aba7-a45100a6185e
+name: brun064
+date: '2010-09-28T20:37:06Z'
+message: "I had an issue running a Windows program in WINE that kept failing on TCP connections.  I tried different MTU sizes with no result.  I ran across this article which instructs how to optimize TCP by increasing the buffer size:\r\n\r\nhttp://fasterdata.es.net/TCP-tuning/linux.html\r\n\r\nModified the sysctl.conf and the problem disappeared.  \r\n\r\nI never really gave much thought to the differences between Windows and Linux TCP handling, but its seems they are very different animals."
+email: 339f4c5e012419c9f9c5afa2f2b26445

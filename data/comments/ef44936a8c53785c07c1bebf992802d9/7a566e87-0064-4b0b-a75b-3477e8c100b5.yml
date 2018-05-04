@@ -1,0 +1,24 @@
+_id: 7a566e87-0064-4b0b-a75b-3477e8c100b5
+name: Jonathan Dieter
+date: '2013-02-26T09:24:29Z'
+message: >-
+  It's all mainly organizational.  Our koji instance forces me to follow certain
+  procedures when building and releasing rpms that make it easier for me to see
+  what I did in previous releases and reuse most of it.  Our Fedora 8 -&gt;
+  Fedora 10 upgrade was especially difficult because I didn't do a good job of
+  keeping my packages organized.
+
+
+  If you look at <a href="http://koji.lesbg.com/lesbg/18/x86_64/RPMS/"
+  rel="nofollow">http://koji.lesbg.com/lesbg/18/x86_64/RPMS</a>, you'll see a
+  mix of rpms, some dating all the way back to Fedora 13.  Koji takes care of
+  the inheritance so I don't have to worry about whether or not I've got the
+  latest build, and supports multiple releases, so I can start putting together
+  our Fedora 18 build while still pushing critical fixes to Fedora 17.
+
+
+  And, finally, koji takes care of repo management, giving me a repository of
+  only the latest packages, making it easy to see what we're actually using.  I
+  can then easily retire obsolete packages in newer repositories while keeping
+  them in the old repositories.
+email: d1ee577536192652af07287662102f48

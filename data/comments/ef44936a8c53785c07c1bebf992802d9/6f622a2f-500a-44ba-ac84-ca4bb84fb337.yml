@@ -1,0 +1,14 @@
+_id: 6f622a2f-500a-44ba-ac84-ca4bb84fb337
+name: Jonathan Dieter
+date: '2013-02-26T09:14:20Z'
+message: >-
+  We've used btrfs on our servers in the past, mainly because we wanted to be
+  able to use snapshots as archives.  We switched to ZFS because btrfs just
+  wasn't fast enough, but this was a couple of years ago.
+
+
+  Right now, we're using btrfs on the workstations and it's rocketing.  Our boot
+  time has been reduced by somewhere around 50%.  One thing to remember, though,
+  is that our workstations can be easily reimaged if there is a problem, so it's
+  not like the data is in any way critical.
+email: d1ee577536192652af07287662102f48

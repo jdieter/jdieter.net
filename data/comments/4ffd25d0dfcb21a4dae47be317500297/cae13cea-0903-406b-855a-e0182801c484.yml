@@ -1,0 +1,8 @@
+_id: cae13cea-0903-406b-855a-e0182801c484
+name: Mark T. Kennedy
+date: '2012-09-13T18:05:52Z'
+message: >-
+  how many users do you have?  there is nothing wrong with a goal of seamless,
+  automatic failover (far from it).  have you ever looked at ceph?  the POSIX
+  filesystem part of it doesn't seem to be a priority but it seems interesting.
+email: 2423f732a7f9735233e2e0b5989407a5

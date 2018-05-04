@@ -1,0 +1,9 @@
+_id: b0cf2f02-8b81-4761-900c-9758f246d5eb
+name: Peter
+date: '2010-12-11T16:13:11Z'
+message: >-
+  I'm seeing the same thing, I certainly never saw this in Fedora 13. Both x64.
+  I use primarily evolution and firefox. One thing I have noticed is that the
+  IOwait is horrific. Some of that is the swaping but according to iotop not all
+  of it.
+email: cb152ebf57288f40cbb1e2721da2a43b

@@ -1,0 +1,7 @@
+_id: 114a8035-5299-415b-a411-4b3783d975d5
+name: jorgeml
+date: '2015-11-30T23:16:42Z'
+message: >-
+  Using Asterisk's chan_pjsip instead of chan_sip allows you to register more
+  than once per extension.
+email: d95c30f5fa4cba32783e86567c707517
