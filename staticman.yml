@@ -15,6 +15,8 @@ comments:
       author: "{fields.name}"
       authorEmail: "{fields.email}"
 
+  pullRequestBody: "New comment on jdieter.net\n\n---\n"
+
   # (*) REQUIRED
   #
   # Name of the branch being used. Must match the one sent in the URL of the
