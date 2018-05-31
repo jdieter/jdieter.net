@@ -22,30 +22,36 @@ The concept is similar to both [zsync][2] and [casync][3], but it has some impor
 ### Downloading a chunk file
 
 A zchunk file is basically a bunch of zstd-compressed "chunks" concatenated together with a header specifying the location, size and checksum of each chunk.  Let's take an example with only a few chunks:
-{{< imgproc "zf-old" Resize "300x" none />}}
 
+{{< imgproc "zf-old" Resize "300x" none />}}
+&nbsp;
 
 Note that the file has three chunks, labeled A, B and C, each with a unique checksum.  These checksums are stored in the header.
 
 Now let's imagine that we want to download a new version of the file:
-{{< imgproc "zf-new.png" Resize "300x" none />}}
 
+{{< imgproc "zf-new.png" Resize "300x" none />}}
+&nbsp;
 
 Note that the new file has two chunks that are identical to the original file and one new chunk.  The header in the new file contains the checksums of chunks A, C and D.  We start by downloading just the header of the new file:
-{{< imgproc "zf-new-dl-header" Resize "300x" none />}}
 
+{{< imgproc "zf-new-dl-header" Resize "300x" none />}}
+&nbsp;
 
 We then compare the chunk checksums in the old file's header with the chunk checksums in the newly downloaded header and copy any matching chunks from the old file:
-{{< imgproc "zf-new-copy-old-chunks" Resize "300x" none />}}
 
+{{< imgproc "zf-new-copy-old-chunks" Resize "300x" none />}}
+&nbsp;
 
 We finish by downloading any remaining chunks, reducing the number of http requests by combining the range requests, and then inserting the downloaded chunks into the appropriate places in the final file:
-{{< imgproc "zf-new-dl-new-chunks" Resize "300x" none />}}
 
+{{< imgproc "zf-new-dl-new-chunks" Resize "300x" none />}}
+&nbsp;
 
 When we're finished, you have a file that is byte-for-byte identical to the new file on the server:
-{{< imgproc "zf-new-dl.png" Resize "300x" none />}}
 
+{{< imgproc "zf-new-dl.png" Resize "300x" none />}}
+&nbsp;
 
 ### Background
 What inspired this format is the ridiculous amount of metadata you download every time you check for updates in Fedora.  Most of the data from one day's updates is exactly the same in the next day's updates, but you'll still find yourself downloading over 20MB of metadata.
