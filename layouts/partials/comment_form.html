@@ -4,6 +4,7 @@
     <form class="post-new-comment" method="POST" action="https://www.jdieter.net/staticman/v2/entry/jdieter/jdieter.net/master/comments">
         <input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">
         <input type="hidden" name="options[redirectError]" value="{{ .Permalink }}#comment-error">
+        <input type="hidden" name="options[redirectSpam]" value="{{ .Permalink }}#comment-spam">
         <input type="hidden" name="options[entryId]" value="{{ .UniqueID }}">
         <input name="fields[name]" type="text" class="post-comment-field" placeholder="Your name">
         <input name="fields[email]" type="email" class="post-comment-field" placeholder="Your email address">
@@ -25,4 +26,11 @@
         <p>Your post has not been submitted.  Please return to the page and try again.</p>
         <p><a href="#" class="btn">OK</a></p>
     </div>
+
+    <div id="comment-spam" class="dialog">
+        <h3>There was a problem</h3>
+        <p style="text-align: left; margin: auto; max-width: 400px">Your IP has been blocked from posting comments because it comes from an IP range that has attempted to post spam on this site.  If you want to post a comment, you must email me the comment, including the URL that you want the comment posted on and your name.<br/></p>
+        <p><a href="#" class="btn">OK</a></p>
+    </div>
+
 </section>
