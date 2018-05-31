@@ -4,7 +4,7 @@ author: jdieter
 description: A description of how zchunk works and some background on why it was created
 type: post
 url: /posts/2018/05/31/what-is-zchunk
-date: 2018-05-26T21:45:00+03:00
+date: 2018-05-31T21:45:00+03:00
 timeline_notification:
   - 1527792300
 categories:
