@@ -1,0 +1,12 @@
+_id: 2625d4f0-7ea4-11e8-95f8-cf78f3c5d36a
+name: Jonathan Dieter
+email: 2989973109b7f97b1c00ffe643925b4b
+message: >-
+  The chunks do not have a fixed size, but can either be manually ended if you
+  have a format that has natural chunking locations (when chunking the Fedora
+  repository metadata, we create a new chunk after writing each "package" tag),
+  or automatically using the buzhash algorithm.  Buzhash basically checks
+  whether a checksum of the last n bytes matches a number, and, if it does, ends
+  the chunk.  Adding and removing bytes will only affect the one chunk that was
+  changed.
+date: '2018-07-03T09:33:32.008Z'
