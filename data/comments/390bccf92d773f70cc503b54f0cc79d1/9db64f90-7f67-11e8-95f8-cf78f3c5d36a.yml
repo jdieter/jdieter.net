@@ -1,0 +1,8 @@
+_id: 9db64f90-7f67-11e8-95f8-cf78f3c5d36a
+name: Jonathan Dieter
+email: 2989973109b7f97b1c00ffe643925b4b
+message: >-
+  Alexey, we check whether the previous package is from the same source rpm,
+  and, if so, combine them into a single chunk.  We aren't currently changing
+  the package order, though that may change.
+date: '2018-07-04T08:52:44.401Z'
