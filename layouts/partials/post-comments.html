@@ -2,10 +2,10 @@
     <hr/>
     <h3>Comments</h3>
 
-    {{ $.Scratch.Add "hasComments" 0 }}
+    {{ .Scratch.Set "hasComments" 0 }}
     {{ $entryId := .UniqueID }}
-
-    {{ range $index, $comments := (index $.Site.Data.comments $entryId ) }}
+    {{ $comments := index .Site.Data.comments $entryId }}
+    {{ range $comments }}
         {{ $.Scratch.Add "hasComments" 1 }}
         <div class="post-comment">
             <div class="post-comment-header">
