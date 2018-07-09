@@ -5,10 +5,10 @@
             <div class="col-md-4 widget">
                 <h3 class="widget-title">Contact</h3>
                 <div class="widget-body">
-                    <p>{{ .Site.Params.phone }}<br>
+                    <p>{{ replace .Site.Params.phone "\n" "<br/>" | safeHTML }}<br>
                         <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a><br>
                         <br>
-                        {{ .Site.Params.address }}
+                        {{ replace .Site.Params.address "\n" "<br/>" | safeHTML }}
                     </p>
                 </div>
             </div>
