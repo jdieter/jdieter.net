@@ -7,7 +7,7 @@ paginate = 2
 
 [params]
     name = "Jonathan Dieter"
-    description = "A system administrator with a passion for open source and a love of teaching"
+    description = "Developer with a background in operations, a passion for open source, and a love of teaching"
     email = "jdieter@gmail.com"
     phone = "+353 87 706 5944\n+1 360 763 6230"
     address = "10 Assumption Place, Upper Bridge Street\nSkibbereen, Co. Cork, Ireland"
