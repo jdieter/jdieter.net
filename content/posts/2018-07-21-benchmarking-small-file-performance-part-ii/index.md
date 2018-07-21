@@ -26,6 +26,8 @@ I once again used [compilebench][3], which was designed to emulate real-life dis
 
 The test was much the same as last time, but with one important difference.  Last time, the clients were running on the same machines that were running the servers.  LizardFS benefited hugely from this as it has a "prefer local chunkserver" feature that will skip the network completely if there&#8217;s a copy on the local server.  This time around, the clients were run on completely separate machines from the servers, which removed that advantage for LizardFS, but which I believe is a better reflection on how distributed filesystems are generally used.
 
+I would like to quickly note that there was very little speed difference between LizardFS&#8217;s FUSE2 and FUSE3 clients.  The numbers included are from the FUSE3 client, but they only differed by a few percentage points from the FUSE2 client.
+
 A huge thank you to my former employer, the [Lebanon Evangelical School for Boys and Girls][2], for allowing me to use their lab for my test.  The test was run on nine machines, three running as servers and six running the clients.  The three servers operated as distributed data servers with three replicas per file.  Each client machine ran five clients, giving us a simulated 30 clients.
 
 All of the data was stored on XFS partitions on SSDs for speed, except for CephFS, which used an LVM partition with Bluestore. After running the benchmarks with one distributed filesystem, it was shut down and its data deleted, so each distributed filesystem had the same disk space available to it.
