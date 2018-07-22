@@ -1,0 +1,8 @@
+_id: 6aecfc30-8d31-11e8-a992-87bd38d2df82
+name: Rudd-O
+email: 7fbf46d97324d6a5649d1ff2e3f6663d
+message: >-
+  NFS "async" means the client doesn't even  *hit* the server, so you're not
+  really testing the server or the protocol with NFS async -- you're mostly
+  testing the RAM on the client.
+date: '2018-07-21T22:00:02.847Z'
