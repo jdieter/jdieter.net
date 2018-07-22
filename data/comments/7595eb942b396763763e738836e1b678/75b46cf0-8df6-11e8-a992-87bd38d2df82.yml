@@ -1,0 +1,10 @@
+_id: 75b46cf0-8df6-11e8-a992-87bd38d2df82
+name: Jonathan Dieter
+email: 2989973109b7f97b1c00ffe643925b4b
+message: >-
+  That's not correct.  NFS 'async' means that the client sends the request to
+  the server, and then the server acknowledges the request before it's actually
+  hit the disk.  LizardFS has an option, PERFORM_FSYNC, on the chunkservers,
+  that when disabled (as it was during the test), has the same effect. 
+  GlusterFS also has a similar option, performance.flush-behind, on by default.
+date: '2018-07-22T21:30:31.648Z'
