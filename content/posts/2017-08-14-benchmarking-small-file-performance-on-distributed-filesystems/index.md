@@ -17,6 +17,8 @@ tags:
 ---
 {{< imgproc "img_20170706_194145.jpg" Resize "300x" >}}The actual benches{{< /imgproc >}}
 
+**Update 2018-07-23: There are [new benchmarks here][5]**
+
 As I mentioned in my [last post][2], I&#8217;ve spent the last couple of weeks doing benchmarks on the GlusterFS, CephFS and LizardFS distributed filesystems, focusing on small file performance. I also ran the same tests on NFSv4 to use as a baseline, since most Linux users looking at a distributed filesystem will be moving from NFS.
 
 The benchmark I used was [compilebench][3], which was designed to emulate real-life disk usage by creating a kernel tree, simulating a compile of the tree, reading all the files in the tree, and finally deleting the tree. I chose this benchmark because it does a lot of work with small files, very similar to what most file access looks like in our school. I did modify the benchmark to only do one read rather than the default of three to match the single creation, compilation simulation and deletion performed on each client.
@@ -51,3 +53,4 @@ I would be happy to re-run these tests if someone has suggestions on optimizatio
  [2]: /posts/2017/07/31/summer-work
  [3]: https://oss.oracle.com/~mason/compilebench/
  [4]: https://docs.lizardfs.com/adminguide/connectclient.html#optional-settings-for-performance-on-nix
+ [5]: /posts/2018/07/21/small-file-performance-on-distributed-filesystems-round-2
