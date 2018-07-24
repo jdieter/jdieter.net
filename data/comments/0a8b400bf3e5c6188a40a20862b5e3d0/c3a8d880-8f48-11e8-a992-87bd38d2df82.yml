@@ -1,0 +1,5 @@
+_id: c3a8d880-8f48-11e8-a992-87bd38d2df82
+name: Matt B
+email: f8ad37e02d0dbdc7a7466843cd044cd0
+message: "Hello,\r\n\r\nWonder why you are not using  NetApp or Spectrascale (gpfs?)  We use both and lustre (ddn) for our scratch over IB.  Spectrascale is very fast using the native client with accessibility using CNFS mode."
+date: '2018-07-24T13:52:13.113Z'
