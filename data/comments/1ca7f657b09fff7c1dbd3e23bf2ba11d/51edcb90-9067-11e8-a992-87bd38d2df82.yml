@@ -1,0 +1,5 @@
+_id: 51edcb90-9067-11e8-a992-87bd38d2df82
+name: A.M.
+email: 47f35ab15019226c06919dae744b685e
+message: "Man, I think you got away with small scratches... I'm still trying to return the original bios back into the chip by desoldering and reprogramming the bios chip. Things were so much easier back then when chips had sockets.\r\n\r\nWhy would I do that you asked?  Well I had this kinda half thought idea to upgrade into windows 10 and that process recommends removing some HP driver installation programs that pass information to and from bios. So after removal and reboot cycle it occurred to me that I have no admin password for the bios as I have been using my login password. Even booting to USB and such asks for admin password. (I know I had it 7 years ago)\r\n\r\nYeah. I could always buy new motherboard for the 7 year old laptop as recommended by HP. That would fix the problem. I do like the hardware, it feels just right.\r\n\r\nI think it will be on Arch or Zorin after this fiasco."
+date: '2018-07-26T00:03:27.063Z'
