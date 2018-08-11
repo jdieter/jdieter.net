@@ -3,7 +3,7 @@ title: Building a Fedora module
 author: jdieter
 description: A quick guide on how to build a Fedora module.  I built my first module, and it was relatively painless
 type: post
-date: 2018-08-11T09:46:23+00:00
+date: 2018-08-11T08:50:23+00:00
 url: /posts/2018/08/11/building-a-module
 categories:
   - Computers
