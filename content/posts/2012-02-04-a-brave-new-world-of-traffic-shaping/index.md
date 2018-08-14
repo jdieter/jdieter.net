@@ -36,5 +36,7 @@ Duplicate the same percentages for the students, and then again for our guests (
 
 If there&#8217;s interest, I&#8217;ll publish a more technical post including a partial rule list and explain how I got this mess to work with squid (which was necessary for being able to sort the different web destinations into different queues).
 
- [2]: http://lartc.org/wondershaper/
+*Updated 2018-08-14 to point to archive of wondershaper since www.lartc.org is down*
+
+ [2]: https://web.archive.org/web/20150415000216/www.lartc.org/wondershaper/
  [3]: http://www.pfsense.org/
