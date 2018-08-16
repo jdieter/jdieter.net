@@ -3,7 +3,7 @@ title: Flock 2018
 author: jdieter
 description: I had the privilege of attending Flock 2018 in Dresden.  Here's a post on the things that I learned there.
 type: post
-date: 2018-08-16T11:15:23+00:00
+date: 2018-08-16T15:31:02+00:00
 url: /posts/2018/08/16/flock-2018
 categories:
   - Computers
