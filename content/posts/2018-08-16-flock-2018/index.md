@@ -30,7 +30,10 @@ I made it to quite a number of talks, but there were three that really stood out
 
 This was a great talk, mainly because it focuses on the soft skills that we geeks can sometimes be very weak on.  She talked about how important it is to speak up, especially when someone is being offensive in the community and gave great ideas on how to speak up in a way that moves the conversation forward rather than increasing drama.  She didn't give us any magic wands that will supernaturally change people's behavior, but, as a teacher who's been stuck mediating many a student dispute, I think her methods are far more effective than most realize.
 
-I'd love to be able to point to a video of her talk, but it doesn't look like it's online yet.
+~~I'd love to be able to point to a video of her talk, but it doesn't look like it's online yet.~~  Here's the video:
+
+{{< youtube pB7PpR8v8Zw >}}
+<figcaption><small><center>Rebecca Fernandez - The power of one: For the good of the community</center></small></figcaption>
 
 #### Ansible
 
@@ -79,6 +82,7 @@ The second memorable event was the dinner organized at the Roller Coaster Restau
 
 I feel like this year's Flock was the best that I've been to yet.  I got the opportunity to get to know a number of the people that I normally only see on IRC or the mailing lists.  Putting faces to names and getting a feel for personalities is important, so I'm really glad that I was able to make it again this year!  I would strongly recommend that anyone who wants to be part of the Fedora community makes a point of being there if at all possible.  A huge thank you to everyone involved in putting Flock together!
 
+*Updated 2018-09-03 to include YouTube link to Rebecca Fernandez' talk*
 
  [1]: https://flocktofedora.org/
  [2]: https://fedoraproject.org/wiki/Changes/Zchunk_Metadata
