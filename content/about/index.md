@@ -7,7 +7,9 @@ showthedate: false
 ---
 {{< imgproc "SAM_8909" Resize "300x" />}}
 
-I am the senior system administrator for the [Lebanon Evangelical School][1], where I've accomplished the following:
+My CV is available [here][12]
+
+I was the senior system administrator for the [Lebanon Evangelical School][1], where I accomplished the following:
 
  * Set up a [distributed filesystem][2] to store all school information including 2000+ home directories.  The filesystem was configured with three-way replication and daily snapshots
  * Implemented a three-way cluster of [FreeIPA][10] to store accounts of around 2000 students and staff, along with DNS configuration and DHCP IP mappings
@@ -44,3 +46,4 @@ As a Fedora packager, I am responsible for the following:
  [9]: https://freeradius.org
  [10]: https://www.freeipa.org
  [11]: https://fedoramagazine.org/fedora-teaches-makers-school
+ [12]: CV.pdf
