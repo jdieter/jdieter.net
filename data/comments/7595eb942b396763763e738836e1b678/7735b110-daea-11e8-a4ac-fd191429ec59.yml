@@ -1,0 +1,8 @@
+_id: 7735b110-daea-11e8-a4ac-fd191429ec59
+name: Jonathan Dieter
+email: 2989973109b7f97b1c00ffe643925b4b
+message: >-
+  I was running standard NFS with no replication.  The only reason I included it
+  is because it sets a speed standard that other distributed filesystems are
+  trying to match, if not beat.
+date: '2018-10-28T19:48:39.652Z'
