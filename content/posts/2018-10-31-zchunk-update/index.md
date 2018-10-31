@@ -1,7 +1,7 @@
 ---
 title: Zchunk update
 author: jdieter
-description: Zchunk has been available for almost eight months, and we're working to get Fedora using it for metadata updates
+description: Zchunk has been available for almost eight months, and its 1.0 release is almost ready
 type: post
 date: 2018-10-31T20:42:01+00:00
 url: /posts/2018/10/31/zchunk-update
