@@ -41,15 +41,15 @@ Unless we hit major problems, I anticipate that Zchunk metadata will be a Fedora
 
 There are a couple of ideas that I have bouncing around in my head for a couple of other places where zchunk might be useful, and I figured I should commit them to (digital) paper here.
 
-##### zchunk-compressed RPMs
+#### zchunk-compressed RPMs
 Deltarpms offer amazing space savings, but are very limited.  In order to take advantage of a deltarpm, you must not only want a specific new version of the RPM, but also have a specific old version of the RPM installed.  Because zchunk doesn't look at any old versions at compression time, the same zchunk-compressed RPM can be used whatever the old version you have installed (or even if you have no old version installed).
 
 To make this work, we would need to create some new feature flags in zchunk, and it would require some changes in the RPM format itself (the third rail, I know), but it is possible and could provide us with significant download savings without having to generate deltarpms at all.
 
-##### zchunk-compressed container images
+#### zchunk-compressed container images
 This would require that container registries and container management systems both support zchunk, but would allow pull operations to be significantly smaller.  I don't know much about how podman or docker actually pull their images, but I've been pulling updated images over 3G and it's not much fun.
 
-##### Other ideas?
+#### Other ideas?
 We would welcome ports of zchunk to other languages.  At Flock, a few people were keen on doing a Rust implementation, and I think that's a brilliant idea.
 
 If you have any other ideas for new features (or find a bug), please [create an issue][8].  I won't guarantee that we'll implement your new ideas, but we'll take a look at them and see if they're feasible.  Obviously, pull requests greatly increase the chances that your idea will become part of zchunk.
