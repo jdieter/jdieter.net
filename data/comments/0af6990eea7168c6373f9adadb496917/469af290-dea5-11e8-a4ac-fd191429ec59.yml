@@ -1,0 +1,5 @@
+_id: 469af290-dea5-11e8-a4ac-fd191429ec59
+name: Jonathan Dieter
+email: 2989973109b7f97b1c00ffe643925b4b
+message: "You're absolutely right about bsdiff deltas (I [did a post on the subject][1] about nine years ago), but the real question is how much of an RPM actually consists of ELF binaries.  Interestingly, deltarpm (which uses the bsdiff algorithm) isn't actually creating deltas of anything in /usr/bin because of file colors (Dusty Mabe has [written up a great explanation][2] of what they are).\r\n\r\nTo be clear, the savings when downloading a zchunked rpm wouldn't be as great as that when downloading a deltarpm, especially for smaller rpms, but I think zchunk's greater flexibility would more than outweigh the increased download size.\r\n\r\nAt the point where I'm ready to put together a proposal, I'll have some real numbers that we can look at.\r\n\r\n [1]: https://www.jdieter.net/posts/2009/11/06/on-binary-delta-algorithms\r\n [2]: https://dustymabe.com/2013/08/25/rpm-file-colors"
+date: '2018-11-02T13:43:27.606Z'
