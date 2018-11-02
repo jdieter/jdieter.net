@@ -1,0 +1,5 @@
+_id: de48e620-de8b-11e8-a4ac-fd191429ec59
+name: Julian Andres Klode
+email: 884b9c15843cdc63d3f9062341fc1d2a
+message: "I'm very surprised you are mentioning zchunk for RPMs. My understanding is that only binary deltas (mostly bsdiff) produce meaningful results for ELF binaries, because address changes throughout the binary (e.g. all pointers move up by +4) prevent chunks from being reused. Do you have experimental results, and/or found a solution for that?\r\n\r\nIt does work well for container images on a package level. Because in a container, you only have to refetch the packages that changed essentially, but you still end up with huge chunks not reusable within the changed binaries due to address changes."
+date: '2018-11-02T10:41:35.187Z'
