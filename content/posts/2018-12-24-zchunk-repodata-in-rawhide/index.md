@@ -25,7 +25,7 @@ Once we're convinced that we're not going to break anybody's install, we will se
 
 There are a couple of current known bugs:
 
-* The current zchunked metadata isn't being compressed with [Fedora's repodata zdicts][3], so ```primary.xml.zck``` and ```other.xml.zck``` are roughly double the size of their gzip counterparts (```filelists.xml.zck``` is about the same size, so overall download size is about 10-15% larger).  We're [looking into this][4], and these sizes should be dramatically smaller once we figure it out.
+* <s>The current zchunked metadata isn't being compressed with [Fedora's repodata zdicts][3], so ```primary.xml.zck``` and ```other.xml.zck``` are roughly double the size of their gzip counterparts (```filelists.xml.zck``` is about the same size, so overall download size is about 10-15% larger).  We're [looking into this][4], and these sizes should be dramatically smaller once we figure it out.</s> This has been fixed as of December 27th's metadata.  Zchunk metadata is now roughly 10% smaller than the equivalent gzip metadata, excluding any zchunk savings.
 * DNF resets the download progress bar multiple times when downloading zchunked metadata, and the final sum isn't accurate.  I believe this is due to how librepo is reporting the zchunk download, and I hope to have a fix soon.
 
 ### Testers wanted
@@ -36,6 +36,7 @@ If anything goes significantly wrong (i.e. dnf stops working), first try setting
 
 If, after enabling this, you run into any new bugs, for the moment please report them in [bugzilla][5] against zchunk (even if it's librepo or libdnf that crash).
 
+**Updated 2018/12/28 as the first bug has been fixed**
 
  [1]: /posts/2018/10/31/zchunk-update
  [2]: https://copr.fedorainfracloud.org/coprs/jdieter/dnf-zchunk
