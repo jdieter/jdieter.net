@@ -1,0 +1,11 @@
+_id: cadbfcc0-3873-11e9-8611-a516de8e4e42
+name: Jonathan Dieter
+email: 2989973109b7f97b1c00ffe643925b4b
+message: >-
+  Hey David, you've run into a known bug, but one that probably isn't documented
+  anywhere.  The problem is that the compose process has changed, and in the
+  process, lost the ability to save old deltarpms.  So we generate deltarpms for
+  any new packages in the latest compose, but then throw them away when the next
+  compose happens.  This means that you'll only ever get deltarpms for the
+  latest compose.  :(
+date: '2019-02-24T20:35:59.192Z'
