@@ -1,0 +1,5 @@
+_id: 910afb50-3778-11e9-8611-a516de8e4e42
+name: David Anderson
+email: 94efa531c447c4bfb75e0d02f5f8dbe3
+message: "Hi Jonathan, \r\n\r\nThis sounds exciting and should enhance the existing savings from deltarpm. However, for a long time, over a long period of time on several machines, I find that those existing savings are almost zero. So, just now I updated a Fedora 29 machine I updated 613 packages at a total of 1.2GB, and saved all of 500KB when doing so:\r\n\r\nTotal                                                                                         387 kB/s | 1.2 GB     54:55     \r\nDelta RPMs a réduit la taille des mises à jour de 1246.4 Mio à 1245.9 Mio (0.1%  économisés)\r\n\r\nWhat could be going wrong?"
+date: '2019-02-23T14:37:38.670Z'
