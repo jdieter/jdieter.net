@@ -2,7 +2,7 @@
     <hr/>
     <h3>Comments</h3>
 
-    {{ $entryId := .UniqueID }}
+    {{ $entryId := .File.UniqueID }}
     {{ $comments := index .Site.Data.comments $entryId }}
     {{ $type     := (printf "%T" $comments) }}
     {{ if not (eq $type "<nil>") }}

@@ -5,7 +5,7 @@
         <input type="hidden" name="options[redirect]" value="{{ .Permalink }}#comment-submitted">
         <input type="hidden" name="options[redirectError]" value="{{ .Permalink }}#comment-error">
         <input type="hidden" name="options[redirectSpam]" value="{{ .Permalink }}#comment-spam">
-        <input type="hidden" name="options[entryId]" value="{{ .UniqueID }}">
+        <input type="hidden" name="options[entryId]" value="{{ .File.UniqueID }}">
         <input name="fields[name]" type="text" class="post-comment-field" placeholder="Your name">
         <input name="fields[email]" type="email" class="post-comment-field" placeholder="Your email address">
         <textarea name="fields[message]" class="post-comment-field" placeholder="Your message. Feel free to use Markdown." rows="10"></textarea>
