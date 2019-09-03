@@ -1,0 +1,5 @@
+_id: e287c920-cd9d-11e9-9628-316d850586eb
+name: David Anderson
+email: 94efa531c447c4bfb75e0d02f5f8dbe3
+message: "> I’m not sure how many have noticed, but DNF hasn’t been downloading zchunk metadata in Fedora since the beginning of this month due to a bug in… well, it’s complicated.\r\n\r\nI'd noticed...  speaking personally, there's enough other parts of the updates system that are unfriendly in low-bandwidth or connections-drop situations, and have been known to be for a long time (e.g. resumption of large RPMs that gets timed out always re-starts at byte 0 (I've had the experience of downloading 1.5GB of data during a morning but *no* RPMs because once it reaches the large ones they go round and round when the HTTP connection drops after 50MB or whatever...); drpms apparently get wiped from the updates server after a day), that one more thing in that sort of territory didn't make a big difference."
+date: '2019-09-02T16:22:41.173Z'
