@@ -3,7 +3,7 @@
 	<div class="container">
         <div class="row topspace">
             <div class="col-sm-8 col-sm-offset-2">
-                {{ $pg := .Paginate (where .Data.Pages "Type" "post") }}
+                {{ $pg := .Paginate (where .Site.RegularPages "Type" "post") }}
                 {{ range $pg.Pages }}
                 <article class="post">
                     <header class="entry-header">
