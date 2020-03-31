@@ -9,7 +9,7 @@ paginate = 2
     name = "Jonathan Dieter"
     description = "Developer with a background in operations, a passion for open source, and a love of teaching"
     email = "jdieter@gmail.com"
-    year = 2019
+    year = 2020
     background = ""
     favicon = "images/gt_favicon.png"
     DateForm = "January 2, 2006"
@@ -75,13 +75,6 @@ paginate = 2
     footer = false
     sharethis = true
     network = "twitter"
-[[params.social]]
-    title = "google+"
-    url = "https://plus.google.com/+jdieter"
-    icon = "fa-google-plus-square"
-    footer = false
-    sharethis = true
-    network = "googleplus"
 [[params.social]]
     title = "linkedin"
     url = "https://www.linkedin.com/in/jonathandieter"
