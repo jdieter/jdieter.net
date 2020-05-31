@@ -1,7 +1,7 @@
 ---
-title: Creating a multi-region VPN in AWS
+title: Creating a multi-region Wireguard VPN in AWS
 author: jdieter
-description: How to build a multi-region VPN in AWS with (some) failover
+description: How to build a multi-region Wireguard VPN in AWS with (some) failover
 type: post
 date: 2020-05-31T20:48:23+00:00
 url: /posts/2020/05/31/multi-region-vpn-aws
