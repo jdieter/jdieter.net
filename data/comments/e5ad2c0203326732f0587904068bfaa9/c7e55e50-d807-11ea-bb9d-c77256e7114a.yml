@@ -1,0 +1,9 @@
+_id: c7e55e50-d807-11ea-bb9d-c77256e7114a
+name: Jonathan Dieter
+email: 2989973109b7f97b1c00ffe643925b4b
+message: >-
+  Yes, but I'm not passing any hardware devices through since none of my
+  integrations require device access.  Having said that, I am doing hardware
+  passthrough on other podman containers, and you just need to make sure that
+  the user running podman has the necessary permissions to access the device.
+date: '2020-08-06T17:10:52.166Z'
