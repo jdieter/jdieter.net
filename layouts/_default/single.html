@@ -38,9 +38,7 @@
 			<div class="col-sm-8 col-sm-offset-2">
 
 				<div id="comments">
-                    {{ if (.Site.Params.staticman_api) }}
-                        {{ partial "post-comments" . }}
-                    {{ end }}
+                	{{ partial "post-comments" . }}
 				</div>
 			</div>
 		</div> <!-- /row comments -->

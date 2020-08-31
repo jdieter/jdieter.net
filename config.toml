@@ -26,7 +26,6 @@ paginate = 2
     footerEnableFormWidget = false
 
     custom_css = ["css/override.css"]
-    staticman_api = "https://www.jdieter.net/staticman/v2/connect/jdieter/jdieter.net"
 
 [mediaTypes]
     [mediaTypes."application/atom"]

@@ -1,11 +1,10 @@
 <section class="post-comments">
-    <hr/>
-    <h3>Comments</h3>
-
     {{ $entryId := .File.UniqueID }}
     {{ $comments := index .Site.Data.comments $entryId }}
     {{ $type     := (printf "%T" $comments) }}
     {{ if not (eq $type "<nil>") }}
+        <hr/>
+        <h3>Comments</h3>
         {{ range sort $comments ".date" }}
             {{ $.Scratch.Add "hasComments" 1 }}
             <div class="post-comment">
@@ -16,11 +15,6 @@
                 {{ .message | markdownify }}
             </div>
         {{ end }}
-    {{ else }}
-        <p><em>No comments</em></p>
+        <hr/>
     {{ end }}
-
-    <hr/>
-    {{ partial "comment_form" . }}
-
 </section>
