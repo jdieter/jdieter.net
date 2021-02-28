@@ -26,11 +26,11 @@ Since the VPN server was located in `eu-west-1`, this had the unfortunate side e
 
 The other problem is that Amazon VPC peering agreements do not allow you to forward traffic from a non-VPC private IP address.  So, if the private IP range for our Ireland VPC was 10.2.0.0/16 and the private range for our callservers was 10.50.0.0/16, Singapore would only allow traffic coming from the Ireland VPC if it was from 10.2.0.0/16 and drop all traffic originating from a VPN client.  AWS does allow you to create [Transit Gateways](https://aws.amazon.com/transit-gateway) that will allow extra ranges through, but they cost roughly $36 a month _per region_, which was jacking up the cost of this project significantly.
 
-{{<imgproc "diagram-good" Resize "x400" none>}}Diagram of VPN server per region configuration{{</imgproc>}}
+{{<imgproc "diagram-good.png" Resize "x400" none>}}Diagram of VPN server per region configuration{{</imgproc>}}
 
 My solution was to setup a VPN server (mostly t3.nano instances) in each region that we have servers.  These VPN servers communicate with each other over a "backbone" VPN interface, where they forward traffic from the VPN client to the appropriate VPN server for the region.  So, for example, if a VPN client connected to the _vpn-ireland_ server wanted to connect to a server in the `ap-southeast-1` region, the _vpn-ireland_ server would forward the traffic to the _vpn-singapore_ server, which would then send the traffic into our `ap-southeast-1` VPC.  The server in the VPC would respond, and since its target is a VPN address, the traffic would go back to the _vpn-singapore_ server, which would send it back to _vpn-ireland_, which would then pass it back to the VPN client.
 
-{{<imgproc "diagram-ireland-singapore" Resize "x400" none>}}Traffic route from VPN client in Ireland to server in Singapore{{</imgproc>}}
+{{<imgproc "diagram-ireland-singapore.png" Resize "x400" none>}}Traffic route from VPN client in Ireland to server in Singapore{{</imgproc>}}
 
 I then wrote a simple script to run on the VPN servers to compare each client's latest handshake with the other VPN servers and automatically route traffic to the appropriate server.  This led me to my final optimization.  I did some investigation, and Amazon has product, the [AWS Global Accelerator](https://aws.amazon.com/global-accelerator) that allows you to forward a single public IP address to different servers in different regions, depending on where the client connecting to the IP is located.  Because Wireguard is stateless, this allows us to have clients automatically connect to the closest VPN server, and, within about five seconds, all the VPN servers will be routing traffic appropriately.
 
