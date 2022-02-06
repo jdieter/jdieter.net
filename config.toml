@@ -71,7 +71,7 @@ paginate = 2
     title = "twitter"
     url = "https://twitter.com/jdieter"
     icon = "fa-twitter-square"
-    footer = false
+    footer = true
     sharethis = true
     network = "twitter"
 [[params.social]]
