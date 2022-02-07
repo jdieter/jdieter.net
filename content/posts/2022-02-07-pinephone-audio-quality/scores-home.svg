@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="314mm"
+   height="90mm"
+   viewBox="0 0 31400 9000"
+   version="1.1"
+   stroke-width="28.222"
+   stroke-linejoin="round"
+   xml:space="preserve"
+   id="svg246"
+   sodipodi:docname="scores-home.svg"
+   inkscape:export-filename="/home/jonathan/Documents/programming/jdieter.net/content/posts/2022-02-07-pinephone-audio-quality/scores-home.png"
+   inkscape:export-xdpi="126.28"
+   inkscape:export-ydpi="126.28"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs250" /><sodipodi:namedview
+   id="namedview248"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:document-units="mm"
+   showgrid="false"
+   inkscape:zoom="1.0861399"
+   inkscape:cx="656.91356"
+   inkscape:cy="170.32797"
+   inkscape:window-width="1920"
+   inkscape:window-height="1011"
+   inkscape:window-x="0"
+   inkscape:window-y="32"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg246" />
+ 
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 16071,8626 L 1355,8626 1355,1275 30788,1275 30788,8626 16071,8626 Z"
+   id="path4"
+   style="fill:#ffffff;fill-opacity:1" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 30788,8625 L 1355,8625"
+   id="path6" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 30788,7644 L 1355,7644"
+   id="path8" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 30788,6664 L 1355,6664"
+   id="path10" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 30788,5684 L 1355,5684"
+   id="path12" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 30788,4703 L 1355,4703"
+   id="path14" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 30788,3724 L 1355,3724"
+   id="path16" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 30788,2744 L 1355,2744"
+   id="path18" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 30788,1764 L 1355,1764"
+   id="path20" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1355,8775 L 1355,8625"
+   id="path22" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1355,8775 L 1355,8625"
+   id="path24" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 2445,8775 L 2445,8625"
+   id="path26" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 2445,8775 L 2445,8625"
+   id="path28" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 3535,8775 L 3535,8625"
+   id="path30" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 3535,8775 L 3535,8625"
+   id="path32" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 4625,8775 L 4625,8625"
+   id="path34" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 4625,8775 L 4625,8625"
+   id="path36" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 5715,8775 L 5715,8625"
+   id="path38" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 5715,8775 L 5715,8625"
+   id="path40" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 6805,8775 L 6805,8625"
+   id="path42" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 6805,8775 L 6805,8625"
+   id="path44" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 7895,8775 L 7895,8625"
+   id="path46" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 7895,8775 L 7895,8625"
+   id="path48" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 8986,8775 L 8986,8625"
+   id="path50" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 8986,8775 L 8986,8625"
+   id="path52" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 10076,8775 L 10076,8625"
+   id="path54" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 10076,8775 L 10076,8625"
+   id="path56" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 11166,8775 L 11166,8625"
+   id="path58" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 11166,8775 L 11166,8625"
+   id="path60" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 12256,8775 L 12256,8625"
+   id="path62" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 12256,8775 L 12256,8625"
+   id="path64" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 13346,8775 L 13346,8625"
+   id="path66" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 13346,8775 L 13346,8625"
+   id="path68" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 14436,8775 L 14436,8625"
+   id="path70" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 14436,8775 L 14436,8625"
+   id="path72" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 15526,8775 L 15526,8625"
+   id="path74" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 15526,8775 L 15526,8625"
+   id="path76" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 16616,8775 L 16616,8625"
+   id="path78" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 16616,8775 L 16616,8625"
+   id="path80" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 17706,8775 L 17706,8625"
+   id="path82" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 17706,8775 L 17706,8625"
+   id="path84" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 18796,8775 L 18796,8625"
+   id="path86" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 18796,8775 L 18796,8625"
+   id="path88" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 19886,8775 L 19886,8625"
+   id="path90" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 19886,8775 L 19886,8625"
+   id="path92" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 20976,8775 L 20976,8625"
+   id="path94" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 20976,8775 L 20976,8625"
+   id="path96" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 22066,8775 L 22066,8625"
+   id="path98" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 22066,8775 L 22066,8625"
+   id="path100" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 23156,8775 L 23156,8625"
+   id="path102" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 23156,8775 L 23156,8625"
+   id="path104" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 24247,8775 L 24247,8625"
+   id="path106" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 24247,8775 L 24247,8625"
+   id="path108" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 25337,8775 L 25337,8625"
+   id="path110" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 25337,8775 L 25337,8625"
+   id="path112" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 26427,8775 L 26427,8625"
+   id="path114" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 26427,8775 L 26427,8625"
+   id="path116" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 27517,8775 L 27517,8625"
+   id="path118" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 27517,8775 L 27517,8625"
+   id="path120" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 28607,8775 L 28607,8625"
+   id="path122" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 28607,8775 L 28607,8625"
+   id="path124" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 29697,8775 L 29697,8625"
+   id="path126" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 29697,8775 L 29697,8625"
+   id="path128" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 30788,8775 L 30788,8625"
+   id="path130" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 30788,8775 L 30788,8625"
+   id="path132" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1355,8625 L 30788,8625"
+   id="path134" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1205,8625 L 1355,8625"
+   id="path136" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1205,8625 L 1355,8625"
+   id="path138" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1205,7644 L 1355,7644"
+   id="path140" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1205,7644 L 1355,7644"
+   id="path142" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1205,6664 L 1355,6664"
+   id="path144" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1205,6664 L 1355,6664"
+   id="path146" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1205,5684 L 1355,5684"
+   id="path148" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1205,5684 L 1355,5684"
+   id="path150" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1205,4703 L 1355,4703"
+   id="path152" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1205,4703 L 1355,4703"
+   id="path154" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1205,3724 L 1355,3724"
+   id="path156" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1205,3724 L 1355,3724"
+   id="path158" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1205,2744 L 1355,2744"
+   id="path160" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1205,2744 L 1355,2744"
+   id="path162" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1205,1764 L 1355,1764"
+   id="path164" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1205,1764 L 1355,1764"
+   id="path166" />
+ <path
+   fill="none"
+   stroke="rgb(179,179,179)"
+   stroke-linejoin="round"
+   d="M 1355,8625 L 1355,1274"
+   id="path168" />
+ <path
+   fill="none"
+   stroke="rgb(0,69,134)"
+   stroke-width="80"
+   stroke-linejoin="round"
+   d="M 1355,3675 L 2445,3675 3535,4067 4625,3724 5715,3871 6805,4116 7895,3822 8986,3675 10076,3822 11166,3822 12256,3920 13346,3871 14436,3773 15526,3626 16616,4018 17706,4116 18796,3822 19886,3969 20976,4067 22066,3822 23156,4116 24247,3969 25337,4067 26427,4165 27517,3822 28607,4312 29697,4312 30788,3724"
+   id="path170" />
+ <path
+   fill="none"
+   stroke="rgb(0,69,134)"
+   stroke-linejoin="round"
+   d="M 1355,3920 L 30788,3920"
+   id="path172" />
+ <text
+   class="SVGTextShape"
+   id="text180"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="353px"
+     font-weight="400"
+     id="tspan178"><tspan
+       class="TextPosition"
+       x="920"
+       y="8746"
+       id="tspan176"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan174">3</tspan></tspan></tspan></text>
+ <text
+   class="SVGTextShape"
+   id="text188"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="353px"
+     font-weight="400"
+     id="tspan186"><tspan
+       class="TextPosition"
+       x="629"
+       y="7765"
+       id="tspan184"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan182">3.2</tspan></tspan></tspan></text>
+ <text
+   class="SVGTextShape"
+   id="text196"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="353px"
+     font-weight="400"
+     id="tspan194"><tspan
+       class="TextPosition"
+       x="629"
+       y="6785"
+       id="tspan192"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan190">3.4</tspan></tspan></tspan></text>
+ <text
+   class="SVGTextShape"
+   id="text204"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="353px"
+     font-weight="400"
+     id="tspan202"><tspan
+       class="TextPosition"
+       x="629"
+       y="5805"
+       id="tspan200"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan198">3.6</tspan></tspan></tspan></text>
+ <text
+   class="SVGTextShape"
+   id="text212"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="353px"
+     font-weight="400"
+     id="tspan210"><tspan
+       class="TextPosition"
+       x="629"
+       y="4824"
+       id="tspan208"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan206">3.8</tspan></tspan></tspan></text>
+ <text
+   class="SVGTextShape"
+   id="text220"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="353px"
+     font-weight="400"
+     id="tspan218"><tspan
+       class="TextPosition"
+       x="920"
+       y="3844"
+       id="tspan216"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan214">4</tspan></tspan></tspan></text>
+ <text
+   class="SVGTextShape"
+   id="text228"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="353px"
+     font-weight="400"
+     id="tspan226"><tspan
+       class="TextPosition"
+       x="629"
+       y="2864"
+       id="tspan224"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan222">4.2</tspan></tspan></tspan></text>
+ <text
+   class="SVGTextShape"
+   id="text236"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="353px"
+     font-weight="400"
+     id="tspan234"><tspan
+       class="TextPosition"
+       x="629"
+       y="1884"
+       id="tspan232"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan230">4.4</tspan></tspan></tspan></text>
+ <text
+   class="SVGTextShape"
+   id="text244"><tspan
+     class="TextParagraph"
+     font-family="Liberation Sans, sans-serif"
+     font-size="459px"
+     font-weight="400"
+     id="tspan242"><tspan
+       class="TextPosition"
+       x="14332"
+       y="851"
+       id="tspan240"><tspan
+         fill="rgb(0,0,0)"
+         stroke="none"
+         id="tspan238">PESQ Scores</tspan></tspan></tspan></text>
+</svg>
