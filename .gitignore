@@ -4,3 +4,4 @@ docs
 resources
 *.swp
 *.backup
+.hugo_build.lock
