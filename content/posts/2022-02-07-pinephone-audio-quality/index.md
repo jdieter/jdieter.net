@@ -19,7 +19,7 @@ tags:
 
 I bought [a PinePhone](https://www.pine64.org/pinephone) a couple of months ago, mainly for the opportunity to play with it and see what it could do.  Since I work for [a company](https://www.spearline.com) that does [voice call quality testing](https://www.spearline.com/what-we-do/products), the first thing I wanted to do was figure out how to play back our audio quality test files and then do some call audio quality tests.
 
-When doing call audio quality testing, it's very important that the audio you're playing back not be transcoded or even resampled, so using PulseAudio or PipeWire was completely out of the question.  Figuring this process out turned out to be far harder than I expected, so I thought I should document how I made it work.  My background is in IT infrastructure, and I am not an audio engineer or a telephony expert, so I wouldn't be surprised if there are better ways of doing things.  Suggestions are very welcome on [Twitter](https://twitter.com/jdieter) or via [email](mailto:jdieter@gmail.com).
+When doing call audio quality testing, it's very important that the audio you're playing back not be transcoded or even resampled, so using PulseAudio or PipeWire was completely out of the question.  Figuring this process out turned out to be far harder than I expected, so I thought I should document how I made it work.  My background is in IT infrastructure, and I am not an audio engineer or a telephony expert, so I wouldn't be surprised if there are better ways of doing things.  Suggestions are very welcome on [Twitter](https://twitter.com/jdieter) or via [email](mailto:jonathan@dieter.ie).
 
 ## How to play audio over a call
 

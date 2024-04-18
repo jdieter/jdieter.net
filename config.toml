@@ -90,7 +90,7 @@ paginate = 2
     network = ""
 [[params.social]]
     title = "email"
-    url = "mailto:jdieter@gmail.com"
+    url = "mailto:jonathan@dieter.ie"
     icon = "fa-envelope"
     footer = false
     sharethis = true
