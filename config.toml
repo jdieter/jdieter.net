@@ -8,8 +8,8 @@ paginate = 2
 [params]
     name = "Jonathan Dieter"
     description = "Developer with a background in operations, a passion for open source, and a love of teaching"
-    email = "jdieter@gmail.com"
-    year = 2020
+    email = "jonathan@dieter.ie"
+    year = 2024
     background = ""
     favicon = "images/gt_favicon.png"
     DateForm = "January 2, 2006"
